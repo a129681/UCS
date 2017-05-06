@@ -1,0 +1,87 @@
+<extend name="Public/disBase"/>
+<block name="link">
+	<script src="__PUBLIC__/plugins/assets/jquery.min.js"></script>
+	<script src="__PUBLIC__/plugins/assets/trumbowyg.js"></script>
+	<script src="__PUBLIC__/plugins/assets/plugins/base64/trumbowyg.base64.js"></script>
+	<link rel="stylesheet" href="__PUBLIC__/plugins/assets/design/css/trumbowyg.css">
+</block>
+<block name="style">
+	<style>
+		body{height:auto;}
+		.discuss-box{
+			width:690px;margin:10px auto 0;
+		}
+
+		ul:first-child{
+			border-top:1px solid #999999;
+		}
+	</style>
+</block>
+		<block name="disLeft">
+			<ul>
+				<for start="0" end="$length">
+					<li class="discuss-list">
+						<!--<p style="text-align: right;margin-top:10px;"><a href="#">我来回答</a></p>-->
+						<div class="discuss-box">
+							<h2><a href="<{:U('Home/Cn/disCont',array('postId'=>$list[$i]['id']))}>"><{$list[$i]['title']}></a></h2>
+							<p class="discuss-left-arcticle"><{$list[$i]['cont']}></p>
+							<div class="discuss-liked">
+								<a href="javascript:0;"><{$list[$i]['post_time']}></a><a href="<{:U('Home/Cn/disCont',array('postId'=>$list[$i]['id']))}>">回复(<span><{$num[$i]}></span>)</a>
+							</div>
+						</div>
+
+					</li>
+				</for>
+			</ul>
+		  <div id="divPage">
+			 <{$myPage}>
+		  </div>
+		</block>
+		<block name="add">
+			<form action="<{:U('Home/Cn/addPost')}>" class="discuss-search" method="post">
+				<input type="text" value="" name="title" class="discuss-text" placeholder="输入你的问题" /><dfn></dfn>
+				<div id="odiv" style="display:none;position:absolute;z-index:100;">
+					<img src="__PUBLIC__/plugins/assets/pic/sx.png" title="缩小" border="0" alt="缩小" onclick="sub(-1);"/>
+					<img src="__PUBLIC__/plugins/assets/pic/fd.png" title="放大" border="0" alt="放大" onclick="sub(1)"/>
+					<img src="__PUBLIC__/plugins/assets/pic/cz.png" title="重置" border="0" alt="重置" onclick="sub(0)"/>
+					<img src="__PUBLIC__/plugins/assets/pic/sc.png" title="删除" border="0" alt="删除" onclick="del();odiv.style.display='none';"/>
+				</div>
+				<div  onmousedown="show_element(event)" style="clear:both" id="customized-buttonpane" class="editor"></div>
+				<input type="submit" id="dis-submit" class="button button-base button-submit" value="提交" />
+				<input type="hidden" id="dis-cont" name="textCont" value="" />
+			</form>
+			<script>
+				var oSubmit=$('#dis-submit');
+				var oTextHidden=$('#dis-cont');
+				var oText=$('.editor');
+				var oTitle=$('.discuss-text');
+				var login=getCookie('login');
+				/*限制字数*/
+				maxWord(oTitle,20);
+				//
+				oSubmit.click(function(){
+					if(login)
+					{
+						if(oTitle.val())
+						{
+							if(oText.html())
+							{
+								oTextHidden.val(oText.html());
+							}else
+							{
+								new popup('请输入帖子内容');
+								return false;
+							}
+						}else{
+							alert('请输入帖子标题');
+							return false;
+						}
+					}else{
+						new popup('请登录后再发帖',"<{:U('Home/User/login')}>");
+						return false;
+					}
+				});
+			</script>
+		</block>
+
+

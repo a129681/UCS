@@ -1,0 +1,29 @@
+<extend name="Public/base"/>
+<block name="title">{$title}</block>
+<block name="style">
+    <style>
+        .wrap{width: 760px;height:100%;border-top: 1px #CCC solid;border-bottom: 1px #CCC solid;padding:8px;margin: 0 auto;font-size:11pt;line-height:1.8;font-family:"宋体"}
+        .box p {padding-bottom:0.5em; color:#333;}
+        .box_b{display:block; background:#F9F9F9; border:3px solid #fff; border-width:0 3px; margin:1em;}
+        .btn:hover{ color:#5682e5; background-color:#ededed;}
+        .btn{  width:200px; height:40px; background-color:#5682e5; color: #FFF; border:1px solid #5682e5; line-height:40px; font-family:Verdana, Geneva, sans-serif; font-size:14px;}
+        .bottom{ height:100px; background-color:#4c4e5b; margin:6px 0;}
+    </style>
+</block>
+<block name="main">
+    <div class="wrap">
+        <h2 align="center">2011-7-17大学专业选择-高考专业选择测试-高考志愿填报性格测试</h2>
+
+        <div class="box_b">
+            <p style="text-indent:0;"><b>引导语：</b>心理学理论认为，每个人的人格特征表现在个人生活的方方面面，表现在职业的选择上，一方面是为了施展他们的技能和水平，另一方面也是表现他们的态度、价值和人格。美国职业指导专家霍兰德教授于20世纪60年代创立的人格—职业类型匹配理论在国际通行的职业指导中有着深远的影响。他把大多数人的人格区分为6种类型，每一种人格类型的人，对相应职业类型中的工作或学习环境感兴趣，这6种相匹配的人格特征和环境模式分别为：现实型(R)、研究型(I)、艺术型(A)、社会型(S)、管理型(E)和传统型(C)，原则上依据这种理论可以预测这种联系的职业结果，包括职业选择;工作变换;职业成就;个人才能;工作满意感;教育和社会行为等。<br/>
+                　　许多同学在填报志愿时，往往只注意专业的冷热，而忽视自身的人格特点(即自己最适合从事哪方面的工作)，选择了一个不适合的专业，即使能顺利地升上大学，却可能为将来从事一个自己不感兴趣的工作而懊悔终身。<br/>
+                　　为了帮助考生和家长较为准确地判断自己最适合就读的专业，提高高考专业志愿填报的目的性、准确性和针对性，我们以霍华德人格-职业类型匹配的理论为基础，结合考生的实际心理状态和高校专业特征，精心编制了一套“职业(专业)人格自测问卷”，帮助同学们在高考填报志愿时，以科学的态度做出专业选择，从适应个性特征的角度，进行今后职业生涯的规划，成就一条适合自身发展的道路。
+            </p>
+        </div>
+        <p><img src="__PUBLIC__/img/test/1.png" alt="测试"  style="float:left;margin: 0px 30px 30px 17px;"></p>
+        <p>下面，请同学们根据对每一道题目的第一印象作答，不必仔细推敲，答案没有好坏、对错之分。具体填写方法是，根据自己的情况在答案的“是”或“否”字上划一个“√”号，准备好了吗?那就开始测试吧!</p>
+        <a href="<{:U('Home/Cn/testDesc')}>"><input class="btn" type="button" onClick=""value="进入测试"></a>
+        <br/>
+        <br/>
+    </div>
+</block>

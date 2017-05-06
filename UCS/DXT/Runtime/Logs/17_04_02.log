@@ -1,0 +1,94 @@
+[ 2017-04-02T09:10:43+08:00 ] ::1 /UCS/index.php/Home/Index/chooseUniver.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000609s ]
+NOTIC: [2048] Declaration of Home\Model\ChooseModel::union() should be compatible with Think\Model::union($union, $all = false) E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 10 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_choose` [ RunTime:0.000485s ]
+ERR: 1146:Table 'thinkphp.think_choose' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_choose`
+SQL: SHOW COLUMNS FROM `think_category` [ RunTime:0.000511s ]
+SQL: SELECT * FROM `think_category` WHERE ( `subject` = '经济学' )  [ RunTime:0.011190s ]
+SQL: SHOW COLUMNS FROM `think_major` [ RunTime:0.000474s ]
+SQL: SELECT * FROM `think_major` WHERE ( `category_id` = 1 )  [ RunTime:0.000493s ]
+SQL: SHOW COLUMNS FROM `think_union` [ RunTime:0.000448s ]
+SQL: SHOW COLUMNS FROM `think_base_university` [ RunTime:0.014853s ]
+SQL: SELECT * FROM `think_union` WHERE ( `major_id` = 1 )  [ RunTime:0.000231s ]
+SQL: SELECT * FROM `think_base_university` WHERE ( `id` = 2 )  [ RunTime:0.007576s ]
+SQL: SHOW COLUMNS FROM `think_choose_univer` [ RunTime:0.000512s ]
+ERR: 1146:Table 'thinkphp.think_choose_univer' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_choose_univer`
+SQL: SELECT * FROM `think_base_university` WHERE ( `provice` = '河南省' )  [ RunTime:0.042311s ]
+
+[ 2017-04-02T09:24:26+08:00 ] ::1 /UCS/index.php/Admin/Index/main.html
+ERR: 模板不存在:./DXT/Admin/View/Index/main.html
+
+[ 2017-04-02T09:24:49+08:00 ] ::1 /UCS/index.php/Admin/Index/userAdmin
+ERR: 非法操作:useradmin
+
+[ 2017-04-02T11:25:44+08:00 ] ::1 /UCS/index.php/Admin/Index/manageAdmin
+ERR: 模板不存在:./DXT/Admin/View/Index/manageadmin.html
+
+[ 2017-04-02T11:25:52+08:00 ] ::1 /UCS/index.php/Admin/Index/manageAdmin
+ERR: 模板不存在:./DXT/Admin/View/Index/manageadmin.html
+
+[ 2017-04-02T13:33:41+08:00 ] ::1 /UCS/index.php/Admin/Index/universityAdmin.html
+ERR: Think\Model:getData方法不存在！
+
+[ 2017-04-02T13:54:02+08:00 ] ::1 /UCS/index.php/Admin/Index/universityAdmin
+ERR: Think\Model:divPage方法不存在！
+
+[ 2017-04-02T13:54:28+08:00 ] ::1 /UCS/index.php/Admin/Index/universityAdmin
+ERR: Think\Model:showData方法不存在！
+
+[ 2017-04-02T14:13:27+08:00 ] ::1 /UCS/index.php/Admin/Index/shareExper.html
+ERR: 非法操作:shareexper
+
+[ 2017-04-02T14:15:25+08:00 ] ::1 /UCS/index.php/Admin/Index/shareExper.html
+ERR: 模板不存在:./DXT/Admin/View/Index/shareexper.html
+
+[ 2017-04-02T19:49:33+08:00 ] ::1 /UCS/index.php/Home/Ajax/ajax.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000672s ]
+NOTIC: [2048] Declaration of Home\Model\ArticleModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\appserv\www\UCS\DXT\Home\Model\ArticleModel.class.php 第 10 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.006933s ]
+ERR: 1146:Table 'thinkphp.think_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_article`
+NOTIC: [2] explode() expects parameter 2 to be string, array given E:\appserv\www\UCS\ThinkPHP\Library\Think\Model.class.php 第 1390 行.
+SQL: SHOW COLUMNS FROM `` [ RunTime:0.027787s ]
+ERR: 1103:Incorrect table name ''
+ [ SQL语句 ] : SHOW COLUMNS FROM ``
+SQL: SELECT t2.Name,t1.* FROM `think_reply` `t1`,`think_user` `t2` WHERE ( t1.layer_id=t2.id AND t1.post_id=34 AND t1.storey=1 )  [ RunTime:0.359880s ]
+
+[ 2017-04-02T19:49:40+08:00 ] ::1 /UCS/index.php/Home/Ajax/ajax.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001381s ]
+NOTIC: [2048] Declaration of Home\Model\ArticleModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\appserv\www\UCS\DXT\Home\Model\ArticleModel.class.php 第 10 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.000470s ]
+ERR: 1146:Table 'thinkphp.think_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_article`
+NOTIC: [2] explode() expects parameter 2 to be string, array given E:\appserv\www\UCS\ThinkPHP\Library\Think\Model.class.php 第 1390 行.
+SQL: SHOW COLUMNS FROM `` [ RunTime:0.000111s ]
+ERR: 1103:Incorrect table name ''
+ [ SQL语句 ] : SHOW COLUMNS FROM ``
+SQL: SELECT t2.Name,t1.* FROM `think_reply` `t1`,`think_user` `t2` WHERE ( t1.layer_id=t2.id AND t1.post_id=2 AND t1.storey=3 )  [ RunTime:0.093377s ]
+
+[ 2017-04-02T19:49:52+08:00 ] ::1 /UCS/index.php/Home/Ajax/ajax.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000853s ]
+NOTIC: [2048] Declaration of Home\Model\ArticleModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\appserv\www\UCS\DXT\Home\Model\ArticleModel.class.php 第 10 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.051437s ]
+ERR: 1146:Table 'thinkphp.think_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_article`
+NOTIC: [2] explode() expects parameter 2 to be string, array given E:\appserv\www\UCS\ThinkPHP\Library\Think\Model.class.php 第 1390 行.
+SQL: SHOW COLUMNS FROM `` [ RunTime:0.000095s ]
+ERR: 1103:Incorrect table name ''
+ [ SQL语句 ] : SHOW COLUMNS FROM ``
+SQL: SELECT t2.Name,t1.* FROM `think_reply` `t1`,`think_user` `t2` WHERE ( t1.layer_id=t2.id AND t1.post_id=31 AND t1.storey=1 )  [ RunTime:0.063512s ]
+

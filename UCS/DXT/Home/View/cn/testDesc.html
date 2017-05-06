@@ -1,0 +1,256 @@
+<extend name="Public/secBase"/>
+<block name="link">
+    <load href="__PUBLIC__/js/test.js"/>
+    <style>
+
+        #wrap{width: 760px;border-top: 1px #CCC solid;border-bottom: 1px #CCC solid;padding:8px;margin: 0 auto;font-size:11pt;line-height:1.8;font-family:"宋体"}
+        .bottom{ height:100px; background-color:#4c4e5b; margin:6px 0;}
+        .answer{ padding-left:3px;}
+        #btn{ width:300px; height:40px; background-color:#03F; color:#FFF; border:1px solid #03F;}
+    </style>
+</block>
+<block name="main">
+    <div id="wrap">
+        <div class="answer">
+            <b>1,我对自己平时的花销都记得很清楚。</b><br><br>
+            <input type="radio" name="answer1" id="1" class="1"><label>A 是的</label>&nbsp;&nbsp;
+            <input type="radio" name="answer1" id="2"><label>B 不一定</label><br><br>
+        </div>
+        <div class="answer">
+            <b>2,课余时间我喜欢阅读通俗小说、诗歌。</b><br><br>
+            <input type="radio" name="answer2" id="1" class="1"><label>A 是的</label>&nbsp;&nbsp;
+            <input type="radio" name="answer2" id="2"><label>B 不一定</label><br><br>
+        </div>
+        <div class="answer">
+            <b>3,在老师提出问题后，即使我知道，我也往往保持沉默。</b><br><br>
+            <input type="radio" name="answer3" id="1" class="1"><label>A 是的</label>&nbsp;&nbsp;
+            <input type="radio" name="answer3" id="2"><label>B 不一定</label><br><br>
+        </div>
+        <div class="answer">
+            <b>4,我很羡慕做戏剧、音乐、歌舞、新闻采访等方面工作的人。</b><br><br>
+            <input type="radio" name="answer4" id="1" class="1"><label>A 是的</label>&nbsp;&nbsp;
+            <input type="radio" name="answer4" id="2"><label>B 不一定</label><br><br>
+        </div>
+        <div class="answer">
+            <b>5,每次写作文时，我往往一挥而就，不再重复。</b><br><br>
+            <input type="radio" name="answer5" id="1" class="1"><label>A 是的</label>&nbsp;&nbsp;
+            <input type="radio" name="answer5" id="2"><label>B 不一定</label><br><br>
+        </div>
+        <div class="answer">
+            <b>6,我经常不停地思考某一问题，直到想出正确的答案。</b><br><br>
+            <input type="radio" name="answer6" id="1" class="1"><label>A 是的</label>&nbsp;&nbsp;
+            <input type="radio" name="answer6" id="2"><label>B 不一定</label><br><br>
+        </div>
+        <div class="answer">
+            <b>7,对同学借我的和我借同学的东西，我都能记得很清楚。</b><br><br>
+            <input type="radio" name="answer7" id="1" class="1"><label>A 是的</label>&nbsp;&nbsp;
+            <input type="radio" name="answer7" id="2"><label>B 不一定</label><br><br>
+        </div>
+        <div class="answer">
+            <b>8,虽然复习很紧张，但我仍喜欢参加学校的各种活动。</b><br><br>
+            <input type="radio" name="answer8" id="1" class="1"><label>A 是的</label>&nbsp;&nbsp;
+            <input type="radio" name="answer8" id="2"><label>B 不一定</label><br><br>
+        </div>
+        <div class="answer">
+            <b>9,我喜欢成为老师和同学们注意的焦点。</b><br><br>
+            <input type="radio" name="answer9" id="1" class="1"><label>A 是的</label>&nbsp;&nbsp;
+            <input type="radio" name="answer9" id="2"><label>B 不一定</label><br><br>
+        </div>
+        <div class="answer">
+            <b>10,家里的电器如果出了小毛病，我喜欢自己搞定。</b><br><br>
+            <input type="radio" name="answer10" id="1" class="1"><label>A 是的</label>&nbsp;&nbsp;
+            <input type="radio" name="answer10" id="2"><label>B 不一定</label><br><br>
+        </div>
+        <div class="answer">
+            <b>11,我希望有机会参加探险。</b><br><br>
+            <input type="radio" name="answer11" id="1" class="1"><label>A 是的</label>&nbsp;&nbsp;
+            <input type="radio" name="answer11" id="2"><label>B 不一定</label><br><br>
+        </div>
+        <div class="answer">
+            <b>12, 我曾渴望当一名汽车司机或飞机驾驶员。</b><br><br>
+            <input type="radio" name="answer12" id="1" class="1"><label>A 是的</label>&nbsp;&nbsp;
+            <input type="radio" name="answer12" id="2"><label>B 不一定</label><br><br>
+        </div>
+        <div class="answer">
+            <b>13,我总是保持我的房间和书桌的整洁。</b><br><br>
+            <input type="radio" name="answer13" id="1" class="1"><label>A 是的</label>&nbsp;&nbsp;
+            <input type="radio" name="answer13" id="2"><label>B 不一定</label><br><br>
+        </div>
+        <div class="answer">
+            <b>14,看情感影片时，我经常禁不住眼睛湿润。</b><br><br>
+            <input type="radio" name="answer14" id="1" class="1"><label>A 是的</label>&nbsp;&nbsp;
+            <input type="radio" name="answer14" id="2"><label>B 不一定</label><br><br>
+        </div>
+        <div class="answer">
+            <b>15,我喜欢做一名教师。</b><br><br>
+            <input type="radio" name="answer15" id="1" class="1"><label>A 是的</label>&nbsp;&nbsp;
+            <input type="radio" name="answer15" id="2"><label>B 不一定</label><br><br>
+        </div>
+        <div class="answer">
+            <b>16,我小时候经常把玩具打开，把里面看个究竟。</b><br><br>
+            <input type="radio" name="answer16" id="1" class="1"><label>A 是的</label>&nbsp;&nbsp;
+            <input type="radio" name="answer16" id="2"><label>B 不一定</label><br><br>
+        </div>
+        <div class="answer">
+            <b>17,音乐能使我陶醉。</b><br><br>
+            <input type="radio" name="answer17" id="1" class="1"><label>A 是的</label>&nbsp;&nbsp;
+            <input type="radio" name="answer17" id="2"><label>B 不一定</label><br><br>
+        </div>
+        <div class="answer">
+            <b>18,我喜欢阅读自然科学方面的书籍和杂志。</b><br><br>
+            <input type="radio" name="answer18" id="1" class="1"><label>A 是的</label>&nbsp;&nbsp;
+            <input type="radio" name="answer18" id="2"><label>B 不一定</label><br><br>
+        </div>
+        <div class="answer">
+            <b>19,在我的职业选择中可以考虑当校长。</b><br><br>
+            <input type="radio" name="answer19" id="1" class="1"><label>A 是的</label>&nbsp;&nbsp;
+            <input type="radio" name="answer19" id="2"><label>B 不一定</label><br><br>
+        </div>
+        <div class="answer">
+            <b>20,我喜欢需要运用智力的游戏。</b><br><br>
+            <input type="radio" name="answer20" id="1" class="1"><label>A 是的</label>&nbsp;&nbsp;
+            <input type="radio" name="answer20" id="2"><label>B 不一定</label><br><br>
+        </div>
+        <div class="answer">
+            <b>21,有时，我感到自己有文艺方面的天赋。</b><br><br>
+            <input type="radio" name="answer21" id="1" class="1"><label>A 是的</label>&nbsp;&nbsp;
+            <input type="radio" name="answer21" id="2"><label>B 不一定</label><br><br>
+        </div>
+        <div class="answer">
+            <b>22,我喜欢亲自动手制作一些东西(如贺年卡)，从中得到乐趣。</b><br><br>
+            <input type="radio" name="answer22" id="1" class="1"><label>A 是的</label>&nbsp;&nbsp;
+            <input type="radio" name="answer22" id="2"><label>B 不一定</label><br><br>
+        </div>
+        <div class="answer">
+            <b>23,如果同学们有困难，我很乐意帮助他们。</b><br><br>
+            <input type="radio" name="answer23" id="1" class="1"><label>A 是的</label>&nbsp;&nbsp;
+            <input type="radio" name="answer23" id="2"><label>B 不一定</label><br><br>
+        </div>
+        <div class="answer">
+            <b>24,和不熟悉的人交谈对我来说毫不困难。</b><br><br>
+            <input type="radio" name="answer24" id="1" class="1"><label>A 是的</label>&nbsp;&nbsp;
+            <input type="radio" name="answer24" id="2"><label>B 不一定</label><br><br>
+        </div>
+        <div class="answer">
+            <b>25,和同学交谈时，我对政治问题较感兴趣。</b><br><br>
+            <input type="radio" name="answer25" id="1" class="1"><label>A 是的</label>&nbsp;&nbsp;
+            <input type="radio" name="answer25" id="2"><label>B 不一定</label><br><br>
+        </div>
+        <div class="answer">
+            <b>26,我喜欢动手的工作，不喜欢抽象的工作。</b><br><br>
+            <input type="radio" name="answer26" id="1" class="1"><label>A 是的</label>&nbsp;&nbsp;
+            <input type="radio" name="answer26" id="2"><label>B 不一定</label><br><br>
+        </div>
+        <div class="answer">
+            <b>27,大家公认我是一个勤劳塌实、愿为大家服务的人</b><br><br>
+            <input type="radio" name="answer27" id="1" class="1"><label>A 是的</label>&nbsp;&nbsp;
+            <input type="radio" name="answer27" id="2"><label>B 不一定</label><br><br>
+        </div>
+        <div class="answer">
+            <b>28,我有能力说服别的同学同意我的观点。</b><br><br>
+            <input type="radio" name="answer28" id="1" class="1"><label>A 是的</label>&nbsp;&nbsp;
+            <input type="radio" name="answer28" id="2"><label>B 不一定</label><br><br>
+        </div>
+        <div class="answer">
+            <b>29,我是一个沉静而不易动感情的人。</b><br><br>
+            <input type="radio" name="answer29" id="1" class="1"><label>A 是的</label>&nbsp;&nbsp;
+            <input type="radio" name="answer29" id="2"><label>B 不一定</label><br><br>
+        </div>
+        <div class="answer">
+            <b>30,当我学习时，我喜欢避免干扰。</b><br><br>
+            <input type="radio" name="answer30" id="1" class="1"><label>A 是的</label>&nbsp;&nbsp;
+            <input type="radio" name="answer30" id="2"><label>B 不一定</label><br><br>
+        </div>
+        <div class="answer">
+            <b>31,我的理想是当一名科学家。</b><br><br>
+            <input type="radio" name="answer31" id="1" class="1"><label>A 是的</label>&nbsp;&nbsp;
+            <input type="radio" name="answer31" id="2"><label>B 不一定</label><br><br>
+        </div>
+        <div class="answer">
+            <b>32,与推理小说相比，我更喜欢言情小说</b><br><br>
+            <input type="radio" name="answer32" id="1" class="1"><label>A 是的</label>&nbsp;&nbsp;
+            <input type="radio" name="answer32" id="2"><label>B 不一定</label><br><br>
+        </div>
+        <div class="answer">
+            <b>33, 我喜欢按部就班地完成要做的事。</b><br><br>
+            <input type="radio" name="answer33" id="1" class="1"><label>A 是的</label>&nbsp;&nbsp;
+            <input type="radio" name="answer33" id="2"><label>B 不一定</label><br><br>
+        </div>
+        <div class="answer">
+            <b>34, 我有很强的动手能力。</b><br><br>
+            <input type="radio" name="answer34" id="1" class="1"><label>A 是的</label>&nbsp;&nbsp;
+            <input type="radio" name="answer34" id="2"><label>B 不一定</label><br><br>
+        </div>
+        <div class="answer">
+            <b>35,我总是主动地向别人提出自己的建议</b><br><br>
+            <input type="radio" name="answer35" id="1" class="1"><label>A 是的</label>&nbsp;&nbsp;
+            <input type="radio" name="answer35" id="2"><label>B 不一定</label><br><br>
+        </div>
+        <div class="answer">
+            <b>36,我喜欢使用锤子、榔头一类的工具。</b><br><br>
+            <input type="radio" name="answer36" id="1" class="1"><label>A 是的</label>&nbsp;&nbsp;
+            <input type="radio" name="answer36" id="2"><label>B 不一定</label><br><br>
+        </div>
+        <div class="answer">
+            <b>37,与同学相比，我有较强的策划能力。</b><br><br>
+            <input type="radio" name="answer37" id="1" class="1"><label>A 是的</label>&nbsp;&nbsp;
+            <input type="radio" name="answer37" id="2"><label>B 不一定</label><br><br>
+        </div>
+        <div class="answer">
+            <b>38,我能坚持写日记</b><br><br>
+            <input type="radio" name="answer38" id="1" class="1"><label>A 是的</label>&nbsp;&nbsp;
+            <input type="radio" name="answer38" id="2"><label>B 不一定</label><br><br>
+        </div>
+        <div class="answer">
+            <b>39,看电影是我的兴趣之一。</b><br><br>
+            <input type="radio" name="answer39" id="1" class="1"><label>A 是的</label>&nbsp;&nbsp;
+            <input type="radio" name="answer39" id="2"><label>B 不一定</label><br><br>
+        </div>
+        <div class="answer">
+            <b>40,我喜欢利用逻辑原理解决问题</b><br><br>
+            <input type="radio" name="answer40" id="1" class="1"><label>A 是的</label>&nbsp;&nbsp;
+            <input type="radio" name="answer40" id="2"><label>B 不一定</label><br><br>
+        </div>
+        <div class="answer">
+            <b>41,有时我也关注飞行器方面的知识 。</b><br><br>
+            <input type="radio" name="answer41" id="1" class="1"><label>A 是的</label>&nbsp;&nbsp;
+            <input type="radio" name="answer41" id="2"><label>B 不一定</label><br><br>
+        </div>
+        <div class="answer">
+            <b>42,我喜欢关注青少年犯罪问题。</b><br><br>
+            <input type="radio" name="answer42" id="1" class="1"><label>A 是的</label>&nbsp;&nbsp;
+            <input type="radio" name="answer42" id="2"><label>B 不一定</label><br><br>
+        </div>
+        <div class="answer">
+            <b>43,有条件的话，我可以去听听歌剧。</b><br><br>
+            <input type="radio" name="answer43" id="1" class="1"><label>A 是的</label>&nbsp;&nbsp;
+            <input type="radio" name="answer43" id="2"><label>B 不一定</label><br><br>
+        </div>
+        <div class="answer">
+            <b>44,对我来说，会计是一个不错的职业。</b><br><br>
+            <input type="radio" name="answer44" id="1" class="1"><label>A 是的</label>&nbsp;&nbsp;
+            <input type="radio" name="answer44" id="2"><label>B 不一定</label><br><br>
+        </div>
+        <div class="answer">
+            <b>45,我很羡慕那些优秀的企业家。</b><br><br>
+            <input type="radio" name="answer45" id="1" class="1"><label>A 是的</label>&nbsp;&nbsp;
+            <input type="radio" name="answer45" id="2"><label>B 不一定</label><br><br>
+        </div>
+        <div class="answer">
+            <b>46,一般情况下，我能想到用法律来保护自己的合法权益。</b><br><br>
+            <input type="radio" name="answer46" id="1" class="1"><label>A 是的</label>&nbsp;&nbsp;
+            <input type="radio" name="answer46" id="2"><label>B 不一定</label><br><br>
+        </div>
+        <div class="answer">
+            <b>47,我对侦破题材的节目很感兴趣。</b><br><br>
+            <input type="radio" name="answer47" id="1" class="1"><label>A 是的</label>&nbsp;&nbsp;
+            <input type="radio" name="answer47" id="2"><label>B 不一定</label><br><br>
+        </div>
+        <div class="answer">
+            <b>48, 随便讲出一些世界名车的品牌，对我来说并不是个难事。</b><br><br>
+            <input type="radio" name="answer48" id="1" class="1"><label>A 是的</label>&nbsp;&nbsp;
+            <input type="radio" name="answer48" id="2"><label>B 不一定</label><br><br>
+        </div>
+        <button id="btn" onClick="getGradeArray()">提交</button><a href="<{:U('Home/Cn/testResult')}>" style="text-decoration:none; color:#F00; margin-left:100px; font-size:16px;">去看我的性格测试结果</a>
+    </div>
+</block>

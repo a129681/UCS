@@ -1,0 +1,93 @@
+<extend name="Public/secBase"/>
+<block name="link">
+	<script src="__PUBLIC__/plugins/assets/jquery.min.js"></script>
+
+</block>
+
+<block name="main">
+	<div class="Exper-article web-WidMar">
+		<h1 class="Exper-ArcTitle"><{$exper[0].title}></h1>
+		<input type="hidden" id="experId" value="<{$exper[0].id}>">
+		<div class="exper-bodyTop">
+			<div class="breadCrumb">
+				<a href="<{:U('Home/Index/index')}>">首页</a> > <a href="<{:U('Home/Index/exper')}>">经验</a> > <a href="javascript:void(0)"><{$exper[0].title}></a>
+			</div>
+			<div class="exper-WorMes">
+				编辑:<span><{$exper[0].Name}></span><span><{$exper[0].time}></span>
+			</div>
+			<div class="sweet-tip">距离考试结束还有<span>3</span>天</div>
+		</div>
+		<div class="Exper-Cont">
+			<p><{$exper[0].cont}></p>
+			<div class="exper-common">
+				<span class="<{$addClass}>">赞(<{$exper[0].good}>)</span>&nbsp;&nbsp;<span class="exper-collect"><{$coll}></span>
+			</div>
+			<script>
+				$('.exper-common span').eq(0).click(function(){
+					if(getCookie('login'))
+					{
+						if(!$(this).hasClass('exper-good'))//如果没有exper-good这个类则判断没有点赞
+						{
+							var data={
+								userId:getCookie('login'),
+								experId:$('#experId').val()
+							};
+							goodAjax(data)
+						}
+					}else
+					{
+						new popup('请登录后再点赞','/UCS/index.php/Home/User/login');
+						return false;
+					}
+				});
+				function goodAjax(data)
+				{
+					$.ajax({
+						url:"<{:U('Home/Cn/experCont')}>",
+					    type:'post',
+						data:data,
+						success:function(msg){
+							if(msg)
+							{
+								var num=$('.exper-common span').eq(0).html().slice(2,3);
+								var sum=parseInt(num)+1;
+								$('.exper-common span').eq(0).html('赞('+sum+')');
+								$('.exper-common span').eq(0).addClass('exper-good');
+							}
+						}
+					});
+				}
+			</script>
+			<script>
+				//初始化
+				var exper_data={user_id:getCookie('login'),exper_id:$('#experId').val()};
+				$('.exper-collect').click(function(){
+					var exper_data={user_id:getCookie('login'),exper_id:$('#experId').val()};
+					if($('.exper-collect').text()=='收藏')
+					{
+						collect_ajax();
+						new popup('收藏成功');
+					}else
+					{
+						new popup('你已经收藏过了请不要重复点击');
+					}
+				});
+				function collect_ajax()
+				{
+
+					$.ajax({
+						url:"<{:U('Home/Ajax/collect')}>",
+						type:'post',
+						data:exper_data,
+						success:function(msg){
+							if(msg)
+							{
+								$('.exper-collect').text('已收藏');
+							}
+						}
+					});
+				}
+			</script>
+		</div>
+	</div>
+</block>

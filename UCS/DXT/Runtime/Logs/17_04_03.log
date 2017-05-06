@@ -1,0 +1,319 @@
+[ 2017-04-03T08:09:11+08:00 ] ::1 /UCS/index.php/Home/Ajax/ajax.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000696s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001244s ]
+NOTIC: [2048] Declaration of Home\Model\ArticleModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\appserv\www\UCS\DXT\Home\Model\ArticleModel.class.php 第 10 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.040206s ]
+ERR: 1146:Table 'thinkphp.think_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_article`
+NOTIC: [2] explode() expects parameter 2 to be string, array given E:\appserv\www\UCS\ThinkPHP\Library\Think\Model.class.php 第 1390 行.
+SQL: SHOW COLUMNS FROM `` [ RunTime:0.000186s ]
+ERR: 1103:Incorrect table name ''
+ [ SQL语句 ] : SHOW COLUMNS FROM ``
+SQL: SELECT t2.Name,t1.* FROM `think_reply` `t1`,`think_user` `t2` WHERE ( t1.layer_id=t2.id AND t1.post_id=35 AND t1.storey=1 )  [ RunTime:0.195860s ]
+
+[ 2017-04-03T08:51:01+08:00 ] ::1 /UCS/index.php/Home/Ajax/ajax.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000652s ]
+NOTIC: [2048] Declaration of Home\Model\ArticleModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\appserv\www\UCS\DXT\Home\Model\ArticleModel.class.php 第 10 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.000590s ]
+ERR: 1146:Table 'thinkphp.think_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_article`
+NOTIC: [2] explode() expects parameter 2 to be string, array given E:\appserv\www\UCS\ThinkPHP\Library\Think\Model.class.php 第 1390 行.
+SQL: SHOW COLUMNS FROM `` [ RunTime:0.000134s ]
+ERR: 1103:Incorrect table name ''
+ [ SQL语句 ] : SHOW COLUMNS FROM ``
+SQL: SELECT t2.Name,t1.* FROM `think_reply` `t1`,`think_user` `t2` WHERE ( t1.layer_id=t2.id AND t1.post_id=35 AND t1.storey=1 )  [ RunTime:0.295874s ]
+
+[ 2017-04-03T13:12:40+08:00 ] ::1 /UCS/index.php/Home/Index/chooseUniver.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001535s ]
+NOTIC: [2048] Declaration of Home\Model\ChooseModel::union() should be compatible with Think\Model::union($union, $all = false) E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 10 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_choose` [ RunTime:0.000890s ]
+ERR: 1146:Table 'thinkphp.think_choose' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_choose`
+SQL: SHOW COLUMNS FROM `think_category` [ RunTime:0.006746s ]
+SQL: SELECT * FROM `think_category` WHERE ( `subject` = '经济学' )  [ RunTime:0.035813s ]
+SQL: SHOW COLUMNS FROM `think_major` [ RunTime:0.000864s ]
+SQL: SELECT * FROM `think_major` WHERE ( `category_id` = 1 )  [ RunTime:0.000443s ]
+SQL: SHOW COLUMNS FROM `think_union` [ RunTime:0.043361s ]
+SQL: SHOW COLUMNS FROM `think_base_university` [ RunTime:0.000798s ]
+SQL: SELECT * FROM `think_union` WHERE ( `major_id` = 1 )  [ RunTime:0.000320s ]
+SQL: SELECT * FROM `think_base_university` WHERE ( `id` = 2 )  [ RunTime:0.000358s ]
+SQL: SHOW COLUMNS FROM `think_choose_univer` [ RunTime:0.000625s ]
+ERR: 1146:Table 'thinkphp.think_choose_univer' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_choose_univer`
+SQL: SELECT * FROM `think_base_university` WHERE ( `provice` = '河南省' )  [ RunTime:0.000235s ]
+
+[ 2017-04-03T13:12:45+08:00 ] ::1 /UCS/index.php/Home/Index/chooseUniver.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000721s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001690s ]
+NOTIC: [2048] Declaration of Home\Model\ChooseModel::union() should be compatible with Think\Model::union($union, $all = false) E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 10 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_choose` [ RunTime:0.000816s ]
+ERR: 1146:Table 'thinkphp.think_choose' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_choose`
+SQL: SHOW COLUMNS FROM `think_category` [ RunTime:0.000465s ]
+SQL: SELECT * FROM `think_category` WHERE ( `subject` = '经济学' )  [ RunTime:0.015113s ]
+SQL: SHOW COLUMNS FROM `think_major` [ RunTime:0.000490s ]
+SQL: SELECT * FROM `think_major` WHERE ( `category_id` = 1 )  [ RunTime:0.000216s ]
+SQL: SHOW COLUMNS FROM `think_union` [ RunTime:0.015588s ]
+SQL: SHOW COLUMNS FROM `think_base_university` [ RunTime:0.000507s ]
+SQL: SELECT * FROM `think_union` WHERE ( `major_id` = 1 )  [ RunTime:0.000261s ]
+SQL: SELECT * FROM `think_base_university` WHERE ( `id` = 2 )  [ RunTime:0.000187s ]
+SQL: SHOW COLUMNS FROM `think_choose_univer` [ RunTime:0.000496s ]
+ERR: 1146:Table 'thinkphp.think_choose_univer' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_choose_univer`
+SQL: SELECT * FROM `think_base_university` WHERE ( `provice` = '河南省' )  [ RunTime:0.000229s ]
+
+[ 2017-04-03T13:12:48+08:00 ] ::1 /UCS/index.php/Home/Index/chooseUniver.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000902s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001384s ]
+NOTIC: [2048] Declaration of Home\Model\ChooseModel::union() should be compatible with Think\Model::union($union, $all = false) E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 10 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_choose` [ RunTime:0.000520s ]
+ERR: 1146:Table 'thinkphp.think_choose' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_choose`
+SQL: SHOW COLUMNS FROM `think_category` [ RunTime:0.007334s ]
+SQL: SELECT * FROM `think_category` WHERE ( `subject` = '经济学' )  [ RunTime:0.000194s ]
+SQL: SHOW COLUMNS FROM `think_major` [ RunTime:0.002848s ]
+SQL: SELECT * FROM `think_major` WHERE ( `category_id` = 1 )  [ RunTime:0.001994s ]
+SQL: SHOW COLUMNS FROM `think_union` [ RunTime:0.000336s ]
+SQL: SHOW COLUMNS FROM `think_base_university` [ RunTime:0.000328s ]
+SQL: SELECT * FROM `think_union` WHERE ( `major_id` = 1 )  [ RunTime:0.000143s ]
+SQL: SELECT * FROM `think_base_university` WHERE ( `id` = 2 )  [ RunTime:0.000150s ]
+SQL: SHOW COLUMNS FROM `think_choose_univer` [ RunTime:0.000471s ]
+ERR: 1146:Table 'thinkphp.think_choose_univer' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_choose_univer`
+SQL: SELECT * FROM `think_base_university` WHERE ( `provice` = '湖北省' )  [ RunTime:0.000348s ]
+
+[ 2017-04-03T13:12:49+08:00 ] ::1 /UCS/index.php/Home/Index/chooseUniver.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000801s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002284s ]
+NOTIC: [2048] Declaration of Home\Model\ChooseModel::union() should be compatible with Think\Model::union($union, $all = false) E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 10 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_choose` [ RunTime:0.000576s ]
+ERR: 1146:Table 'thinkphp.think_choose' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_choose`
+SQL: SHOW COLUMNS FROM `think_category` [ RunTime:0.013334s ]
+SQL: SELECT * FROM `think_category` WHERE ( `subject` = '经济学' )  [ RunTime:0.002339s ]
+SQL: SHOW COLUMNS FROM `think_major` [ RunTime:0.000432s ]
+SQL: SELECT * FROM `think_major` WHERE ( `category_id` = 1 )  [ RunTime:0.000208s ]
+SQL: SHOW COLUMNS FROM `think_union` [ RunTime:0.017261s ]
+SQL: SHOW COLUMNS FROM `think_base_university` [ RunTime:0.000433s ]
+SQL: SELECT * FROM `think_union` WHERE ( `major_id` = 1 )  [ RunTime:0.000210s ]
+SQL: SELECT * FROM `think_base_university` WHERE ( `id` = 2 )  [ RunTime:0.000252s ]
+SQL: SHOW COLUMNS FROM `think_choose_univer` [ RunTime:0.000504s ]
+ERR: 1146:Table 'thinkphp.think_choose_univer' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_choose_univer`
+SQL: SELECT * FROM `think_base_university` WHERE ( `provice` = '广东省' )  [ RunTime:0.000251s ]
+
+[ 2017-04-03T13:12:49+08:00 ] ::1 /UCS/index.php/Home/Index/chooseUniver.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001438s ]
+NOTIC: [2048] Declaration of Home\Model\ChooseModel::union() should be compatible with Think\Model::union($union, $all = false) E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 10 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_choose` [ RunTime:0.000478s ]
+ERR: 1146:Table 'thinkphp.think_choose' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_choose`
+SQL: SHOW COLUMNS FROM `think_category` [ RunTime:0.000736s ]
+SQL: SELECT * FROM `think_category` WHERE ( `subject` = '经济学' )  [ RunTime:0.000195s ]
+SQL: SHOW COLUMNS FROM `think_major` [ RunTime:0.003748s ]
+SQL: SELECT * FROM `think_major` WHERE ( `category_id` = 1 )  [ RunTime:0.000594s ]
+SQL: SHOW COLUMNS FROM `think_union` [ RunTime:0.001153s ]
+SQL: SHOW COLUMNS FROM `think_base_university` [ RunTime:0.002230s ]
+SQL: SELECT * FROM `think_union` WHERE ( `major_id` = 1 )  [ RunTime:0.000209s ]
+SQL: SELECT * FROM `think_base_university` WHERE ( `id` = 2 )  [ RunTime:0.000192s ]
+SQL: SHOW COLUMNS FROM `think_choose_univer` [ RunTime:0.000370s ]
+ERR: 1146:Table 'thinkphp.think_choose_univer' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_choose_univer`
+SQL: SELECT * FROM `think_base_university` WHERE ( `provice` = '贵州省' )  [ RunTime:0.000184s ]
+
+[ 2017-04-03T13:12:50+08:00 ] ::1 /UCS/index.php/Home/Index/chooseUniver.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001011s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002444s ]
+NOTIC: [2048] Declaration of Home\Model\ChooseModel::union() should be compatible with Think\Model::union($union, $all = false) E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 10 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_choose` [ RunTime:0.000454s ]
+ERR: 1146:Table 'thinkphp.think_choose' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_choose`
+SQL: SHOW COLUMNS FROM `think_category` [ RunTime:0.000497s ]
+SQL: SELECT * FROM `think_category` WHERE ( `subject` = '经济学' )  [ RunTime:0.000202s ]
+SQL: SHOW COLUMNS FROM `think_major` [ RunTime:0.000345s ]
+SQL: SELECT * FROM `think_major` WHERE ( `category_id` = 1 )  [ RunTime:0.000204s ]
+SQL: SHOW COLUMNS FROM `think_union` [ RunTime:0.027906s ]
+SQL: SHOW COLUMNS FROM `think_base_university` [ RunTime:0.000488s ]
+SQL: SELECT * FROM `think_union` WHERE ( `major_id` = 1 )  [ RunTime:0.000199s ]
+SQL: SELECT * FROM `think_base_university` WHERE ( `id` = 2 )  [ RunTime:0.000203s ]
+SQL: SHOW COLUMNS FROM `think_choose_univer` [ RunTime:0.000591s ]
+ERR: 1146:Table 'thinkphp.think_choose_univer' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_choose_univer`
+SQL: SELECT * FROM `think_base_university` WHERE ( `provice` = '甘肃省' )  [ RunTime:0.000250s ]
+
+[ 2017-04-03T13:12:50+08:00 ] ::1 /UCS/index.php/Home/Index/chooseUniver.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001075s ]
+NOTIC: [2048] Declaration of Home\Model\ChooseModel::union() should be compatible with Think\Model::union($union, $all = false) E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 10 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_choose` [ RunTime:0.000637s ]
+ERR: 1146:Table 'thinkphp.think_choose' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_choose`
+SQL: SHOW COLUMNS FROM `think_category` [ RunTime:0.001157s ]
+SQL: SELECT * FROM `think_category` WHERE ( `subject` = '经济学' )  [ RunTime:0.000615s ]
+SQL: SHOW COLUMNS FROM `think_major` [ RunTime:0.000794s ]
+SQL: SELECT * FROM `think_major` WHERE ( `category_id` = 1 )  [ RunTime:0.000499s ]
+SQL: SHOW COLUMNS FROM `think_union` [ RunTime:0.001675s ]
+SQL: SHOW COLUMNS FROM `think_base_university` [ RunTime:0.007873s ]
+SQL: SELECT * FROM `think_union` WHERE ( `major_id` = 1 )  [ RunTime:0.000217s ]
+SQL: SELECT * FROM `think_base_university` WHERE ( `id` = 2 )  [ RunTime:0.000201s ]
+SQL: SHOW COLUMNS FROM `think_choose_univer` [ RunTime:0.000398s ]
+ERR: 1146:Table 'thinkphp.think_choose_univer' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_choose_univer`
+SQL: SELECT * FROM `think_base_university` WHERE ( `provice` = '四川省' )  [ RunTime:0.000245s ]
+
+[ 2017-04-03T13:12:51+08:00 ] ::1 /UCS/index.php/Home/Index/chooseUniver.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000853s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001825s ]
+NOTIC: [2048] Declaration of Home\Model\ChooseModel::union() should be compatible with Think\Model::union($union, $all = false) E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 10 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_choose` [ RunTime:0.000520s ]
+ERR: 1146:Table 'thinkphp.think_choose' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_choose`
+SQL: SHOW COLUMNS FROM `think_category` [ RunTime:0.000663s ]
+SQL: SELECT * FROM `think_category` WHERE ( `subject` = '经济学' )  [ RunTime:0.000258s ]
+SQL: SHOW COLUMNS FROM `think_major` [ RunTime:0.000430s ]
+SQL: SELECT * FROM `think_major` WHERE ( `category_id` = 1 )  [ RunTime:0.000212s ]
+SQL: SHOW COLUMNS FROM `think_union` [ RunTime:0.000479s ]
+SQL: SHOW COLUMNS FROM `think_base_university` [ RunTime:0.000362s ]
+SQL: SELECT * FROM `think_union` WHERE ( `major_id` = 1 )  [ RunTime:0.000288s ]
+SQL: SELECT * FROM `think_base_university` WHERE ( `id` = 2 )  [ RunTime:0.000310s ]
+SQL: SHOW COLUMNS FROM `think_choose_univer` [ RunTime:0.001182s ]
+ERR: 1146:Table 'thinkphp.think_choose_univer' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_choose_univer`
+SQL: SELECT * FROM `think_base_university` WHERE ( `provice` = '山东省' )  [ RunTime:0.000673s ]
+
+[ 2017-04-03T13:12:51+08:00 ] ::1 /UCS/index.php/Home/Index/chooseUniver.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000637s ]
+NOTIC: [2048] Declaration of Home\Model\ChooseModel::union() should be compatible with Think\Model::union($union, $all = false) E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 10 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_choose` [ RunTime:0.000489s ]
+ERR: 1146:Table 'thinkphp.think_choose' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_choose`
+SQL: SHOW COLUMNS FROM `think_category` [ RunTime:0.000405s ]
+SQL: SELECT * FROM `think_category` WHERE ( `subject` = '经济学' )  [ RunTime:0.021756s ]
+SQL: SHOW COLUMNS FROM `think_major` [ RunTime:0.000599s ]
+SQL: SELECT * FROM `think_major` WHERE ( `category_id` = 1 )  [ RunTime:0.000252s ]
+SQL: SHOW COLUMNS FROM `think_union` [ RunTime:0.013863s ]
+SQL: SHOW COLUMNS FROM `think_base_university` [ RunTime:0.000502s ]
+SQL: SELECT * FROM `think_union` WHERE ( `major_id` = 1 )  [ RunTime:0.000220s ]
+SQL: SELECT * FROM `think_base_university` WHERE ( `id` = 2 )  [ RunTime:0.000200s ]
+SQL: SHOW COLUMNS FROM `think_choose_univer` [ RunTime:0.000419s ]
+ERR: 1146:Table 'thinkphp.think_choose_univer' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_choose_univer`
+SQL: SELECT * FROM `think_base_university` WHERE ( `provice` = '安徽省' )  [ RunTime:0.000200s ]
+
+[ 2017-04-03T13:12:52+08:00 ] ::1 /UCS/index.php/Home/Index/chooseUniver.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001151s ]
+NOTIC: [2048] Declaration of Home\Model\ChooseModel::union() should be compatible with Think\Model::union($union, $all = false) E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 10 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_choose` [ RunTime:0.000776s ]
+ERR: 1146:Table 'thinkphp.think_choose' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_choose`
+SQL: SHOW COLUMNS FROM `think_category` [ RunTime:0.000830s ]
+SQL: SELECT * FROM `think_category` WHERE ( `subject` = '经济学' )  [ RunTime:0.000227s ]
+SQL: SHOW COLUMNS FROM `think_major` [ RunTime:0.012798s ]
+SQL: SELECT * FROM `think_major` WHERE ( `category_id` = 1 )  [ RunTime:0.007515s ]
+SQL: SHOW COLUMNS FROM `think_union` [ RunTime:0.000492s ]
+SQL: SHOW COLUMNS FROM `think_base_university` [ RunTime:0.000448s ]
+SQL: SELECT * FROM `think_union` WHERE ( `major_id` = 1 )  [ RunTime:0.012302s ]
+SQL: SELECT * FROM `think_base_university` WHERE ( `id` = 2 )  [ RunTime:0.000375s ]
+SQL: SHOW COLUMNS FROM `think_choose_univer` [ RunTime:0.000523s ]
+ERR: 1146:Table 'thinkphp.think_choose_univer' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_choose_univer`
+SQL: SELECT * FROM `think_base_university` WHERE ( `provice` = '黑龙江省' )  [ RunTime:0.000237s ]
+
+[ 2017-04-03T13:12:52+08:00 ] ::1 /UCS/index.php/Home/Index/chooseUniver.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000725s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001222s ]
+NOTIC: [2048] Declaration of Home\Model\ChooseModel::union() should be compatible with Think\Model::union($union, $all = false) E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 10 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_choose` [ RunTime:0.000476s ]
+ERR: 1146:Table 'thinkphp.think_choose' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_choose`
+SQL: SHOW COLUMNS FROM `think_category` [ RunTime:0.011715s ]
+SQL: SELECT * FROM `think_category` WHERE ( `subject` = '经济学' )  [ RunTime:0.000241s ]
+SQL: SHOW COLUMNS FROM `think_major` [ RunTime:0.000372s ]
+SQL: SELECT * FROM `think_major` WHERE ( `category_id` = 1 )  [ RunTime:0.000206s ]
+SQL: SHOW COLUMNS FROM `think_union` [ RunTime:0.011685s ]
+SQL: SHOW COLUMNS FROM `think_base_university` [ RunTime:0.000368s ]
+SQL: SELECT * FROM `think_union` WHERE ( `major_id` = 1 )  [ RunTime:0.000198s ]
+SQL: SELECT * FROM `think_base_university` WHERE ( `id` = 2 )  [ RunTime:0.000188s ]
+SQL: SHOW COLUMNS FROM `think_choose_univer` [ RunTime:0.000372s ]
+ERR: 1146:Table 'thinkphp.think_choose_univer' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_choose_univer`
+SQL: SELECT * FROM `think_base_university` WHERE ( `provice` = '内蒙古' )  [ RunTime:0.000209s ]
+
+[ 2017-04-03T13:12:52+08:00 ] ::1 /UCS/index.php/Home/Index/chooseUniver.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002392s ]
+NOTIC: [2048] Declaration of Home\Model\ChooseModel::union() should be compatible with Think\Model::union($union, $all = false) E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 10 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_choose` [ RunTime:0.001109s ]
+ERR: 1146:Table 'thinkphp.think_choose' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_choose`
+SQL: SHOW COLUMNS FROM `think_category` [ RunTime:0.000571s ]
+SQL: SELECT * FROM `think_category` WHERE ( `subject` = '经济学' )  [ RunTime:0.000230s ]
+SQL: SHOW COLUMNS FROM `think_major` [ RunTime:0.004046s ]
+SQL: SELECT * FROM `think_major` WHERE ( `category_id` = 1 )  [ RunTime:0.000259s ]
+SQL: SHOW COLUMNS FROM `think_union` [ RunTime:0.000514s ]
+SQL: SHOW COLUMNS FROM `think_base_university` [ RunTime:0.000464s ]
+SQL: SELECT * FROM `think_union` WHERE ( `major_id` = 1 )  [ RunTime:0.000217s ]
+SQL: SELECT * FROM `think_base_university` WHERE ( `id` = 2 )  [ RunTime:0.000268s ]
+SQL: SHOW COLUMNS FROM `think_choose_univer` [ RunTime:0.001437s ]
+ERR: 1146:Table 'thinkphp.think_choose_univer' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_choose_univer`
+SQL: SELECT * FROM `think_base_university` WHERE ( `provice` = '吉林省' )  [ RunTime:0.000285s ]
+
+[ 2017-04-03T14:13:19+08:00 ] ::1 /UCS/index.php/Home/Index/chooseUniver.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002137s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002640s ]
+NOTIC: [2048] Declaration of Home\Model\ChooseModel::union() should be compatible with Think\Model::union($union, $all = false) E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 10 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_choose` [ RunTime:0.003923s ]
+ERR: 1146:Table 'thinkphp.think_choose' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_choose`
+SQL: SHOW COLUMNS FROM `think_category` [ RunTime:0.011292s ]
+SQL: SELECT * FROM `think_category` WHERE ( `subject` = '经济学' )  [ RunTime:0.000244s ]
+SQL: SHOW COLUMNS FROM `think_major` [ RunTime:0.001315s ]
+SQL: SELECT * FROM `think_major` WHERE ( `category_id` = 1 )  [ RunTime:0.000272s ]
+SQL: SHOW COLUMNS FROM `think_union` [ RunTime:0.036574s ]
+SQL: SHOW COLUMNS FROM `think_base_university` [ RunTime:0.014472s ]
+SQL: SELECT * FROM `think_union` WHERE ( `major_id` = 1 )  [ RunTime:0.000228s ]
+SQL: SELECT * FROM `think_base_university` WHERE ( `id` = 2 )  [ RunTime:0.000219s ]
+SQL: SHOW COLUMNS FROM `think_choose_univer` [ RunTime:0.000413s ]
+ERR: 1146:Table 'thinkphp.think_choose_univer' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_choose_univer`
+SQL: SELECT * FROM `think_base_university` WHERE ( `provice` = '河南省' )  [ RunTime:0.000234s ]
+
+[ 2017-04-03T16:51:42+08:00 ] ::1 /UCS/index.php/Admin/Data/addUniv.html?univName=%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6&univProvince=%E5%8C%97%E4%BA%AC%E5%B8%82&univCity=%E4%B8%9C%E5%9F%8E%E5%8C%BA&univType=%E5%85%AC%E5%8A%9E&univCharacter=%E7%BB%BC%E5%90%88%E7%B1%BB&web-site=&subjection=
+ERR: 模板不存在:./DXT/Admin/View/Data/adduniv.html
+

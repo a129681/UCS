@@ -1,0 +1,115 @@
+[ 2017-03-18T09:11:10+08:00 ] ::1 /UCS/index.php/Home/Index/choose.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.030409s ]
+
+[ 2017-03-18T09:11:10+08:00 ] ::1 /UCS/index.php/Home/Index/choose.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000540s ]
+
+[ 2017-03-18T09:11:10+08:00 ] ::1 /UCS/index.php/Home/Index/choose.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001093s ]
+
+[ 2017-03-18T09:11:11+08:00 ] ::1 /UCS/index.php/Home/Index/choose.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000568s ]
+
+[ 2017-03-18T09:11:12+08:00 ] ::1 /UCS/index.php/Home/Index/choose.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000562s ]
+
+[ 2017-03-18T09:17:46+08:00 ] ::1 /UCS/index.php/Home/Index/choose.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.026824s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.027182s ]
+
+[ 2017-03-18T09:24:21+08:00 ] ::1 /UCS/index.php/Home/Index/choose.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000541s ]
+
+[ 2017-03-18T09:24:22+08:00 ] ::1 /UCS/index.php/Home/Index/choose.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000557s ]
+
+[ 2017-03-18T09:24:58+08:00 ] ::1 /UCS/index.php/Home/Index/choose.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000562s ]
+
+[ 2017-03-18T09:25:26+08:00 ] ::1 /UCS/index.php/Home/Index/choose.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000563s ]
+
+[ 2017-03-18T09:25:37+08:00 ] ::1 /UCS/index.php/Home/Index/choose.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000561s ]
+
+[ 2017-03-18T09:25:38+08:00 ] ::1 /UCS/index.php/Home/Index/choose.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000563s ]
+
+[ 2017-03-18T09:25:39+08:00 ] ::1 /UCS/index.php/Home/Index/choose.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000563s ]
+
+[ 2017-03-18T09:25:39+08:00 ] ::1 /UCS/index.php/Home/Index/choose.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000541s ]
+
+[ 2017-03-18T09:53:15+08:00 ] ::1 /UCS/index.php/Home/Index/choose.html.html
+ERR: 非法操作:choose.html
+
+[ 2017-03-18T18:14:33+08:00 ] ::1 /UCS/index.php/Home/Cn/ajax.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000665s ]
+NOTIC: [2048] Declaration of Home\Model\ArticleModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\appserv\www\UCS\DXT\Home\Model\ArticleModel.class.php 第 10 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.000561s ]
+ERR: 1146:Table 'thinkphp.think_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_article`
+SQL: SHOW COLUMNS FROM `think_reply` [ RunTime:0.080850s ]
+SQL: SELECT * FROM `think_reply` WHERE ( `post_id` = 1 ) AND ( `storey` = 1 )  [ RunTime:0.054221s ]
+
+[ 2017-03-18T18:14:49+08:00 ] ::1 /UCS/index.php/Home/Cn/ajax.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001153s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001713s ]
+NOTIC: [2048] Declaration of Home\Model\ArticleModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\appserv\www\UCS\DXT\Home\Model\ArticleModel.class.php 第 10 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.026673s ]
+ERR: 1146:Table 'thinkphp.think_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_article`
+SQL: SHOW COLUMNS FROM `think_reply` [ RunTime:0.039036s ]
+SQL: SELECT * FROM `think_reply` WHERE ( `post_id` = 12 ) AND ( `storey` = 1 )  [ RunTime:0.000292s ]
+
+[ 2017-03-18T23:19:32+08:00 ] ::1 /UCS/index.php/Home/discuss
+ERR: 无法加载控制器:Discuss
+
+[ 2017-03-18T23:19:51+08:00 ] ::1 /UCS/index.php/Home/Cn/ajax.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000528s ]
+NOTIC: [2048] Declaration of Home\Model\ArticleModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\appserv\www\UCS\DXT\Home\Model\ArticleModel.class.php 第 10 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.000493s ]
+ERR: 1146:Table 'thinkphp.think_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_article`
+SQL: SHOW COLUMNS FROM `think_reply` [ RunTime:0.073115s ]
+SQL: SELECT * FROM `think_reply` WHERE ( `post_id` = 1 ) AND ( `storey` = 1 )  [ RunTime:0.040890s ]
+
+[ 2017-03-18T23:52:07+08:00 ] ::1 /UCS/index.php/Home/Cn/login.html
+ERR: 非法操作:login
+

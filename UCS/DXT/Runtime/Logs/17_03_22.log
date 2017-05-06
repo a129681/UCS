@@ -1,0 +1,369 @@
+[ 2017-03-22T23:02:13+08:00 ] ::1 /UCS/index.php/Home/University/chooseUniver.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000731s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001302s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_base_university` [ RunTime:0.000416s ]
+SQL: SELECT * FROM `think_base_university` WHERE ( provice=河南 )  [ RunTime:0.009898s ]
+ERR: 1054:Unknown column '河南' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `think_base_university` WHERE ( provice=河南 ) 
+ERR: 模板不存在:./DXT/Home/View/University/chooseuniver.html
+
+[ 2017-03-22T23:02:36+08:00 ] ::1 /UCS/index.php/Home/University/chooseUniver.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000748s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001269s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_base_university` [ RunTime:0.000837s ]
+SQL: SELECT * FROM `think_base_university` WHERE ( provice=河南 )  [ RunTime:0.000233s ]
+ERR: 1054:Unknown column '河南' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `think_base_university` WHERE ( provice=河南 ) 
+ERR: 模板不存在:./DXT/Home/View/University/chooseuniver.html
+
+[ 2017-03-22T23:02:59+08:00 ] ::1 /UCS/index.php/Home/University/chooseUniver.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000534s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000989s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_base_university` [ RunTime:0.000935s ]
+SQL: SELECT * FROM `think_base_university` WHERE ( provice=河南 )  [ RunTime:0.000252s ]
+ERR: 1054:Unknown column '河南' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `think_base_university` WHERE ( provice=河南 ) 
+ERR: 模板不存在:./DXT/Home/View/University/chooseuniver.html
+
+[ 2017-03-22T23:04:01+08:00 ] ::1 /UCS/index.php/Home/University/chooseUniver.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000549s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_base_university` [ RunTime:0.000480s ]
+SQL: SELECT * FROM `think_base_university` WHERE ( provice=河南 )  [ RunTime:0.000135s ]
+ERR: 1054:Unknown column '河南' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `think_base_university` WHERE ( provice=河南 ) 
+ERR: 模板不存在:./DXT/Home/View/University/chooseuniver.html
+
+[ 2017-03-22T23:04:09+08:00 ] ::1 /UCS/index.php/Home/University/chooseUniver.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001052s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_base_university` [ RunTime:0.000562s ]
+SQL: SELECT * FROM `think_base_university` WHERE ( provice=河南 )  [ RunTime:0.000165s ]
+ERR: 1054:Unknown column '河南' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `think_base_university` WHERE ( provice=河南 ) 
+ERR: 模板不存在:./DXT/Home/View/University/chooseuniver.html
+
+[ 2017-03-22T23:04:41+08:00 ] ::1 /UCS/index.php/Home/University/chooseUniver.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000865s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_base_university` [ RunTime:0.000612s ]
+SQL: SELECT * FROM `think_base_university` WHERE ( provice=河南 )  [ RunTime:0.000137s ]
+ERR: 1054:Unknown column '河南' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `think_base_university` WHERE ( provice=河南 ) 
+ERR: 模板不存在:./DXT/Home/View/University/chooseuniver.html
+
+[ 2017-03-22T23:04:44+08:00 ] ::1 /UCS/index.php/Home/University/chooseUniver.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000790s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_base_university` [ RunTime:0.000540s ]
+SQL: SELECT * FROM `think_base_university` WHERE ( provice=河南 )  [ RunTime:0.000141s ]
+ERR: 1054:Unknown column '河南' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `think_base_university` WHERE ( provice=河南 ) 
+ERR: 模板不存在:./DXT/Home/View/University/chooseuniver.html
+
+[ 2017-03-22T23:04:44+08:00 ] ::1 /UCS/index.php/Home/University/chooseUniver.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001015s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_base_university` [ RunTime:0.000516s ]
+SQL: SELECT * FROM `think_base_university` WHERE ( provice=河南 )  [ RunTime:0.000140s ]
+ERR: 1054:Unknown column '河南' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `think_base_university` WHERE ( provice=河南 ) 
+ERR: 模板不存在:./DXT/Home/View/University/chooseuniver.html
+
+[ 2017-03-22T23:04:51+08:00 ] ::1 /UCS/index.php/Home/University/chooseUniver.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001019s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_base_university` [ RunTime:0.000683s ]
+SQL: SELECT * FROM `think_base_university` WHERE ( provice=河南 )  [ RunTime:0.001805s ]
+ERR: 1054:Unknown column '河南' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `think_base_university` WHERE ( provice=河南 ) 
+ERR: 模板不存在:./DXT/Home/View/University/chooseuniver.html
+
+[ 2017-03-22T23:04:51+08:00 ] ::1 /UCS/index.php/Home/University/chooseUniver.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001262s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_base_university` [ RunTime:0.000849s ]
+SQL: SELECT * FROM `think_base_university` WHERE ( provice=河南 )  [ RunTime:0.000238s ]
+ERR: 1054:Unknown column '河南' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `think_base_university` WHERE ( provice=河南 ) 
+ERR: 模板不存在:./DXT/Home/View/University/chooseuniver.html
+
+[ 2017-03-22T23:05:16+08:00 ] ::1 /UCS/index.php/Home/University/chooseUniver.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001121s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_base_university` [ RunTime:0.000815s ]
+SQL: SELECT * FROM `think_base_university` WHERE ( provice=河南 )  [ RunTime:0.000315s ]
+ERR: 1054:Unknown column '河南' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `think_base_university` WHERE ( provice=河南 ) 
+ERR: 模板不存在:./DXT/Home/View/University/chooseuniver.html
+
+[ 2017-03-22T23:05:32+08:00 ] ::1 /UCS/index.php/Home/University/chooseUniver.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001937s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_base_university` [ RunTime:0.000784s ]
+SQL: SELECT * FROM `think_base_university` WHERE ( provice=河南 )  [ RunTime:0.000217s ]
+ERR: 1054:Unknown column '河南' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `think_base_university` WHERE ( provice=河南 ) 
+ERR: 模板不存在:./DXT/Home/View/University/chooseuniver.html
+
+[ 2017-03-22T23:06:43+08:00 ] ::1 /UCS/index.php/Home/University/chooseUniver.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000549s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001082s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_base_university` [ RunTime:0.000791s ]
+SQL: SELECT * FROM `think_base_university` WHERE ( provice=河南 )  [ RunTime:0.000283s ]
+ERR: 1054:Unknown column '河南' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `think_base_university` WHERE ( provice=河南 ) 
+ERR: 模板不存在:./DXT/Home/View/University/chooseuniver.html
+
+[ 2017-03-22T23:07:06+08:00 ] ::1 /UCS/index.php/Home/University/chooseUniver.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000745s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003034s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_base_university` [ RunTime:0.000455s ]
+SQL: SELECT * FROM `think_base_university` WHERE ( provice=河南 )  [ RunTime:0.000133s ]
+ERR: 1054:Unknown column '河南' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `think_base_university` WHERE ( provice=河南 ) 
+ERR: 模板不存在:./DXT/Home/View/University/chooseuniver.html
+
+[ 2017-03-22T23:07:08+08:00 ] ::1 /UCS/index.php/Home/University/chooseUniver.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001218s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_base_university` [ RunTime:0.000802s ]
+SQL: SELECT * FROM `think_base_university` WHERE ( provice=河南 )  [ RunTime:0.000187s ]
+ERR: 1054:Unknown column '河南' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `think_base_university` WHERE ( provice=河南 ) 
+ERR: 模板不存在:./DXT/Home/View/University/chooseuniver.html
+
+[ 2017-03-22T23:07:48+08:00 ] ::1 /UCS/index.php/Home/Index/chooseUniver.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001067s ]
+NOTIC: [2048] Declaration of Home\Model\ChooseModel::union() should be compatible with Think\Model::union($union, $all = false) E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 10 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_choose` [ RunTime:0.000756s ]
+ERR: 1146:Table 'thinkphp.think_choose' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_choose`
+SQL: SHOW COLUMNS FROM `think_category` [ RunTime:0.002302s ]
+SQL: SELECT * FROM `think_category` WHERE ( `subject` = '经济学' )  [ RunTime:0.000441s ]
+SQL: SHOW COLUMNS FROM `think_major` [ RunTime:0.000683s ]
+SQL: SELECT * FROM `think_major` WHERE ( `category_id` = 1 )  [ RunTime:0.000340s ]
+SQL: SHOW COLUMNS FROM `think_union` [ RunTime:0.000596s ]
+SQL: SHOW COLUMNS FROM `think_base_university` [ RunTime:0.000766s ]
+SQL: SELECT * FROM `think_union` WHERE ( `major_id` = 1 )  [ RunTime:0.000486s ]
+SQL: SELECT * FROM `think_base_university` WHERE ( `id` = 2 )  [ RunTime:0.000395s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.011596s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011660s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000205s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000235s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000351s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000385s ]
+
+[ 2017-03-22T23:09:01+08:00 ] ::1 /UCS/index.php/Home/University/chooseUniver.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003999s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_base_university` [ RunTime:0.000741s ]
+SQL: SELECT * FROM `think_base_university` WHERE ( provice=河南 )  [ RunTime:0.000173s ]
+ERR: 1054:Unknown column '河南' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `think_base_university` WHERE ( provice=河南 ) 
+ERR: 模板不存在:./DXT/Home/View/University/chooseuniver.html
+
+[ 2017-03-22T23:10:29+08:00 ] ::1 /UCS/index.php/Home/Index/chooseUniver.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000567s ]
+NOTIC: [2048] Declaration of Home\Model\ChooseModel::union() should be compatible with Think\Model::union($union, $all = false) E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 10 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_choose` [ RunTime:0.000405s ]
+ERR: 1146:Table 'thinkphp.think_choose' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_choose`
+SQL: SHOW COLUMNS FROM `think_category` [ RunTime:0.000321s ]
+SQL: SELECT * FROM `think_category` WHERE ( `subject` = '经济学' )  [ RunTime:0.001278s ]
+SQL: SHOW COLUMNS FROM `think_major` [ RunTime:0.002227s ]
+SQL: SELECT * FROM `think_major` WHERE ( `category_id` = 1 )  [ RunTime:0.000167s ]
+SQL: SHOW COLUMNS FROM `think_union` [ RunTime:0.000302s ]
+SQL: SHOW COLUMNS FROM `think_base_university` [ RunTime:0.000288s ]
+SQL: SELECT * FROM `think_union` WHERE ( `major_id` = 1 )  [ RunTime:0.000117s ]
+SQL: SELECT * FROM `think_base_university` WHERE ( `id` = 2 )  [ RunTime:0.000129s ]
+SQL: SELECT * FROM `think_base_university` WHERE ( provice=河南 )  [ RunTime:0.000074s ]
+ERR: 1054:Unknown column '河南' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `think_base_university` WHERE ( provice=河南 ) 
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.005565s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005607s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000150s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000179s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000350s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000383s ]
+
+[ 2017-03-22T23:11:01+08:00 ] ::1 /UCS/index.php/Home/Index/chooseUniver.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001085s ]
+NOTIC: [2048] Declaration of Home\Model\ChooseModel::union() should be compatible with Think\Model::union($union, $all = false) E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 10 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_choose` [ RunTime:0.000679s ]
+ERR: 1146:Table 'thinkphp.think_choose' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_choose`
+SQL: SHOW COLUMNS FROM `think_category` [ RunTime:0.000697s ]
+SQL: SELECT * FROM `think_category` WHERE ( `subject` = '经济学' )  [ RunTime:0.001169s ]
+SQL: SHOW COLUMNS FROM `think_major` [ RunTime:0.000681s ]
+SQL: SELECT * FROM `think_major` WHERE ( `category_id` = 1 )  [ RunTime:0.000452s ]
+SQL: SHOW COLUMNS FROM `think_union` [ RunTime:0.000865s ]
+SQL: SHOW COLUMNS FROM `think_base_university` [ RunTime:0.000914s ]
+SQL: SELECT * FROM `think_union` WHERE ( `major_id` = 1 )  [ RunTime:0.000375s ]
+SQL: SELECT * FROM `think_base_university` WHERE ( `id` = 2 )  [ RunTime:0.000367s ]
+SQL: SELECT * FROM `think_base_university` WHERE ( provice=河南 )  [ RunTime:0.000227s ]
+ERR: 1054:Unknown column '河南' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `think_base_university` WHERE ( provice=河南 ) 
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.014350s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014429s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000218s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000373s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000408s ]
+
+[ 2017-03-22T23:11:07+08:00 ] ::1 /UCS/index.php/Home/Index/chooseUniver.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000777s ]
+NOTIC: [2048] Declaration of Home\Model\ChooseModel::union() should be compatible with Think\Model::union($union, $all = false) E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 10 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_choose` [ RunTime:0.000481s ]
+ERR: 1146:Table 'thinkphp.think_choose' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_choose`
+SQL: SHOW COLUMNS FROM `think_category` [ RunTime:0.000415s ]
+SQL: SELECT * FROM `think_category` WHERE ( `subject` = '经济学' )  [ RunTime:0.000219s ]
+SQL: SHOW COLUMNS FROM `think_major` [ RunTime:0.000375s ]
+SQL: SELECT * FROM `think_major` WHERE ( `category_id` = 1 )  [ RunTime:0.000195s ]
+SQL: SHOW COLUMNS FROM `think_union` [ RunTime:0.000339s ]
+SQL: SHOW COLUMNS FROM `think_base_university` [ RunTime:0.000360s ]
+SQL: SELECT * FROM `think_union` WHERE ( `major_id` = 1 )  [ RunTime:0.000207s ]
+SQL: SELECT * FROM `think_base_university` WHERE ( `id` = 2 )  [ RunTime:0.000506s ]
+SQL: SELECT * FROM `think_base_university` WHERE ( provice=河南 )  [ RunTime:0.000136s ]
+ERR: 1054:Unknown column '河南' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `think_base_university` WHERE ( provice=河南 ) 
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008593s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008675s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000562s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000582s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000650s ]
+
+[ 2017-03-22T23:11:11+08:00 ] ::1 /UCS/index.php/Home/Index/chooseUniver.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000689s ]
+NOTIC: [2048] Declaration of Home\Model\ChooseModel::union() should be compatible with Think\Model::union($union, $all = false) E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 10 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_choose` [ RunTime:0.000467s ]
+ERR: 1146:Table 'thinkphp.think_choose' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_choose`
+SQL: SHOW COLUMNS FROM `think_category` [ RunTime:0.000437s ]
+SQL: SELECT * FROM `think_category` WHERE ( `subject` = '经济学' )  [ RunTime:0.000217s ]
+SQL: SHOW COLUMNS FROM `think_major` [ RunTime:0.000559s ]
+SQL: SELECT * FROM `think_major` WHERE ( `category_id` = 1 )  [ RunTime:0.000375s ]
+SQL: SHOW COLUMNS FROM `think_union` [ RunTime:0.000771s ]
+SQL: SHOW COLUMNS FROM `think_base_university` [ RunTime:0.000875s ]
+SQL: SELECT * FROM `think_union` WHERE ( `major_id` = 1 )  [ RunTime:0.000500s ]
+SQL: SELECT * FROM `think_base_university` WHERE ( `id` = 2 )  [ RunTime:0.000456s ]
+SQL: SELECT * FROM `think_base_university` WHERE ( provice=河南 )  [ RunTime:0.000246s ]
+ERR: 1054:Unknown column '河南' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `think_base_university` WHERE ( provice=河南 ) 
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.009170s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009229s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000193s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000344s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000378s ]
+
+[ 2017-03-22T23:12:55+08:00 ] ::1 /UCS/index.php/Home/Index/chooseUniver.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001078s ]
+NOTIC: [2048] Declaration of Home\Model\ChooseModel::union() should be compatible with Think\Model::union($union, $all = false) E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 10 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_choose` [ RunTime:0.000757s ]
+ERR: 1146:Table 'thinkphp.think_choose' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_choose`
+SQL: SHOW COLUMNS FROM `think_category` [ RunTime:0.000763s ]
+SQL: SELECT * FROM `think_category` WHERE ( `subject` = '经济学' )  [ RunTime:0.000383s ]
+SQL: SHOW COLUMNS FROM `think_major` [ RunTime:0.000725s ]
+SQL: SELECT * FROM `think_major` WHERE ( `category_id` = 1 )  [ RunTime:0.000401s ]
+SQL: SHOW COLUMNS FROM `think_union` [ RunTime:0.000688s ]
+SQL: SHOW COLUMNS FROM `think_base_university` [ RunTime:0.000653s ]
+SQL: SELECT * FROM `think_union` WHERE ( `major_id` = 1 )  [ RunTime:0.000318s ]
+SQL: SELECT * FROM `think_base_university` WHERE ( `id` = 2 )  [ RunTime:0.000346s ]
+SQL: SELECT * FROM `think_base_university` WHERE ( `provice` = '河南' )  [ RunTime:0.000410s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000131s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.011750s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011815s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000163s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000192s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000360s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000393s ]
+

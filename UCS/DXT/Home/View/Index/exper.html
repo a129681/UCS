@@ -1,0 +1,26 @@
+<extend name="Public/disBase"/>
+<block name="link">
+    <style>
+
+    </style>
+</block>
+<block name="disLeft">
+    <volist name="list" id="oi">
+        <div class="exper-list">
+            <span class="fl"><a href="<{:U('Home/Cn/experCont',array('experId'=>$oi['id']))}>"><{$oi.title}></a></span>
+            <span class="fr">赞(<{$oi.good}>)&nbsp;收藏(<{$oi.bad}>)</span>
+        </div>
+    </volist>
+    <script>
+        var colorArr=['#DFF0D8','#F2DEDE','#FCF8E3','#D9EDF7'];
+        var len=$('.exper-list').length;
+        for(var i=0;i<len;i++)
+        {
+            var t=i%4;
+            $('.exper-list').eq(t).css('background',colorArr[t]);
+        }
+    </script>
+    <div id="divPage">
+        <{$myPage}>
+    </div>
+</block>

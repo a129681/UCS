@@ -1,0 +1,46 @@
+<extend name="Public/secBase"/>
+<block name="link">
+    <style>
+        html,body{
+            height:100%;
+        }
+        .hotAll-tab li div{
+            margin:0 auto;
+            width:680px;
+        }
+        #major-cont{
+            margin-top:30px;
+        }
+    </style>
+</block>
+<block name="main">
+    <div class="cont" style="height:100%;">
+        <div class="MyPage-bodyTop web-WidMar">
+            <div class="breadCrumb" style="float:none;">您的位置 > <a href="<{:U('Home/Index/choose')}>">选专业</a> ><a href="javascript:void(0)"><{$majorData[0].name}></a></div>
+        </div>
+        <div class="web-WidMar clear" id="major-cont">
+            <ul class="hotAll-sider">
+                <li>专业详情</li>
+                <!--<li>就业方向</li>-->
+                <li>薪酬待遇</li>
+            </ul>
+            <ul class="hotAll-tab" style="margin-left:10px;">
+                <li style="display: block;">
+                   <div><{$majorData[0].re_cont}></div>
+                </li>
+                <li>
+                    <{$majorData[0].salary}>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+    <script>
+        (function(){
+            var oBtn=document.querySelectorAll(".hotAll-sider li");
+            var oLi=document.querySelectorAll(".hotAll-tab li");
+            var searResTab=new TabSwitch({aInput:oBtn,aDiv:oLi,flag:0});
+        })();
+    </script>
+</block>
+

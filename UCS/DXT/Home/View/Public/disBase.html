@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title><block name="title"></block></title>
+    <load href="__PUBLIC__/js/jquery.min.js"/>
+    <load href="__PUBLIC__/js/common.js"/>
+    <load href='__PUBLIC__/css/common.css' />
+    <load href='__PUBLIC__/css/main.css' />
+    <block name="link"></block>
+    <block name="style"></block>
+</head>
+<body>
+<include file="include/header"/>
+    <div class="discuss-content web-WidMar">
+        <h1 class="web-WidMar">讨论区</h1>
+        <div class="discuss-bar"><a href="<{:U('Home/Index/discuss')}>">讨论</a><a href="<{:U('Home/Index/exper')}>">经验</a></div>
+        <div class="web-bodyTop">
+            <div class="breadCrumb">您的位置 > <a href="#">讨论区</a></div>
+            <!--<div class="sweet-tip">距离考试结束还有<span>3</span>天</div>-->
+            <include file="include/tips"/>
+        </div>
+        <div class="discuss-main clear">
+            <div class="discuss-left">
+                <block name="disLeft"></block>
+            </div>
+            <div class="discuss-right">
+                <img src="__PUBLIC__/img/discuss/join.jpg" alt="join" style="width:240px;"/>
+                <ul>
+                    <li class="not"><span>广告</span></li>
+                    <li><a href="#">广告位置</a></li>
+                    <li><a href="#">广告位置</a></li>
+                </ul>
+                <ul>
+                    <li class="not"><span>广告</span></li>
+                    <li><a href="#">广告位置</a></li>
+                </ul>
+            </div>
+        </div>
+        <block name="add"></block>
+    </div>
+<include file="include/footer"/>
+</body>
+</html>

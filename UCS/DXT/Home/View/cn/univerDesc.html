@@ -1,0 +1,150 @@
+<extend name="Public/secBase"/>
+<block name="link">
+    <load href="__PUBLIC__/js/jquery.min.js"/>
+    <style>
+        html,body{
+            height:100%;
+        }
+
+        .selection{
+            margin-top:100px;
+        }
+
+        .admission{
+            text-align: center;
+        }
+        #dataShow{
+            margin:10px auto;
+            text-align: center;
+        }
+
+        .getMore,.getHolder{
+            color:#7180b3;
+        }
+
+        #major strong{
+            margin:4px 0 0 20px;
+            display:inline-block;
+        }
+
+        #major a{
+            color:#0088CC;
+            padding:0 6px;
+        }
+    </style>
+</block>
+<block name="main">
+    <div class="cont web-WidMar">
+        <div class="msg">
+            <a href="#">首页</a> > <a href="<{:U('Home/Index/choose')}>">选择</a> > <a href="#" style="color:#7180b3;"><{$uniData[0]['name']}></a>
+        </div>
+        <{$len}>
+        <div class="middle clear">
+            <div class="midLeft">
+                <h2 class="h2"><{$uniData[0]['name']}></h2>
+                <ul>
+                    <li><span>官网:</span><a href="<{$uniData[0]['web']}>" class="color-Blue"><{$uniData[0]['web']}></a></li>
+                    <li><span>性质:</span><{$uniData[0]['univer_character']}></li>
+                    <li><span>隶属:</span><{$uniData[0]['subjection']}></li>
+                    <li><span>类型:</span><{$uniData[0]['type']}></li>
+                    <li><span>省份:</span><{$uniData[0]['provice']}></li>
+                    <li><span>城市:</span><{$uniData[0]['city']}></li>
+                    <li><span>博士点:</span><{$uniData[0]['doctor_station']}></li>
+                    <li><span>硕士点:</span><{$uniData[0]['master_station']}></li>
+                    <li><span>人数:</span><{$uniData[0]['people_number']}></li>
+                    <li><span>建校时间:</span><{$uniData[0]['time']}></li>
+                    <li><span>学费:</span><{$uniData[0]['tuition']}></li>
+                </ul>
+            </div>
+            <div class="midRight">
+                <h2 class="h3">院校简介</h2>
+                <div class="univProfile" style="text-indent: 2em;">
+                    <span><{$uniData[0]['summary']}></span><a class='getMore' href='javascript:void(0);'>更多</a>
+                </div>
+            </div>
+            <script>
+                    var cont=$('.univProfile').text();
+                    var dis=cont.substring(0,500)+'.....';
+                    $('.univProfile span').text(dis);
+
+                    $('.getMore').click(function(){
+                        if($('.getMore').text()=='更多')
+                        {
+                            $('.univProfile span').text(cont);
+                            $('.getMore').text('折叠');
+                        }
+                        else
+                        {
+                            $('.univProfile span').text(dis);
+                            $('.getMore').text('更多');
+                        }
+                    });
+            </script>
+        </div>
+        <div class="selection clear">
+            <div class="leftSide">
+                <ul>
+                    <li class="options"><a href="#">录取分数线</a></li>
+                    <li class="options"><a href="#">专业</a></li>
+                </ul>
+            </div>
+            <div class="rightSide">
+                <input type="hidden"  value="<{$uniId}>">
+                <div class="admission" style="display: block;">
+                    <span>
+                        生源:&nbsp&nbsp&nbsp;<select name="" id="stuOrgin">
+                             <option value="北京" selected="selected">北京</option>
+
+                            </select>
+                        科属:&nbsp&nbsp&nbsp<select name="" id="stuSubject">
+                              <option selected="selected" value="0">理科</option>
+                            </select>
+                    </span>
+                    <table id="dataShow">
+                        <tr><td>年份</td><td>平均分</td><td>人数</td><td>省控线</td><td>录取批次</td></tr>
+                    </table>
+                </div>
+            </div>
+            <div  id='major' class="rightSide" style="display:none;">
+                <foreach name="class" item="data" key="num">
+                    <if condition="$num neq null">
+                        <strong><{$num}></strong>:
+                        <foreach name="class[$num]" item="vo">
+                            <php>
+                                $arr=explode('|',$vo);
+                                echo "<a href='"."/UCS/index.php/Home/Cn/majorDesc/id/".$arr[1]."'>".$arr[0]."</a>";
+                            </php>
+                        </foreach>
+                        <br/>
+                    </if>
+                </foreach>
+            </div>
+            <script>
+                (function(){
+                    var oBtn=document.querySelectorAll(".leftSide li");
+                    var oLi=document.querySelectorAll(".rightSide");
+                    var searResTab=new TabSwitch({aInput:oBtn,aDiv:oLi,flag:0});
+                })();
+            </script>
+            <script src="__PUBLIC__/data/data.js"></script>
+            <script>
+                var id=$('.rightSide input[type=hidden]').val();
+                var InitialData={
+                    stuOrg:$('#stuOrgin option:selected').val(),
+                    stuOrd:$('#stuOrder option:selected').val(),
+                    stuSubject:$('#stuSubject option:selected').val(),
+                    uniId:id
+                };
+                var oName=$('.h2').text();
+                var len=obj[oName].length;
+                var str='';
+                for(var i=0;i<len;i++)
+                {
+                    var oTr="<tr><td>"+obj[oName][i]['time']+"</td><td>"+obj[oName][i]['Avecore']+"</td><td>"+obj[oName][i]['num']+"</td><td>"+obj[oName][i]['minscore']+"</td><td>"+obj[oName][i]['order']+"</td></tr>";
+                    str+=oTr;
+                }
+                $('#dataShow').append(str);
+            </script>
+        </div>
+    </div>
+</block>

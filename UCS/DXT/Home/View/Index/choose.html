@@ -1,0 +1,93 @@
+。<extend name="Public/base"/>
+
+<block name="link">
+    <load href="__PUBLIC__/js/jquery.min.js"/>
+    <load href="__PUBLIC__/js/choose.js"/>
+    <style>
+        .first{
+            width:180px;
+            display: inline-block;
+            overflow: hidden;
+            float:left;
+        }
+
+        .select-selecUniver ul li div span{
+            padding:0 16px;
+            font-size:14px;
+            display: inline-block;
+            height:50px;
+            line-height: 50px;
+        }
+    </style>
+</block>
+<block name="main">
+    <div class="select-content" >
+        <div class=" web-bodyTop web-WidMar select-top">
+            <div class="breadCrumb">您的位置 > <a href="choose.html">选择</a></div>
+            <!--<div class="seclect-seclected"><p>已选：</p><span class="select-list"></span><a href="#" class="seclect-reflesh">刷新</a><a href="#" class="select-query">查询</a></div>-->
+            <include file="include/tips"/>
+        </div>
+        <div class="select-university web-WidMar clear">
+            <ul class="select-siderBar">
+                <li>学历</li>
+                <div>
+                    <!--<a href="#" class="flag1">高职高专</a>-->
+                    <a href="#" class="flag1 select-action">本科专业</a>
+                </div>
+                <li>学科</li>
+                <div id="subject">
+                    <a href="<{:U('Home/Index/choose',array('flag2'=>'哲学'))}>" class="flag2">哲学</a>
+                    <a href="<{:U('Home/Index/choose',array('flag2'=>'经济学'))}>" class="flag2">经济学</a>
+                    <a href="<{:U('Home/Index/choose',array('flag2'=>'法学'))}>"  class="flag2">法学</a>
+                    <a href="<{:U('Home/Index/choose',array('flag2'=>'教育学'))}>"  class="flag2">教育学</a>
+                    <a href="<{:U('Home/Index/choose',array('flag2'=>'工学'))}>"  class="flag2">工学</a>
+                    <a href="<{:U('Home/Index/choose',array('flag2'=>'文学'))}>"  class="flag2">文学</a>
+                    <a href="<{:U('Home/Index/choose',array('flag2'=>'历史学'))}>"  class="flag2">历史学</a>
+                    <a href="<{:U('Home/Index/choose',array('flag2'=>'理学'))}>"  class="flag2">理学</a>
+                    <a href="<{:U('Home/Index/choose',array('flag2'=>'农学'))}>"  class="flag2">农学</a>
+                    <a href="<{:U('Home/Index/choose',array('flag2'=>'管理学'))}>"  class="flag2">管理学</a>
+                    <a href="<{:U('Home/Index/choose',array('flag2'=>'艺术学'))}>"  class="flag2">艺术学</a>
+                </div>
+                <li>专业类别</li>
+                <div id="category">
+                    <volist name="subject" id="data">
+                        <a href="<{:U('Home/Index/choose',array('flag3'=>$data['class'],'id'=>$data['id']))}>" class="flag3"><{$data.class}></a>
+                    </volist>
+                </div>
+                <li>专业名称</li>
+                <div id="major">
+                    <volist name="major" id="maj">
+                        <a href="<{:U('Home/Index/choose',array('flag4'=>$maj['name'],'mid'=>$maj['id']))}>" class="flag4"><{$maj.name}></a>
+                    </volist>
+                </div>
+            </ul>
+            <div class="select-selecUniver">
+                <if condition="empty($majorData) neq true">
+                    点击查看改该专业详细信息:<a style="color:rgb(92,156,252);" href="<{:U('Home/Cn/majorDesc',array('id'=>$majorData['id']))}>"><{$majorData.name}></a>
+                </if>
+                <p style="background:#0088CC; color:#000;">拥有该专业的大学:共<{$count}>所</p>
+                <ul>
+                    <volist name="University" id="uvs" empty="暂无数据">
+                        <li>
+                            <div>
+                                <a class="first" href="<{:U('Home/Cn/univerDesc',array('uniID'=>$uvs[0]['id']))}>"><{$uvs[0]['name']}></a>
+                                <p style="display: inline-block;float:left;">
+                                    <span>类型:<{$uvs[0]['type']}></span>
+                                    <span>性质:<{$uvs[0]['univer_character']}></span>
+                                    <span>博士点:<{$uvs[0]['doctor_station']}></span>
+                                    <span>硕士点:<{$uvs[0]['master_station']}></span>
+                                </p>
+                            </div>
+                        </li>
+                    </volist>
+                </ul>
+                <div>
+                    <div id="divPage" style="bottom:-40px;background: #e1e1e1;width:700px;">
+                        <{$myPage}>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</block>

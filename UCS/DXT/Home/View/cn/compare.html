@@ -1,0 +1,52 @@
+<extend name="Public/secBase"/>
+<block name="link">
+    <style>
+        #table{
+            height:100%;
+            width:1200px;
+            margin:0 auto;
+        }
+        #table ul{
+            float:left;
+        }
+
+        #table ul li{
+            border:1px solid #999999;
+            text-align: center;
+            height:60px;line-height: 60px;
+        }
+    </style>
+</block>
+<block name="main">
+
+   <div id="table">
+       <div class="web-bodyTop">
+           <div class="breadCrumb">您的位置 > <a href="<{:U('Home/Index/chooseUniver')}>">选大学</a> > 院校对比</div>
+           <div class="sweet-tip">距离考试结束还有<span>3</span>天</div>
+       </div>
+       <ul>
+           <li>大学名称</li>
+           <li>省份</li>
+           <li>城市</li>
+           <li>重点学科</li>
+           <li>博士点</li>
+           <li>硕士点</li>
+           <li>人数</li>
+           <li>建校时间</li>
+           <li>学费</li>
+       </ul>
+       <volist name="list" id="data">
+           <ul>
+              <li><{$data[0]['name']}></li>
+               <li><{$data[0]['provice']}></li>
+               <li><{$data[0]['city']}></li>
+               <li><{$data[0]['key_disciplines']}></li>
+               <li><{$data[0]['doctor_station']}></li>
+               <li><{$data[0]['master_station']}></li>
+               <li><{$data[0]['people_number']}></li>
+               <li><{$data[0]['time']}></li>
+               <li><{$data[0]['tuition']}></li>
+           </ul>
+       </volist>
+   </div>
+</block>

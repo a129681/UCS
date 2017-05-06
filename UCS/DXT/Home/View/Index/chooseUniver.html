@@ -1,0 +1,73 @@
+<extend name="Public/base"/>
+
+<block name="link">
+    <load href="__PUBLIC__/js/jquery.min.js"/>
+    <script src="__PUBLIC__/js/proCity.data.js"></script>
+    <load href="__PUBLIC__/js/chooseUniversity.js"/>
+    <style>
+        .select-selecUniver a{
+            padding-left:10px;
+            display:inline-block;
+            width:75%;
+        }
+
+        .select-selecUniver a:hover{
+            background: #7180b3;
+        }
+        /* 无遮罩悬浮框*/
+        #notPopup{
+            border:1px solid #be7e00;
+            width:160px;height:130px;
+            text-align: center;
+            position:absolute;
+            top:20%;right:0;
+            background:#f7f7f7;
+        }
+        #linkToDesc{
+            color:#7180b3;
+         }
+    </style>
+   
+</block>
+<block name="main">
+    <div class="select-content" >
+        <div class=" web-bodyTop web-WidMar select-top">
+            <div class="breadCrumb">您的位置 > <a href="choose.html">选择</a></div>
+            <div class="sweet-tip">距离考试结束还有<span>3</span>天</div>
+        </div>
+        <div class="select-university web-WidMar clear">
+            <ul class="select-siderBar">
+                <li>省份</li>
+                <div id="select-pro"></div>
+                <li>城市</li>
+                <div id="select-city"></div>
+                <li>类型</li>
+                <div id="select-type">
+                    <a href="javascript:void(0);">公办</a>
+                    <a href="javascript:void(0);">民办</a>
+                    <a href="javascript:void(0);">中外合作大学</a>
+                </div>
+                <li>性质</li>
+                <div id="select-character">
+                    <a href="javascript:void(0);">综合类</a>
+                    <a href="javascript:void(0);">工科类</a>
+                    <a href="javascript:void(0);">师范类</a>
+                    <a href="javascript:void(0);">财经类</a>
+                    <a href="javascript:void(0);">政法类</a>
+                    <a href="javascript:void(0);">语言类</a>
+                    <a href="javascript:void(0);">医药类</a>
+                    <a href="javascript:void(0);">农林类</a>
+                    <a href="javascript:void(0);">民族类</a>
+                    <a href="javascript:void(0);">艺术类</a>
+                    <a href="javascript:void(0);">体育类</a>
+                    <a href="javascript:void(0);">军事类</a>
+                    <a href="javascript:void(0);">商学院</a>
+                </div>
+            </ul>
+            <div class="select-selecUniver">
+                <p style="background:#0088CC; color:#000;">符合条件的大学:</p>
+                <ul></ul>
+            </div>
+        </div>
+    </div>
+</block>

@@ -1,0 +1,252 @@
+[ 2017-03-30T15:07:05+08:00 ] ::1 /UCS/index.php/Home/Ajax/ajax.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000561s ]
+NOTIC: [2048] Declaration of Home\Model\ArticleModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\appserv\www\UCS\DXT\Home\Model\ArticleModel.class.php 第 10 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.000471s ]
+ERR: 1146:Table 'thinkphp.think_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_article`
+SQL: SHOW COLUMNS FROM `think_reply` [ RunTime:0.189044s ]
+SQL: SELECT * FROM `think_reply` WHERE ( `post_id` = 33 ) AND ( `storey` = 1 )  [ RunTime:0.000512s ]
+
+[ 2017-03-30T16:53:21+08:00 ] ::1 /UCS/index.php/Home/Index/discuss.html
+ERR: Think\Model:feild方法不存在！
+
+[ 2017-03-30T19:43:41+08:00 ] ::1 /UCS/index.php/Home/Ajax/ajax.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000573s ]
+NOTIC: [2048] Declaration of Home\Model\ArticleModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\appserv\www\UCS\DXT\Home\Model\ArticleModel.class.php 第 10 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.000417s ]
+ERR: 1146:Table 'thinkphp.think_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_article`
+SQL: SHOW COLUMNS FROM `think_reply` [ RunTime:0.000390s ]
+SQL: SELECT * FROM `think_reply` WHERE ( `post_id` = 0 ) AND ( `storey` = 1 )  [ RunTime:0.023765s ]
+
+[ 2017-03-30T19:44:43+08:00 ] ::1 /UCS/index.php/Home/Ajax/ajax.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001012s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001887s ]
+NOTIC: [2048] Declaration of Home\Model\ArticleModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\appserv\www\UCS\DXT\Home\Model\ArticleModel.class.php 第 10 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.000427s ]
+ERR: 1146:Table 'thinkphp.think_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_article`
+SQL: SHOW COLUMNS FROM `think_reply` [ RunTime:0.000376s ]
+SQL: SELECT * FROM `think_reply` WHERE ( `post_id` = 0 ) AND ( `storey` = 1 )  [ RunTime:0.000221s ]
+
+[ 2017-03-30T19:47:31+08:00 ] ::1 /UCS/index.php/Home/Ajax/ajax.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001033s ]
+NOTIC: [2048] Declaration of Home\Model\ArticleModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\appserv\www\UCS\DXT\Home\Model\ArticleModel.class.php 第 10 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.000510s ]
+ERR: 1146:Table 'thinkphp.think_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_article`
+SQL: SHOW COLUMNS FROM `think_reply` [ RunTime:0.000985s ]
+SQL: SELECT * FROM `think_reply` WHERE ( `post_id` = 0 ) AND ( `storey` = 1 )  [ RunTime:0.000285s ]
+
+[ 2017-03-30T19:48:34+08:00 ] ::1 /UCS/index.php/Home/Ajax/ajax.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001398s ]
+NOTIC: [2048] Declaration of Home\Model\ArticleModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\appserv\www\UCS\DXT\Home\Model\ArticleModel.class.php 第 10 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.000949s ]
+ERR: 1146:Table 'thinkphp.think_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_article`
+SQL: SHOW COLUMNS FROM `think_reply` [ RunTime:0.059257s ]
+SQL: SELECT * FROM `think_reply` WHERE ( `post_id` = 35 ) AND ( `storey` = 1 )  [ RunTime:0.043172s ]
+
+[ 2017-03-30T19:48:54+08:00 ] ::1 /UCS/index.php/Home/Ajax/ajax.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001023s ]
+NOTIC: [2048] Declaration of Home\Model\ArticleModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\appserv\www\UCS\DXT\Home\Model\ArticleModel.class.php 第 10 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.001199s ]
+ERR: 1146:Table 'thinkphp.think_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_article`
+SQL: SHOW COLUMNS FROM `think_reply` [ RunTime:0.002716s ]
+SQL: SELECT * FROM `think_reply` WHERE ( `post_id` = 35 ) AND ( `storey` = 1 )  [ RunTime:0.000513s ]
+
+[ 2017-03-30T19:49:13+08:00 ] ::1 /UCS/index.php/Home/Ajax/ajax.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001128s ]
+NOTIC: [2048] Declaration of Home\Model\ArticleModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\appserv\www\UCS\DXT\Home\Model\ArticleModel.class.php 第 10 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.000790s ]
+ERR: 1146:Table 'thinkphp.think_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_article`
+SQL: SHOW COLUMNS FROM `think_reply` [ RunTime:0.002260s ]
+SQL: SELECT * FROM `think_reply` WHERE ( `post_id` = 35 ) AND ( `storey` = 1 )  [ RunTime:0.000516s ]
+
+[ 2017-03-30T19:49:22+08:00 ] ::1 /UCS/index.php/Home/Ajax/ajax.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001144s ]
+NOTIC: [2048] Declaration of Home\Model\ArticleModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\appserv\www\UCS\DXT\Home\Model\ArticleModel.class.php 第 10 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.000559s ]
+ERR: 1146:Table 'thinkphp.think_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_article`
+SQL: SHOW COLUMNS FROM `think_reply` [ RunTime:0.001258s ]
+SQL: SELECT * FROM `think_reply` WHERE ( `post_id` = 2 ) AND ( `storey` = 1 )  [ RunTime:0.000540s ]
+
+[ 2017-03-30T19:49:27+08:00 ] ::1 /UCS/index.php/Home/Ajax/ajax.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000747s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001315s ]
+NOTIC: [2048] Declaration of Home\Model\ArticleModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\appserv\www\UCS\DXT\Home\Model\ArticleModel.class.php 第 10 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.000754s ]
+ERR: 1146:Table 'thinkphp.think_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_article`
+SQL: SHOW COLUMNS FROM `think_reply` [ RunTime:0.002265s ]
+SQL: SELECT * FROM `think_reply` WHERE ( `post_id` = 2 ) AND ( `storey` = 2 )  [ RunTime:0.000556s ]
+
+[ 2017-03-30T20:41:12+08:00 ] ::1 /UCS/index.php/Home/Cn/univerDesc.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000650s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001119s ]
+NOTIC: [2048] Declaration of Home\Model\UniversityModel::select() should be compatible with Think\Model::select($options = Array) E:\appserv\www\UCS\DXT\Home\Model\UniversityModel.class.php 第 10 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_university` [ RunTime:0.000943s ]
+ERR: 1146:Table 'thinkphp.think_university' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_university`
+NOTIC: [2] explode() expects parameter 2 to be string, array given E:\appserv\www\UCS\ThinkPHP\Library\Think\Model.class.php 第 1390 行.
+SQL: SHOW COLUMNS FROM `` [ RunTime:0.000140s ]
+ERR: 1103:Incorrect table name ''
+ [ SQL语句 ] : SHOW COLUMNS FROM ``
+SQL: SELECT a.id,a.one_year,b.first_year,a.two_year,b.second_year,a.three_year,b.thid_year FROM `think_admission` `a`,`think_under_score` `b` WHERE ( a.order=b.stu_order AND a.orgin=b.stu_orgin AND a.subject=b.stu_subject ) AND ( a.order = '1' ) AND ( a.orgin = '河南' ) AND ( a.subject = '' ) AND ( a.id = '2' )  [ RunTime:0.135393s ]
+
+[ 2017-03-30T20:44:27+08:00 ] ::1 /UCS/index.php/Home/Cn/univerDesc.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000757s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001403s ]
+NOTIC: [2048] Declaration of Home\Model\UniversityModel::select() should be compatible with Think\Model::select($options = Array) E:\appserv\www\UCS\DXT\Home\Model\UniversityModel.class.php 第 10 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_university` [ RunTime:0.000518s ]
+ERR: 1146:Table 'thinkphp.think_university' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_university`
+NOTIC: [2] explode() expects parameter 2 to be string, array given E:\appserv\www\UCS\ThinkPHP\Library\Think\Model.class.php 第 1390 行.
+SQL: SHOW COLUMNS FROM `` [ RunTime:0.000113s ]
+ERR: 1103:Incorrect table name ''
+ [ SQL语句 ] : SHOW COLUMNS FROM ``
+SQL: SELECT a.id,a.one_year,b.first_year,a.two_year,b.second_year,a.three_year,b.thid_year FROM `think_admission` `a`,`think_under_score` `b` WHERE ( a.order=b.stu_order AND a.orgin=b.stu_orgin AND a.subject=b.stu_subject ) AND ( a.order = '2' ) AND ( a.orgin = '河南' ) AND ( a.subject = '' ) AND ( a.id = '2' )  [ RunTime:0.025975s ]
+
+[ 2017-03-30T20:44:28+08:00 ] ::1 /UCS/index.php/Home/Cn/univerDesc.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000563s ]
+NOTIC: [2048] Declaration of Home\Model\UniversityModel::select() should be compatible with Think\Model::select($options = Array) E:\appserv\www\UCS\DXT\Home\Model\UniversityModel.class.php 第 10 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_university` [ RunTime:0.000492s ]
+ERR: 1146:Table 'thinkphp.think_university' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_university`
+NOTIC: [2] explode() expects parameter 2 to be string, array given E:\appserv\www\UCS\ThinkPHP\Library\Think\Model.class.php 第 1390 行.
+SQL: SHOW COLUMNS FROM `` [ RunTime:0.000099s ]
+ERR: 1103:Incorrect table name ''
+ [ SQL语句 ] : SHOW COLUMNS FROM ``
+SQL: SELECT a.id,a.one_year,b.first_year,a.two_year,b.second_year,a.three_year,b.thid_year FROM `think_admission` `a`,`think_under_score` `b` WHERE ( a.order=b.stu_order AND a.orgin=b.stu_orgin AND a.subject=b.stu_subject ) AND ( a.order = '1' ) AND ( a.orgin = '河南' ) AND ( a.subject = '' ) AND ( a.id = '2' )  [ RunTime:0.001304s ]
+
+[ 2017-03-30T20:44:29+08:00 ] ::1 /UCS/index.php/Home/Cn/univerDesc.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000583s ]
+NOTIC: [2048] Declaration of Home\Model\UniversityModel::select() should be compatible with Think\Model::select($options = Array) E:\appserv\www\UCS\DXT\Home\Model\UniversityModel.class.php 第 10 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_university` [ RunTime:0.000442s ]
+ERR: 1146:Table 'thinkphp.think_university' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_university`
+NOTIC: [2] explode() expects parameter 2 to be string, array given E:\appserv\www\UCS\ThinkPHP\Library\Think\Model.class.php 第 1390 行.
+SQL: SHOW COLUMNS FROM `` [ RunTime:0.000123s ]
+ERR: 1103:Incorrect table name ''
+ [ SQL语句 ] : SHOW COLUMNS FROM ``
+SQL: SELECT a.id,a.one_year,b.first_year,a.two_year,b.second_year,a.three_year,b.thid_year FROM `think_admission` `a`,`think_under_score` `b` WHERE ( a.order=b.stu_order AND a.orgin=b.stu_orgin AND a.subject=b.stu_subject ) AND ( a.order = '1' ) AND ( a.orgin = '河南' ) AND ( a.subject = '' ) AND ( a.id = '2' )  [ RunTime:0.001237s ]
+
+[ 2017-03-30T20:44:31+08:00 ] ::1 /UCS/index.php/Home/Cn/univerDesc.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001063s ]
+NOTIC: [2048] Declaration of Home\Model\UniversityModel::select() should be compatible with Think\Model::select($options = Array) E:\appserv\www\UCS\DXT\Home\Model\UniversityModel.class.php 第 10 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_university` [ RunTime:0.000443s ]
+ERR: 1146:Table 'thinkphp.think_university' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_university`
+NOTIC: [2] explode() expects parameter 2 to be string, array given E:\appserv\www\UCS\ThinkPHP\Library\Think\Model.class.php 第 1390 行.
+SQL: SHOW COLUMNS FROM `` [ RunTime:0.000121s ]
+ERR: 1103:Incorrect table name ''
+ [ SQL语句 ] : SHOW COLUMNS FROM ``
+SQL: SELECT a.id,a.one_year,b.first_year,a.two_year,b.second_year,a.three_year,b.thid_year FROM `think_admission` `a`,`think_under_score` `b` WHERE ( a.order=b.stu_order AND a.orgin=b.stu_orgin AND a.subject=b.stu_subject ) AND ( a.order = '1' ) AND ( a.orgin = '河南' ) AND ( a.subject = '' ) AND ( a.id = '2' )  [ RunTime:0.001277s ]
+
+[ 2017-03-30T20:44:32+08:00 ] ::1 /UCS/index.php/Home/Cn/univerDesc.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000570s ]
+NOTIC: [2048] Declaration of Home\Model\UniversityModel::select() should be compatible with Think\Model::select($options = Array) E:\appserv\www\UCS\DXT\Home\Model\UniversityModel.class.php 第 10 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_university` [ RunTime:0.000463s ]
+ERR: 1146:Table 'thinkphp.think_university' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_university`
+NOTIC: [2] explode() expects parameter 2 to be string, array given E:\appserv\www\UCS\ThinkPHP\Library\Think\Model.class.php 第 1390 行.
+SQL: SHOW COLUMNS FROM `` [ RunTime:0.000122s ]
+ERR: 1103:Incorrect table name ''
+ [ SQL语句 ] : SHOW COLUMNS FROM ``
+SQL: SELECT a.id,a.one_year,b.first_year,a.two_year,b.second_year,a.three_year,b.thid_year FROM `think_admission` `a`,`think_under_score` `b` WHERE ( a.order=b.stu_order AND a.orgin=b.stu_orgin AND a.subject=b.stu_subject ) AND ( a.order = '1' ) AND ( a.orgin = '江苏' ) AND ( a.subject = '' ) AND ( a.id = '2' )  [ RunTime:0.001266s ]
+
+[ 2017-03-30T20:44:33+08:00 ] ::1 /UCS/index.php/Home/Cn/univerDesc.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000792s ]
+NOTIC: [2048] Declaration of Home\Model\UniversityModel::select() should be compatible with Think\Model::select($options = Array) E:\appserv\www\UCS\DXT\Home\Model\UniversityModel.class.php 第 10 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_university` [ RunTime:0.000544s ]
+ERR: 1146:Table 'thinkphp.think_university' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_university`
+NOTIC: [2] explode() expects parameter 2 to be string, array given E:\appserv\www\UCS\ThinkPHP\Library\Think\Model.class.php 第 1390 行.
+SQL: SHOW COLUMNS FROM `` [ RunTime:0.000143s ]
+ERR: 1103:Incorrect table name ''
+ [ SQL语句 ] : SHOW COLUMNS FROM ``
+SQL: SELECT a.id,a.one_year,b.first_year,a.two_year,b.second_year,a.three_year,b.thid_year FROM `think_admission` `a`,`think_under_score` `b` WHERE ( a.order=b.stu_order AND a.orgin=b.stu_orgin AND a.subject=b.stu_subject ) AND ( a.order = '1' ) AND ( a.orgin = '河南' ) AND ( a.subject = '' ) AND ( a.id = '2' )  [ RunTime:0.001979s ]
+
+[ 2017-03-30T20:50:21+08:00 ] ::1 /UCS/index.php/Home/Ajax/ajax.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001068s ]
+NOTIC: [2048] Declaration of Home\Model\ArticleModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\appserv\www\UCS\DXT\Home\Model\ArticleModel.class.php 第 10 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.000798s ]
+ERR: 1146:Table 'thinkphp.think_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_article`
+SQL: SHOW COLUMNS FROM `think_reply` [ RunTime:0.001082s ]
+SQL: SELECT * FROM `think_reply` WHERE ( `post_id` = 32 ) AND ( `storey` = 1 )  [ RunTime:0.000638s ]
+
+[ 2017-03-30T20:50:27+08:00 ] ::1 /UCS/index.php/Home/Ajax/ajax.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001025s ]
+NOTIC: [2048] Declaration of Home\Model\ArticleModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\appserv\www\UCS\DXT\Home\Model\ArticleModel.class.php 第 10 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.000946s ]
+ERR: 1146:Table 'thinkphp.think_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_article`
+SQL: SHOW COLUMNS FROM `think_reply` [ RunTime:0.002252s ]
+SQL: SELECT * FROM `think_reply` WHERE ( `post_id` = 2 ) AND ( `storey` = 1 )  [ RunTime:0.000491s ]
+
+[ 2017-03-30T21:25:10+08:00 ] ::1 /UCS/index.php/Home/Index/discuss.html
+ERR: XML标签语法错误 : start="0" end="<{$length}
+
+[ 2017-03-30T21:26:04+08:00 ] ::1 /UCS/index.php/Home/Index/discuss.html
+ERR: XML标签语法错误 : start="0" end="<{$length}
+
+[ 2017-03-30T21:26:12+08:00 ] ::1 /UCS/index.php/Home/Index/discuss.html
+ERR: XML标签语法错误 : start="0" end="<{$length}
+
+[ 2017-03-30T21:26:29+08:00 ] ::1 /UCS/index.php/Home/Index/discuss.html
+ERR: XML标签语法错误 : start="0" end="<{$length}
+

@@ -1,0 +1,48 @@
+<extend name="Public/base"/>
+<block name="style">
+    <style>
+        #div1 {position:relative; width:640px; height:640px; margin: 0 auto 0;}
+        #div1 a {position:absolute; top:0px; left:0px;color:#fff; font-weight:bold; padding: 3px 6px; }
+        #div1 a:hover {border: 1px solid #eee; }
+        #div1 .blue {color:#3CBFE0;}
+        #div1 .red {color:red;}
+        #div1 .yellow {color:yellow;}
+    </style>
+</block>
+<block name="link">
+    <script type="text/javascript" src="__PUBLIC__/js/tag.js"></script>
+</block>
+
+<block name="main">
+    <div class="web-search web-WidMar">
+        <form action="<{:U('Home/Cn/searDesc')}>" method="post">
+            <input type="text"  name="web-searTxt" value=""/><input type="submit" value="" name="searBtn"/>
+        </form>
+    </div>
+    <hr>
+    <div class="web-bodyTop web-WidMar">
+        <div class="breadCrumb">您的位置: > <a href="#">热搜区</a>
+        </div>
+        <div class="sweet-tip">距离考试结束还有<span>3</span>天</div>
+    </div>
+    <div class="hotSear-warp">
+        <div id="div1">
+            <a href="<{:U('Home/Cn/searDesc',array('data'=>'空气暖气'))}>">空调暖气</a>
+            <a href="<{:U('Home/Cn/searDesc',array('data'=>'最低投档线'))}>" class="red">最低投档线</a>
+            <a href="<{:U('Home/Cn/searDesc',array('data'=>'助学贷款'))}>">助学贷款</a>
+            <a href="<{:U('Home/Cn/searDesc',array('data'=>'生活费'))}>">生活费</a>
+            <a href="<{:U('Home/Cn/searDesc',array('data'=>'运动设施'))}>" class="blue">运动设施</a>
+            <a href="<{:U('Home/Cn/searDesc',array('data'=>'转专业'))}>">转专业</a>
+            <a href="<{:U('Home/Cn/searDesc',array('data'=>'生活费'))}>">生活费</a>
+            <a href="<{:U('Home/Cn/searDesc',array('data'=>'yellow'))}>" class="yellow">体育馆</a>
+            <a href="<{:U('Home/Cn/searDesc',array('data'=>'运动设施'))}>">运动设施</a>
+            <a href="<{:U('Home/Cn/searDesc',array('data'=>'独立卫生间'))}>" class="red">独立卫生间</a>
+            <a href="<{:U('Home/Cn/searDesc',array('data'=>'餐厅'))}>">餐厅</a>
+            <a href="<{:U('Home/Cn/searDesc',array('data'=>'宿舍'))}>" class="blue">宿舍</a>
+            <a href="<{:U('Home/Cn/searDesc',array('data'=>'学校面积'))}>">学校面积</a>
+            <a href="#">王牌专业</a>
+            <a href="#">费用</a>
+            <a href="#" class="blue">图书馆</a>
+        </div>
+    </div>
+</block>

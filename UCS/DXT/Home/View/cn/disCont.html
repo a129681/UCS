@@ -1,0 +1,60 @@
+<extend name="Public/secBase"/>
+<block name="link">
+    <script src="__PUBLIC__/plugins/assets/jquery.min.js"></script>
+    <script src="__PUBLIC__/plugins/assets/trumbowyg.js"></script>
+    <script src="__PUBLIC__/plugins/assets/plugins/base64/trumbowyg.base64.js"></script>
+    <link rel="stylesheet" href="__PUBLIC__/plugins/assets/design/css/trumbowyg.css">
+    <style>
+        .reply-rely{
+            float: right;
+        }
+    </style>
+</block>
+<block name="main">
+    <div class="discuss-content web-WidMar">
+        <h1 class="web-WidMar">讨论区</h1>
+        <div class="web-bodyTop">
+            <div class="breadCrumb">您的位置 > <a href="<{:U('Home/Index/discuss')}>">讨论区</a> > <{$title}></div>
+            <div class="sweet-tip">距离考试结束还有<span>3</span>天</div>
+        </div>
+             <h2 class="title"><{$title}></h2>
+            <volist name="layerArr" id="data">
+                <div class="artCont web-WidMar">
+                    <div class="ques-cont clear">
+                        <div class="ques-left">
+                            <div class="ques-left-cont">
+                                <img src="__PUBLIC__/img/discuss/header.jpg" class="web-Mar" alt="touxiang">
+                                <span class="web-block" style="margin-top:8px;"><{$data.Name}></span>
+                            </div>
+                        </div>
+                        <div class="ques-right">
+                            <div class="ques-right-cont">
+                                <p><{$data.cont}></p>
+                                <div class="ques-respond">
+                                    <div class="ques-respon"><span class="flooer_nums"><{$data.storey}></span>楼&nbsp;<span>时间:<{$data.time}></span> <a href="javascript:;">回复(<{$data['count']}>)</a></div>
+                                    <div class="ques-respon-list clear">
+                                        <ul></ul>
+                                        <input type="text"><input type="button" value="提交"/>
+                                        <input type="hidden" class="attr1" value="<{$data['layer_id']}>"/>
+                                        <input type="hidden" class="attr2" value="<{$data['post_id']}>"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </volist>
+    </div>
+    <div id="replyPost" style="width:960px;margin:0 auto;">
+            <div id="odiv" style="display:none;position:absolute;z-index:100;">
+                <img src="__PUBLIC__/plugins/assets/pic/sx.png" title="缩小" border="0" alt="缩小" onclick="sub(-1);"/>
+                <img src="__PUBLIC__/plugins/assets/pic/fd.png" title="放大" border="0" alt="放大" onclick="sub(1)"/>
+                <img src="__PUBLIC__/plugins/assets/pic/cz.png" title="重置" border="0" alt="重置" onclick="sub(0)"/>
+                <img src="__PUBLIC__/plugins/assets/pic/sc.png" title="删除" border="0" alt="删除" onclick="del();odiv.style.display='none';"/>
+            </div>
+            <div onmousedown="show_element(event)" style="clear:both" id="customized-buttonpane" class="editor"></div>
+        <input type="button" id="replySub" class="button button-base button-submit" value="提交">
+    </div>
+    <load href="__PUBLIC__/js/reply.data.js"/>
+</block>
+

@@ -1,0 +1,1410 @@
+[ 2017-04-16T00:01:07+08:00 ] ::1 /UCS/index.php/Home/Index/chooseUniver.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000730s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001369s ]
+NOTIC: [2048] Declaration of Home\Model\ChooseModel::union() should be compatible with Think\Model::union($union, $all = false) E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 10 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_choose` [ RunTime:0.000863s ]
+ERR: 1146:Table 'thinkphp.think_choose' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_choose`
+SQL: SHOW COLUMNS FROM `think_category` [ RunTime:0.000658s ]
+SQL: SELECT * FROM `think_category` WHERE ( `subject` = '经济学' )  [ RunTime:0.000939s ]
+SQL: SHOW COLUMNS FROM `think_major` [ RunTime:0.001388s ]
+SQL: SELECT * FROM `think_major` WHERE ( `category_id` = 1 )  [ RunTime:0.000625s ]
+NOTIC: [2] Missing argument 2 for Home\Model\ChooseModel::union(), called in E:\appserv\www\UCS\DXT\Home\Controller\IndexController.class.php on line 15 and defined E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 39 行.
+SQL: SHOW COLUMNS FROM `think_union` [ RunTime:0.000307s ]
+SQL: SHOW COLUMNS FROM `think_base_university` [ RunTime:0.000305s ]
+NOTIC: [8] Undefined variable: Page E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 44 行.
+NOTIC: [8] Trying to get property of non-object E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 44 行.
+NOTIC: [8] Undefined variable: Page E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 44 行.
+NOTIC: [8] Trying to get property of non-object E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 44 行.
+SQL: SELECT * FROM `think_union` WHERE ( `major_id` = 1 ) LIMIT ,   [ RunTime:0.000064s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : SELECT * FROM `think_union` WHERE ( `major_id` = 1 ) LIMIT ,  
+SQL: SELECT * FROM `think_base_university` WHERE ( `id` = null )  [ RunTime:0.000108s ]
+SQL: SHOW COLUMNS FROM `think_choose_univer` [ RunTime:0.000499s ]
+ERR: 1146:Table 'thinkphp.think_choose_univer' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_choose_univer`
+SQL: SELECT * FROM `think_base_university` WHERE ( `provice` = '北京' )  [ RunTime:0.344367s ]
+
+[ 2017-04-16T00:01:20+08:00 ] ::1 /UCS/index.php/Home/Index/chooseUniver.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001061s ]
+NOTIC: [2048] Declaration of Home\Model\ChooseModel::union() should be compatible with Think\Model::union($union, $all = false) E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 10 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_choose` [ RunTime:0.000760s ]
+ERR: 1146:Table 'thinkphp.think_choose' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_choose`
+SQL: SHOW COLUMNS FROM `think_category` [ RunTime:0.000635s ]
+SQL: SELECT * FROM `think_category` WHERE ( `subject` = '经济学' )  [ RunTime:0.001690s ]
+SQL: SHOW COLUMNS FROM `think_major` [ RunTime:0.000802s ]
+SQL: SELECT * FROM `think_major` WHERE ( `category_id` = 1 )  [ RunTime:0.000655s ]
+NOTIC: [2] Missing argument 2 for Home\Model\ChooseModel::union(), called in E:\appserv\www\UCS\DXT\Home\Controller\IndexController.class.php on line 15 and defined E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 39 行.
+SQL: SHOW COLUMNS FROM `think_union` [ RunTime:0.000313s ]
+SQL: SHOW COLUMNS FROM `think_base_university` [ RunTime:0.000332s ]
+NOTIC: [8] Undefined variable: Page E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 44 行.
+NOTIC: [8] Trying to get property of non-object E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 44 行.
+NOTIC: [8] Undefined variable: Page E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 44 行.
+NOTIC: [8] Trying to get property of non-object E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 44 行.
+SQL: SELECT * FROM `think_union` WHERE ( `major_id` = 1 ) LIMIT ,   [ RunTime:0.000064s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : SELECT * FROM `think_union` WHERE ( `major_id` = 1 ) LIMIT ,  
+SQL: SELECT * FROM `think_base_university` WHERE ( `id` = null )  [ RunTime:0.000115s ]
+SQL: SHOW COLUMNS FROM `think_choose_univer` [ RunTime:0.000347s ]
+ERR: 1146:Table 'thinkphp.think_choose_univer' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_choose_univer`
+SQL: SELECT * FROM `think_base_university` WHERE ( `provice` = '北京' )  [ RunTime:0.328677s ]
+
+[ 2017-04-16T00:02:14+08:00 ] ::1 /UCS/index.php/Home/Index/chooseUniver.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000704s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001311s ]
+NOTIC: [2048] Declaration of Home\Model\ChooseModel::union() should be compatible with Think\Model::union($union, $all = false) E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 10 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_choose` [ RunTime:0.000431s ]
+ERR: 1146:Table 'thinkphp.think_choose' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_choose`
+SQL: SHOW COLUMNS FROM `think_category` [ RunTime:0.000342s ]
+SQL: SELECT * FROM `think_category` WHERE ( `subject` = '经济学' )  [ RunTime:0.000183s ]
+SQL: SHOW COLUMNS FROM `think_major` [ RunTime:0.000325s ]
+SQL: SELECT * FROM `think_major` WHERE ( `category_id` = 1 )  [ RunTime:0.000588s ]
+NOTIC: [2] Missing argument 2 for Home\Model\ChooseModel::union(), called in E:\appserv\www\UCS\DXT\Home\Controller\IndexController.class.php on line 15 and defined E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 39 行.
+SQL: SHOW COLUMNS FROM `think_union` [ RunTime:0.000277s ]
+SQL: SHOW COLUMNS FROM `think_base_university` [ RunTime:0.000326s ]
+NOTIC: [8] Undefined variable: Page E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 44 行.
+NOTIC: [8] Trying to get property of non-object E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 44 行.
+NOTIC: [8] Undefined variable: Page E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 44 行.
+NOTIC: [8] Trying to get property of non-object E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 44 行.
+SQL: SELECT * FROM `think_union` WHERE ( `major_id` = 1 ) LIMIT ,   [ RunTime:0.000111s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : SELECT * FROM `think_union` WHERE ( `major_id` = 1 ) LIMIT ,  
+SQL: SELECT * FROM `think_base_university` WHERE ( `id` = null )  [ RunTime:0.000199s ]
+SQL: SHOW COLUMNS FROM `think_choose_univer` [ RunTime:0.000401s ]
+ERR: 1146:Table 'thinkphp.think_choose_univer' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_choose_univer`
+SQL: SELECT * FROM `think_base_university` WHERE ( `provice` = '北京' )  [ RunTime:0.223218s ]
+
+[ 2017-04-16T00:02:16+08:00 ] ::1 /UCS/index.php/Home/Index/chooseUniver.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000822s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002492s ]
+NOTIC: [2048] Declaration of Home\Model\ChooseModel::union() should be compatible with Think\Model::union($union, $all = false) E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 10 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_choose` [ RunTime:0.003172s ]
+ERR: 1146:Table 'thinkphp.think_choose' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_choose`
+SQL: SHOW COLUMNS FROM `think_category` [ RunTime:0.001056s ]
+SQL: SELECT * FROM `think_category` WHERE ( `subject` = '经济学' )  [ RunTime:0.000407s ]
+SQL: SHOW COLUMNS FROM `think_major` [ RunTime:0.000836s ]
+SQL: SELECT * FROM `think_major` WHERE ( `category_id` = 1 )  [ RunTime:0.001710s ]
+NOTIC: [2] Missing argument 2 for Home\Model\ChooseModel::union(), called in E:\appserv\www\UCS\DXT\Home\Controller\IndexController.class.php on line 15 and defined E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 39 行.
+SQL: SHOW COLUMNS FROM `think_union` [ RunTime:0.000733s ]
+SQL: SHOW COLUMNS FROM `think_base_university` [ RunTime:0.000738s ]
+NOTIC: [8] Undefined variable: Page E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 44 行.
+NOTIC: [8] Trying to get property of non-object E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 44 行.
+NOTIC: [8] Undefined variable: Page E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 44 行.
+NOTIC: [8] Trying to get property of non-object E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 44 行.
+SQL: SELECT * FROM `think_union` WHERE ( `major_id` = 1 ) LIMIT ,   [ RunTime:0.000181s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : SELECT * FROM `think_union` WHERE ( `major_id` = 1 ) LIMIT ,  
+SQL: SELECT * FROM `think_base_university` WHERE ( `id` = null )  [ RunTime:0.000276s ]
+SQL: SHOW COLUMNS FROM `think_choose_univer` [ RunTime:0.002686s ]
+ERR: 1146:Table 'thinkphp.think_choose_univer' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_choose_univer`
+SQL: SELECT * FROM `think_base_university` WHERE ( `provice` = '北京' )  [ RunTime:0.002052s ]
+
+[ 2017-04-16T00:14:43+08:00 ] ::1 /UCS/index.php/Home/Index/chooseUniver.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002492s ]
+NOTIC: [2048] Declaration of Home\Model\ChooseModel::union() should be compatible with Think\Model::union($union, $all = false) E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 10 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_choose` [ RunTime:0.000471s ]
+ERR: 1146:Table 'thinkphp.think_choose' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_choose`
+SQL: SHOW COLUMNS FROM `think_category` [ RunTime:0.000344s ]
+SQL: SELECT * FROM `think_category` WHERE ( `subject` = '经济学' )  [ RunTime:0.000188s ]
+SQL: SHOW COLUMNS FROM `think_major` [ RunTime:0.000332s ]
+SQL: SELECT * FROM `think_major` WHERE ( `category_id` = 1 )  [ RunTime:0.000612s ]
+NOTIC: [2] Missing argument 2 for Home\Model\ChooseModel::union(), called in E:\appserv\www\UCS\DXT\Home\Controller\IndexController.class.php on line 15 and defined E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 39 行.
+SQL: SHOW COLUMNS FROM `think_union` [ RunTime:0.000288s ]
+SQL: SHOW COLUMNS FROM `think_base_university` [ RunTime:0.000314s ]
+NOTIC: [8] Undefined variable: Page E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 44 行.
+NOTIC: [8] Trying to get property of non-object E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 44 行.
+NOTIC: [8] Undefined variable: Page E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 44 行.
+NOTIC: [8] Trying to get property of non-object E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 44 行.
+SQL: SELECT * FROM `think_union` WHERE ( `major_id` = 1 ) LIMIT ,   [ RunTime:0.000064s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : SELECT * FROM `think_union` WHERE ( `major_id` = 1 ) LIMIT ,  
+SQL: SELECT * FROM `think_base_university` WHERE ( `id` = null )  [ RunTime:0.000114s ]
+SQL: SHOW COLUMNS FROM `think_choose_univer` [ RunTime:0.003580s ]
+ERR: 1146:Table 'thinkphp.think_choose_univer' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_choose_univer`
+SQL: SELECT * FROM `think_base_university` WHERE ( `provice` = '北京' )  [ RunTime:0.167406s ]
+
+[ 2017-04-16T11:05:43+08:00 ] ::1 /UCS/index.php/Home/Index/chooseUniver.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.016699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017071s ]
+NOTIC: [2048] Declaration of Home\Model\ChooseModel::union() should be compatible with Think\Model::union($union, $all = false) E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 10 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_choose` [ RunTime:0.055825s ]
+ERR: 1146:Table 'thinkphp.think_choose' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_choose`
+SQL: SHOW COLUMNS FROM `think_category` [ RunTime:0.054025s ]
+SQL: SELECT * FROM `think_category` WHERE ( `subject` = '经济学' )  [ RunTime:0.000343s ]
+SQL: SHOW COLUMNS FROM `think_major` [ RunTime:0.030815s ]
+SQL: SELECT * FROM `think_major` WHERE ( `category_id` = 1 )  [ RunTime:0.001238s ]
+NOTIC: [2] Missing argument 2 for Home\Model\ChooseModel::union(), called in E:\appserv\www\UCS\DXT\Home\Controller\IndexController.class.php on line 15 and defined E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 39 行.
+SQL: SHOW COLUMNS FROM `think_union` [ RunTime:0.029419s ]
+SQL: SHOW COLUMNS FROM `think_base_university` [ RunTime:0.015078s ]
+NOTIC: [8] Undefined variable: Page E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 44 行.
+NOTIC: [8] Trying to get property of non-object E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 44 行.
+NOTIC: [8] Undefined variable: Page E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 44 行.
+NOTIC: [8] Trying to get property of non-object E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 44 行.
+SQL: SELECT * FROM `think_union` WHERE ( `major_id` = 1 ) LIMIT ,   [ RunTime:0.000140s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : SELECT * FROM `think_union` WHERE ( `major_id` = 1 ) LIMIT ,  
+SQL: SELECT * FROM `think_base_university` WHERE ( `id` = null )  [ RunTime:0.000228s ]
+SQL: SHOW COLUMNS FROM `think_choose_univer` [ RunTime:0.001153s ]
+ERR: 1146:Table 'thinkphp.think_choose_univer' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_choose_univer`
+SQL: SELECT * FROM `think_base_university` WHERE ( `provice` = '北京' )  [ RunTime:2.492311s ]
+
+[ 2017-04-16T11:15:08+08:00 ] ::1 /UCS/index.php/Home/Index/chooseUniver.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002964s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003520s ]
+NOTIC: [2048] Declaration of Home\Model\ChooseModel::union() should be compatible with Think\Model::union($union, $all = false) E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 10 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_choose` [ RunTime:0.033255s ]
+ERR: 1146:Table 'thinkphp.think_choose' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_choose`
+SQL: SHOW COLUMNS FROM `think_category` [ RunTime:0.086587s ]
+SQL: SELECT * FROM `think_category` WHERE ( `subject` = '经济学' )  [ RunTime:0.015293s ]
+SQL: SHOW COLUMNS FROM `think_major` [ RunTime:0.025727s ]
+SQL: SELECT * FROM `think_major` WHERE ( `category_id` = 1 )  [ RunTime:0.000845s ]
+NOTIC: [2] Missing argument 2 for Home\Model\ChooseModel::union(), called in E:\appserv\www\UCS\DXT\Home\Controller\IndexController.class.php on line 15 and defined E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 39 行.
+SQL: SHOW COLUMNS FROM `think_union` [ RunTime:0.009419s ]
+SQL: SHOW COLUMNS FROM `think_base_university` [ RunTime:0.005484s ]
+NOTIC: [8] Undefined variable: Page E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 44 行.
+NOTIC: [8] Trying to get property of non-object E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 44 行.
+NOTIC: [8] Undefined variable: Page E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 44 行.
+NOTIC: [8] Trying to get property of non-object E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 44 行.
+SQL: SELECT * FROM `think_union` WHERE ( `major_id` = 1 ) LIMIT ,   [ RunTime:0.000154s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : SELECT * FROM `think_union` WHERE ( `major_id` = 1 ) LIMIT ,  
+SQL: SELECT * FROM `think_base_university` WHERE ( `id` = null )  [ RunTime:0.000386s ]
+SQL: SHOW COLUMNS FROM `think_choose_univer` [ RunTime:0.000475s ]
+ERR: 1146:Table 'thinkphp.think_choose_univer' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_choose_univer`
+SQL: SELECT * FROM `think_base_university` WHERE ( `provice` = '北京' )  [ RunTime:0.869584s ]
+
+[ 2017-04-16T11:15:13+08:00 ] ::1 /UCS/index.php/Home/Index/chooseUniver.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001177s ]
+NOTIC: [2048] Declaration of Home\Model\ChooseModel::union() should be compatible with Think\Model::union($union, $all = false) E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 10 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_choose` [ RunTime:0.410226s ]
+ERR: 1146:Table 'thinkphp.think_choose' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_choose`
+SQL: SHOW COLUMNS FROM `think_category` [ RunTime:0.052784s ]
+SQL: SELECT * FROM `think_category` WHERE ( `subject` = '经济学' )  [ RunTime:0.000368s ]
+SQL: SHOW COLUMNS FROM `think_major` [ RunTime:0.037241s ]
+SQL: SELECT * FROM `think_major` WHERE ( `category_id` = 1 )  [ RunTime:0.010664s ]
+NOTIC: [2] Missing argument 2 for Home\Model\ChooseModel::union(), called in E:\appserv\www\UCS\DXT\Home\Controller\IndexController.class.php on line 15 and defined E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 39 行.
+SQL: SHOW COLUMNS FROM `think_union` [ RunTime:0.000435s ]
+SQL: SHOW COLUMNS FROM `think_base_university` [ RunTime:0.097531s ]
+NOTIC: [8] Undefined variable: Page E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 44 行.
+NOTIC: [8] Trying to get property of non-object E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 44 行.
+NOTIC: [8] Undefined variable: Page E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 44 行.
+NOTIC: [8] Trying to get property of non-object E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 44 行.
+SQL: SELECT * FROM `think_union` WHERE ( `major_id` = 1 ) LIMIT ,   [ RunTime:0.000140s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : SELECT * FROM `think_union` WHERE ( `major_id` = 1 ) LIMIT ,  
+SQL: SELECT * FROM `think_base_university` WHERE ( `id` = null )  [ RunTime:0.054048s ]
+SQL: SHOW COLUMNS FROM `think_choose_univer` [ RunTime:0.000479s ]
+ERR: 1146:Table 'thinkphp.think_choose_univer' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_choose_univer`
+SQL: SELECT * FROM `think_base_university` WHERE ( `provice` = '北京' )  [ RunTime:1.999481s ]
+
+[ 2017-04-16T11:15:18+08:00 ] ::1 /UCS/index.php/Home/Index/chooseUniver.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000614s ]
+NOTIC: [2048] Declaration of Home\Model\ChooseModel::union() should be compatible with Think\Model::union($union, $all = false) E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 10 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_choose` [ RunTime:0.010569s ]
+ERR: 1146:Table 'thinkphp.think_choose' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_choose`
+SQL: SHOW COLUMNS FROM `think_category` [ RunTime:0.061280s ]
+SQL: SELECT * FROM `think_category` WHERE ( `subject` = '经济学' )  [ RunTime:0.014742s ]
+SQL: SHOW COLUMNS FROM `think_major` [ RunTime:0.028715s ]
+SQL: SELECT * FROM `think_major` WHERE ( `category_id` = 1 )  [ RunTime:0.042890s ]
+NOTIC: [2] Missing argument 2 for Home\Model\ChooseModel::union(), called in E:\appserv\www\UCS\DXT\Home\Controller\IndexController.class.php on line 15 and defined E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 39 行.
+SQL: SHOW COLUMNS FROM `think_union` [ RunTime:0.008226s ]
+SQL: SHOW COLUMNS FROM `think_base_university` [ RunTime:0.010668s ]
+NOTIC: [8] Undefined variable: Page E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 44 行.
+NOTIC: [8] Trying to get property of non-object E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 44 行.
+NOTIC: [8] Undefined variable: Page E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 44 行.
+NOTIC: [8] Trying to get property of non-object E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 44 行.
+SQL: SELECT * FROM `think_union` WHERE ( `major_id` = 1 ) LIMIT ,   [ RunTime:0.000142s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : SELECT * FROM `think_union` WHERE ( `major_id` = 1 ) LIMIT ,  
+SQL: SELECT * FROM `think_base_university` WHERE ( `id` = null )  [ RunTime:0.000205s ]
+SQL: SHOW COLUMNS FROM `think_choose_univer` [ RunTime:0.000412s ]
+ERR: 1146:Table 'thinkphp.think_choose_univer' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_choose_univer`
+SQL: SELECT * FROM `think_base_university` WHERE ( `provice` = '海南' )  [ RunTime:0.012773s ]
+
+[ 2017-04-16T11:18:29+08:00 ] ::1 /UCS/index.php/Home/Index/chooseUniver.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000764s ]
+NOTIC: [2048] Declaration of Home\Model\ChooseModel::union() should be compatible with Think\Model::union($union, $all = false) E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 10 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_choose` [ RunTime:0.040632s ]
+ERR: 1146:Table 'thinkphp.think_choose' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_choose`
+SQL: SHOW COLUMNS FROM `think_category` [ RunTime:0.066137s ]
+SQL: SELECT * FROM `think_category` WHERE ( `subject` = '经济学' )  [ RunTime:0.041627s ]
+SQL: SHOW COLUMNS FROM `think_major` [ RunTime:0.021188s ]
+SQL: SELECT * FROM `think_major` WHERE ( `category_id` = 1 )  [ RunTime:0.217821s ]
+NOTIC: [2] Missing argument 2 for Home\Model\ChooseModel::union(), called in E:\appserv\www\UCS\DXT\Home\Controller\IndexController.class.php on line 15 and defined E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 39 行.
+SQL: SHOW COLUMNS FROM `think_union` [ RunTime:0.000491s ]
+SQL: SHOW COLUMNS FROM `think_base_university` [ RunTime:0.039907s ]
+NOTIC: [8] Undefined variable: Page E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 44 行.
+NOTIC: [8] Trying to get property of non-object E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 44 行.
+NOTIC: [8] Undefined variable: Page E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 44 行.
+NOTIC: [8] Trying to get property of non-object E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 44 行.
+SQL: SELECT * FROM `think_union` WHERE ( `major_id` = 1 ) LIMIT ,   [ RunTime:0.000131s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : SELECT * FROM `think_union` WHERE ( `major_id` = 1 ) LIMIT ,  
+SQL: SELECT * FROM `think_base_university` WHERE ( `id` = null )  [ RunTime:0.000201s ]
+SQL: SHOW COLUMNS FROM `think_choose_univer` [ RunTime:0.010875s ]
+ERR: 1146:Table 'thinkphp.think_choose_univer' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_choose_univer`
+SQL: SELECT * FROM `think_base_university` WHERE ( `provice` = '北京' )  [ RunTime:0.337221s ]
+
+[ 2017-04-16T11:18:37+08:00 ] ::1 /UCS/index.php/Home/Index/chooseUniver.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000725s ]
+NOTIC: [2048] Declaration of Home\Model\ChooseModel::union() should be compatible with Think\Model::union($union, $all = false) E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 10 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_choose` [ RunTime:0.000579s ]
+ERR: 1146:Table 'thinkphp.think_choose' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_choose`
+SQL: SHOW COLUMNS FROM `think_category` [ RunTime:0.054383s ]
+SQL: SELECT * FROM `think_category` WHERE ( `subject` = '经济学' )  [ RunTime:0.000492s ]
+SQL: SHOW COLUMNS FROM `think_major` [ RunTime:0.014965s ]
+SQL: SELECT * FROM `think_major` WHERE ( `category_id` = 1 )  [ RunTime:0.027449s ]
+NOTIC: [2] Missing argument 2 for Home\Model\ChooseModel::union(), called in E:\appserv\www\UCS\DXT\Home\Controller\IndexController.class.php on line 15 and defined E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 39 行.
+SQL: SHOW COLUMNS FROM `think_union` [ RunTime:0.010103s ]
+SQL: SHOW COLUMNS FROM `think_base_university` [ RunTime:0.028925s ]
+NOTIC: [8] Undefined variable: Page E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 44 行.
+NOTIC: [8] Trying to get property of non-object E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 44 行.
+NOTIC: [8] Undefined variable: Page E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 44 行.
+NOTIC: [8] Trying to get property of non-object E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 44 行.
+SQL: SELECT * FROM `think_union` WHERE ( `major_id` = 1 ) LIMIT ,   [ RunTime:0.000150s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : SELECT * FROM `think_union` WHERE ( `major_id` = 1 ) LIMIT ,  
+SQL: SELECT * FROM `think_base_university` WHERE ( `id` = null )  [ RunTime:0.011649s ]
+SQL: SHOW COLUMNS FROM `think_choose_univer` [ RunTime:0.000451s ]
+ERR: 1146:Table 'thinkphp.think_choose_univer' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_choose_univer`
+SQL: SELECT * FROM `think_base_university` WHERE ( `provice` = '北京' )  [ RunTime:0.372976s ]
+
+[ 2017-04-16T11:45:24+08:00 ] ::1 /UCS/index.php/Home/Index/chooseUniver.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000650s ]
+NOTIC: [2048] Declaration of Home\Model\ChooseModel::union() should be compatible with Think\Model::union($union, $all = false) E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 10 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_choose` [ RunTime:0.018140s ]
+ERR: 1146:Table 'thinkphp.think_choose' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_choose`
+SQL: SHOW COLUMNS FROM `think_category` [ RunTime:0.000457s ]
+SQL: SELECT * FROM `think_category` WHERE ( `subject` = '经济学' )  [ RunTime:0.000252s ]
+SQL: SHOW COLUMNS FROM `think_major` [ RunTime:0.021112s ]
+SQL: SELECT * FROM `think_major` WHERE ( `category_id` = 1 )  [ RunTime:0.017155s ]
+NOTIC: [2] Missing argument 2 for Home\Model\ChooseModel::union(), called in E:\appserv\www\UCS\DXT\Home\Controller\IndexController.class.php on line 15 and defined E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 39 行.
+SQL: SHOW COLUMNS FROM `think_union` [ RunTime:0.000696s ]
+SQL: SHOW COLUMNS FROM `think_base_university` [ RunTime:0.000751s ]
+NOTIC: [8] Undefined variable: Page E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 44 行.
+NOTIC: [8] Trying to get property of non-object E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 44 行.
+NOTIC: [8] Undefined variable: Page E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 44 行.
+NOTIC: [8] Trying to get property of non-object E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 44 行.
+SQL: SELECT * FROM `think_union` WHERE ( `major_id` = 1 ) LIMIT ,   [ RunTime:0.000126s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : SELECT * FROM `think_union` WHERE ( `major_id` = 1 ) LIMIT ,  
+SQL: SELECT * FROM `think_base_university` WHERE ( `id` = null )  [ RunTime:0.000200s ]
+SQL: SHOW COLUMNS FROM `think_choose_univer` [ RunTime:0.000439s ]
+ERR: 1146:Table 'thinkphp.think_choose_univer' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_choose_univer`
+SQL: SELECT * FROM `think_base_university` WHERE ( `provice` = '北京' )  [ RunTime:0.530328s ]
+
+[ 2017-04-16T11:49:30+08:00 ] ::1 /UCS/index.php/Home/Index/chooseUniver.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000637s ]
+NOTIC: [2048] Declaration of Home\Model\ChooseModel::union() should be compatible with Think\Model::union($union, $all = false) E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 10 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_choose` [ RunTime:0.000575s ]
+ERR: 1146:Table 'thinkphp.think_choose' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_choose`
+SQL: SHOW COLUMNS FROM `think_category` [ RunTime:0.009595s ]
+SQL: SELECT * FROM `think_category` WHERE ( `subject` = '经济学' )  [ RunTime:0.001154s ]
+SQL: SHOW COLUMNS FROM `think_major` [ RunTime:0.001167s ]
+SQL: SELECT * FROM `think_major` WHERE ( `category_id` = 1 )  [ RunTime:0.000698s ]
+NOTIC: [2] Missing argument 2 for Home\Model\ChooseModel::union(), called in E:\appserv\www\UCS\DXT\Home\Controller\IndexController.class.php on line 15 and defined E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 39 行.
+SQL: SHOW COLUMNS FROM `think_union` [ RunTime:0.000369s ]
+SQL: SHOW COLUMNS FROM `think_base_university` [ RunTime:0.000359s ]
+NOTIC: [8] Undefined variable: Page E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 44 行.
+NOTIC: [8] Trying to get property of non-object E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 44 行.
+NOTIC: [8] Undefined variable: Page E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 44 行.
+NOTIC: [8] Trying to get property of non-object E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 44 行.
+SQL: SELECT * FROM `think_union` WHERE ( `major_id` = 1 ) LIMIT ,   [ RunTime:0.000065s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : SELECT * FROM `think_union` WHERE ( `major_id` = 1 ) LIMIT ,  
+SQL: SELECT * FROM `think_base_university` WHERE ( `id` = null )  [ RunTime:0.000123s ]
+SQL: SHOW COLUMNS FROM `think_choose_univer` [ RunTime:0.000355s ]
+ERR: 1146:Table 'thinkphp.think_choose_univer' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_choose_univer`
+SQL: SELECT * FROM `think_base_university` WHERE ( `provice` = '北京' )  [ RunTime:0.302372s ]
+
+[ 2017-04-16T11:51:29+08:00 ] ::1 /UCS/index.php/Home/Index/chooseUniver.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001122s ]
+NOTIC: [2048] Declaration of Home\Model\ChooseModel::union() should be compatible with Think\Model::union($union, $all = false) E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 10 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_choose` [ RunTime:0.000856s ]
+ERR: 1146:Table 'thinkphp.think_choose' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_choose`
+SQL: SHOW COLUMNS FROM `think_category` [ RunTime:0.001331s ]
+SQL: SELECT * FROM `think_category` WHERE ( `subject` = '经济学' )  [ RunTime:0.001244s ]
+SQL: SHOW COLUMNS FROM `think_major` [ RunTime:0.001068s ]
+SQL: SELECT * FROM `think_major` WHERE ( `category_id` = 1 )  [ RunTime:0.001205s ]
+NOTIC: [2] Missing argument 2 for Home\Model\ChooseModel::union(), called in E:\appserv\www\UCS\DXT\Home\Controller\IndexController.class.php on line 15 and defined E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 39 行.
+SQL: SHOW COLUMNS FROM `think_union` [ RunTime:0.001544s ]
+SQL: SHOW COLUMNS FROM `think_base_university` [ RunTime:0.003835s ]
+NOTIC: [8] Undefined variable: Page E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 44 行.
+NOTIC: [8] Trying to get property of non-object E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 44 行.
+NOTIC: [8] Undefined variable: Page E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 44 行.
+NOTIC: [8] Trying to get property of non-object E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 44 行.
+SQL: SELECT * FROM `think_union` WHERE ( `major_id` = 1 ) LIMIT ,   [ RunTime:0.000269s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : SELECT * FROM `think_union` WHERE ( `major_id` = 1 ) LIMIT ,  
+SQL: SELECT * FROM `think_base_university` WHERE ( `id` = null )  [ RunTime:0.000477s ]
+SQL: SHOW COLUMNS FROM `think_choose_univer` [ RunTime:0.000845s ]
+ERR: 1146:Table 'thinkphp.think_choose_univer' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_choose_univer`
+SQL: SELECT * FROM `think_base_university` WHERE ( `provice` = '北京' )  [ RunTime:0.375400s ]
+
+[ 2017-04-16T11:51:36+08:00 ] ::1 /UCS/index.php/Home/Index/chooseUniver.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000989s ]
+NOTIC: [2048] Declaration of Home\Model\ChooseModel::union() should be compatible with Think\Model::union($union, $all = false) E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 10 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_choose` [ RunTime:0.026760s ]
+ERR: 1146:Table 'thinkphp.think_choose' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_choose`
+SQL: SHOW COLUMNS FROM `think_category` [ RunTime:0.000745s ]
+SQL: SELECT * FROM `think_category` WHERE ( `subject` = '经济学' )  [ RunTime:0.019039s ]
+SQL: SHOW COLUMNS FROM `think_major` [ RunTime:0.000574s ]
+SQL: SELECT * FROM `think_major` WHERE ( `category_id` = 1 )  [ RunTime:0.162347s ]
+NOTIC: [2] Missing argument 2 for Home\Model\ChooseModel::union(), called in E:\appserv\www\UCS\DXT\Home\Controller\IndexController.class.php on line 15 and defined E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 39 行.
+SQL: SHOW COLUMNS FROM `think_union` [ RunTime:0.000986s ]
+SQL: SHOW COLUMNS FROM `think_base_university` [ RunTime:0.000449s ]
+NOTIC: [8] Undefined variable: Page E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 44 行.
+NOTIC: [8] Trying to get property of non-object E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 44 行.
+NOTIC: [8] Undefined variable: Page E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 44 行.
+NOTIC: [8] Trying to get property of non-object E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 44 行.
+SQL: SELECT * FROM `think_union` WHERE ( `major_id` = 1 ) LIMIT ,   [ RunTime:0.000103s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : SELECT * FROM `think_union` WHERE ( `major_id` = 1 ) LIMIT ,  
+SQL: SELECT * FROM `think_base_university` WHERE ( `id` = null )  [ RunTime:0.000203s ]
+SQL: SHOW COLUMNS FROM `think_choose_univer` [ RunTime:0.000447s ]
+ERR: 1146:Table 'thinkphp.think_choose_univer' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_choose_univer`
+SQL: SELECT * FROM `think_base_university` WHERE ( `provice` = '湖南' )  [ RunTime:0.212231s ]
+
+[ 2017-04-16T11:51:43+08:00 ] ::1 /UCS/index.php/Home/Index/chooseUniver.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000917s ]
+NOTIC: [2048] Declaration of Home\Model\ChooseModel::union() should be compatible with Think\Model::union($union, $all = false) E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 10 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_choose` [ RunTime:0.026923s ]
+ERR: 1146:Table 'thinkphp.think_choose' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_choose`
+SQL: SHOW COLUMNS FROM `think_category` [ RunTime:0.000560s ]
+SQL: SELECT * FROM `think_category` WHERE ( `subject` = '经济学' )  [ RunTime:0.018320s ]
+SQL: SHOW COLUMNS FROM `think_major` [ RunTime:0.000801s ]
+SQL: SELECT * FROM `think_major` WHERE ( `category_id` = 1 )  [ RunTime:0.204932s ]
+NOTIC: [2] Missing argument 2 for Home\Model\ChooseModel::union(), called in E:\appserv\www\UCS\DXT\Home\Controller\IndexController.class.php on line 15 and defined E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 39 行.
+SQL: SHOW COLUMNS FROM `think_union` [ RunTime:0.000603s ]
+SQL: SHOW COLUMNS FROM `think_base_university` [ RunTime:0.000546s ]
+NOTIC: [8] Undefined variable: Page E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 44 行.
+NOTIC: [8] Trying to get property of non-object E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 44 行.
+NOTIC: [8] Undefined variable: Page E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 44 行.
+NOTIC: [8] Trying to get property of non-object E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 44 行.
+SQL: SELECT * FROM `think_union` WHERE ( `major_id` = 1 ) LIMIT ,   [ RunTime:0.000131s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : SELECT * FROM `think_union` WHERE ( `major_id` = 1 ) LIMIT ,  
+SQL: SELECT * FROM `think_base_university` WHERE ( `id` = null )  [ RunTime:0.000221s ]
+SQL: SHOW COLUMNS FROM `think_choose_univer` [ RunTime:0.017500s ]
+ERR: 1146:Table 'thinkphp.think_choose_univer' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_choose_univer`
+SQL: SELECT * FROM `think_base_university` WHERE ( `provice` = '西藏' )  [ RunTime:0.246651s ]
+
+[ 2017-04-16T11:51:47+08:00 ] ::1 /UCS/index.php/Home/Index/chooseUniver.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000888s ]
+NOTIC: [2048] Declaration of Home\Model\ChooseModel::union() should be compatible with Think\Model::union($union, $all = false) E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 10 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_choose` [ RunTime:0.035744s ]
+ERR: 1146:Table 'thinkphp.think_choose' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_choose`
+SQL: SHOW COLUMNS FROM `think_category` [ RunTime:0.072701s ]
+SQL: SELECT * FROM `think_category` WHERE ( `subject` = '经济学' )  [ RunTime:0.089475s ]
+SQL: SHOW COLUMNS FROM `think_major` [ RunTime:0.045613s ]
+SQL: SELECT * FROM `think_major` WHERE ( `category_id` = 1 )  [ RunTime:0.173452s ]
+NOTIC: [2] Missing argument 2 for Home\Model\ChooseModel::union(), called in E:\appserv\www\UCS\DXT\Home\Controller\IndexController.class.php on line 15 and defined E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 39 行.
+SQL: SHOW COLUMNS FROM `think_union` [ RunTime:0.023837s ]
+SQL: SHOW COLUMNS FROM `think_base_university` [ RunTime:0.000480s ]
+NOTIC: [8] Undefined variable: Page E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 44 行.
+NOTIC: [8] Trying to get property of non-object E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 44 行.
+NOTIC: [8] Undefined variable: Page E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 44 行.
+NOTIC: [8] Trying to get property of non-object E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 44 行.
+SQL: SELECT * FROM `think_union` WHERE ( `major_id` = 1 ) LIMIT ,   [ RunTime:0.000301s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : SELECT * FROM `think_union` WHERE ( `major_id` = 1 ) LIMIT ,  
+SQL: SELECT * FROM `think_base_university` WHERE ( `id` = null )  [ RunTime:0.000317s ]
+SQL: SHOW COLUMNS FROM `think_choose_univer` [ RunTime:0.000764s ]
+ERR: 1146:Table 'thinkphp.think_choose_univer' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_choose_univer`
+SQL: SELECT * FROM `think_base_university` WHERE ( `provice` = '陕西' )  [ RunTime:0.356691s ]
+
+[ 2017-04-16T11:51:55+08:00 ] ::1 /UCS/index.php/Home/Index/chooseUniver.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000598s ]
+NOTIC: [2048] Declaration of Home\Model\ChooseModel::union() should be compatible with Think\Model::union($union, $all = false) E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 10 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_choose` [ RunTime:0.017779s ]
+ERR: 1146:Table 'thinkphp.think_choose' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_choose`
+SQL: SHOW COLUMNS FROM `think_category` [ RunTime:0.001164s ]
+SQL: SELECT * FROM `think_category` WHERE ( `subject` = '经济学' )  [ RunTime:0.000440s ]
+SQL: SHOW COLUMNS FROM `think_major` [ RunTime:0.000807s ]
+SQL: SELECT * FROM `think_major` WHERE ( `category_id` = 1 )  [ RunTime:0.001257s ]
+NOTIC: [2] Missing argument 2 for Home\Model\ChooseModel::union(), called in E:\appserv\www\UCS\DXT\Home\Controller\IndexController.class.php on line 15 and defined E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 39 行.
+SQL: SHOW COLUMNS FROM `think_union` [ RunTime:0.000526s ]
+SQL: SHOW COLUMNS FROM `think_base_university` [ RunTime:0.000437s ]
+NOTIC: [8] Undefined variable: Page E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 44 行.
+NOTIC: [8] Trying to get property of non-object E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 44 行.
+NOTIC: [8] Undefined variable: Page E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 44 行.
+NOTIC: [8] Trying to get property of non-object E:\appserv\www\UCS\DXT\Home\Model\ChooseModel.class.php 第 44 行.
+SQL: SELECT * FROM `think_union` WHERE ( `major_id` = 1 ) LIMIT ,   [ RunTime:0.000209s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : SELECT * FROM `think_union` WHERE ( `major_id` = 1 ) LIMIT ,  
+SQL: SELECT * FROM `think_base_university` WHERE ( `id` = null )  [ RunTime:0.000742s ]
+SQL: SHOW COLUMNS FROM `think_choose_univer` [ RunTime:0.001185s ]
+ERR: 1146:Table 'thinkphp.think_choose_univer' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_choose_univer`
+SQL: SELECT * FROM `think_base_university` WHERE ( `provice` = '河南' )  [ RunTime:0.015619s ]
+
+[ 2017-04-16T14:20:03+08:00 ] ::1 /UCS/index.php/Admin/Index/main.html
+ERR: 非法操作:main
+
+[ 2017-04-16T14:23:10+08:00 ] ::1 /UCS/index.php/Admin/Index/main.html
+ERR: 非法操作:main
+
+[ 2017-04-16T14:23:12+08:00 ] ::1 /UCS/index.php/Admin/Index/main.html
+ERR: 非法操作:main
+
+[ 2017-04-16T14:23:51+08:00 ] ::1 /UCS/index.php/Admin/Index/main.html
+ERR: 非法操作:main
+
+[ 2017-04-16T16:06:19+08:00 ] ::1 /UCS/index.php/Admin/Index/userAdmin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.016706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017244s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.009949s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.000596s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.000211s ]
+SQL: SELECT * FROM `think_user` ORDER BY regtime desc LIMIT 0,10   [ RunTime:0.000447s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.145535s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.145586s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000232s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000711s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000824s ]
+NOTIC: [8] Constant APP_DEBUG already defined E:\appserv\www\UCS\index.php 第 27 行.
+
+[ 2017-04-16T16:07:12+08:00 ] ::1 /UCS/index.php/Admin/Ajax/seaUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000566s ]
+ERR: 无法加载控制器:Ajax
+
+[ 2017-04-16T16:08:01+08:00 ] ::1 /UCS/index.php/Admin/Ajax/seaUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000563s ]
+ERR: 无法加载控制器:Ajax
+
+[ 2017-04-16T16:09:53+08:00 ] ::1 /UCS/index.php/Admin/Ajax/seaUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000588s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.000552s ]
+SQL: SELECT * FROM `think_user`  [ RunTime:0.119578s ]
+
+[ 2017-04-16T16:10:21+08:00 ] ::1 /UCS/index.php/Admin/Ajax/seaUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000929s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.000701s ]
+SQL: SELECT * FROM `think_user`  [ RunTime:0.008241s ]
+
+[ 2017-04-16T16:10:25+08:00 ] ::1 /UCS/index.php/Admin/Ajax/seaUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000549s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000997s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.000519s ]
+SQL: SELECT * FROM `think_user`  [ RunTime:0.028391s ]
+
+[ 2017-04-16T16:10:36+08:00 ] ::1 /UCS/index.php/Admin/Ajax/seaUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000833s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.000520s ]
+SQL: SELECT * FROM `think_user`  [ RunTime:0.035117s ]
+
+[ 2017-04-16T16:11:17+08:00 ] ::1 /UCS/index.php/Admin/Ajax/seaUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000533s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000818s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.000496s ]
+SQL: SELECT * FROM `think_user` WHERE ( `Name` = '' )  [ RunTime:0.307065s ]
+
+[ 2017-04-16T16:11:22+08:00 ] ::1 /UCS/index.php/Admin/Ajax/seaUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000834s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.000639s ]
+SQL: SELECT * FROM `think_user` WHERE ( `Name` = '' )  [ RunTime:0.000341s ]
+
+[ 2017-04-16T16:11:36+08:00 ] ::1 /UCS/index.php/Admin/Ajax/seaUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000736s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.017305s ]
+SQL: SELECT * FROM `think_user` WHERE ( `Name` = '' )  [ RunTime:0.000380s ]
+
+[ 2017-04-16T16:11:57+08:00 ] ::1 /UCS/index.php/Admin/Ajax/seaUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000783s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.000520s ]
+SQL: SELECT * FROM `think_user` WHERE ( `Name` = '' )  [ RunTime:0.000353s ]
+
+[ 2017-04-16T16:12:03+08:00 ] ::1 /UCS/index.php/Admin/Ajax/seaUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.001016s ]
+SQL: SELECT * FROM `think_user` WHERE ( `Name` = '' )  [ RunTime:0.000402s ]
+
+[ 2017-04-16T16:13:23+08:00 ] ::1 /UCS/index.php/Admin/Ajax/seaUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000490s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001011s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.001098s ]
+SQL: SELECT * FROM `think_user` WHERE ( `Name` = '' )  [ RunTime:0.007969s ]
+
+[ 2017-04-16T16:13:47+08:00 ] ::1 /UCS/index.php/Admin/Ajax/seaUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000825s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001626s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.000589s ]
+SQL: SELECT * FROM `think_user` WHERE ( `Name` = '' )  [ RunTime:0.000355s ]
+
+[ 2017-04-16T16:15:27+08:00 ] ::1 /UCS/index.php/Admin/Ajax/seaUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000885s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.000577s ]
+SQL: SELECT * FROM `think_user` WHERE ( `Name` = '' )  [ RunTime:0.000306s ]
+
+[ 2017-04-16T16:15:45+08:00 ] ::1 /UCS/index.php/Admin/Ajax/seaUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000801s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001283s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.000904s ]
+SQL: SELECT * FROM `think_user` WHERE ( `Name` = '' )  [ RunTime:0.051248s ]
+
+[ 2017-04-16T16:16:00+08:00 ] ::1 /UCS/index.php/Admin/Ajax/seaUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001008s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.000537s ]
+SQL: SELECT * FROM `think_user` WHERE ( `Name` = '' )  [ RunTime:0.000617s ]
+
+[ 2017-04-16T16:16:26+08:00 ] ::1 /UCS/index.php/Admin/Ajax/seaUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001196s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.000514s ]
+SQL: SELECT * FROM `think_user` WHERE ( `Name` = '' )  [ RunTime:0.017245s ]
+
+[ 2017-04-16T16:17:53+08:00 ] ::1 /UCS/index.php/Admin/Ajax/seaUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000886s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.005735s ]
+SQL: SELECT * FROM `think_user` WHERE ( `Name` = '' )  [ RunTime:0.000337s ]
+
+[ 2017-04-16T16:18:37+08:00 ] ::1 /UCS/index.php/Admin/Ajax/seaUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000631s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.000504s ]
+SQL: SELECT * FROM `think_user` WHERE ( `Name` = '' )  [ RunTime:0.000284s ]
+
+[ 2017-04-16T16:18:58+08:00 ] ::1 /UCS/index.php/Admin/Ajax/seaUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000875s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001407s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.060578s ]
+SQL: SELECT * FROM `think_user` WHERE ( `Name` = '' )  [ RunTime:0.000338s ]
+
+[ 2017-04-16T16:19:13+08:00 ] ::1 /UCS/index.php/Admin/Ajax/seaUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000931s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.000510s ]
+SQL: SELECT * FROM `think_user` WHERE ( `Name` = '' )  [ RunTime:0.000264s ]
+
+[ 2017-04-16T16:19:48+08:00 ] ::1 /UCS/index.php/Admin/Ajax/seaUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000629s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001191s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.000765s ]
+SQL: SELECT * FROM `think_user` WHERE ( `Name` = '' )  [ RunTime:0.000480s ]
+
+[ 2017-04-16T16:20:14+08:00 ] ::1 /UCS/index.php/Admin/Ajax/seaUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000550s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.000533s ]
+SQL: SELECT * FROM `think_user` WHERE ( `Name` = '' )  [ RunTime:0.000296s ]
+
+[ 2017-04-16T16:21:06+08:00 ] ::1 /UCS/index.php/Admin/Ajax/seaUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000633s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001249s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.000528s ]
+SQL: SELECT * FROM `think_user` WHERE ( `Name` = '' )  [ RunTime:0.000274s ]
+
+[ 2017-04-16T16:21:47+08:00 ] ::1 /UCS/index.php/Admin/Ajax/seaUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000901s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.000557s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 1 )  [ RunTime:0.212863s ]
+
+[ 2017-04-16T16:22:11+08:00 ] ::1 /UCS/index.php/Admin/Ajax/seaUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001570s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.000778s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 1 )  [ RunTime:0.000437s ]
+
+[ 2017-04-16T16:27:02+08:00 ] ::1 /UCS/index.php/Admin/Ajax/seaUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000578s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001230s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.000529s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 1 )  [ RunTime:0.006841s ]
+
+[ 2017-04-16T16:27:54+08:00 ] ::1 /UCS/index.php/Admin/Ajax/seaUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001155s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.001111s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 1 )  [ RunTime:0.000246s ]
+
+[ 2017-04-16T16:30:37+08:00 ] ::1 /UCS/index.php/Admin/Ajax/seaUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000915s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.001298s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 2 )  [ RunTime:0.000340s ]
+
+[ 2017-04-16T16:45:24+08:00 ] ::1 /UCS/index.php/Admin/Ajax/seaUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000609s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000995s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.000548s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 1 )  [ RunTime:0.000268s ]
+
+[ 2017-04-16T16:50:18+08:00 ] ::1 /UCS/index.php/Admin/Ajax/seaUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000952s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.000552s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 1 )  [ RunTime:0.124157s ]
+
+[ 2017-04-16T16:51:58+08:00 ] ::1 /UCS/index.php/Admin/Ajax/seaUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001071s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.000593s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 1 )  [ RunTime:0.000263s ]
+
+[ 2017-04-16T18:57:04+08:00 ] ::1 /UCS/index.php/Admin/Ajax/seaUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000803s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.041358s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 2 )  [ RunTime:0.000258s ]
+
+[ 2017-04-16T18:57:15+08:00 ] ::1 /UCS/index.php/Admin/Ajax/seaUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000770s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.000569s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 33 )  [ RunTime:0.000243s ]
+
+[ 2017-04-16T18:57:31+08:00 ] ::1 /UCS/index.php/Admin/Ajax/seaUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000851s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.000459s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 58 )  [ RunTime:0.000192s ]
+
+[ 2017-04-16T18:57:35+08:00 ] ::1 /UCS/index.php/Admin/Ajax/seaUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000764s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.000514s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 89 )  [ RunTime:0.000245s ]
+
+[ 2017-04-16T18:57:42+08:00 ] ::1 /UCS/index.php/Admin/Ajax/seaUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000807s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.000496s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 22 )  [ RunTime:0.000236s ]
+
+[ 2017-04-16T18:57:44+08:00 ] ::1 /UCS/index.php/Admin/Ajax/seaUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000807s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.000530s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 22 )  [ RunTime:0.000237s ]
+
+[ 2017-04-16T18:57:46+08:00 ] ::1 /UCS/index.php/Admin/Ajax/seaUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000771s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.000642s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 22 )  [ RunTime:0.000387s ]
+
+[ 2017-04-16T18:57:47+08:00 ] ::1 /UCS/index.php/Admin/Ajax/seaUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000793s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.095645s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 22 )  [ RunTime:0.000240s ]
+
+[ 2017-04-16T18:57:53+08:00 ] ::1 /UCS/index.php/Admin/Ajax/seaUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000816s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.000499s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 23 )  [ RunTime:0.000245s ]
+
+[ 2017-04-16T18:58:01+08:00 ] ::1 /UCS/index.php/Admin/Ajax/seaUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000785s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.000513s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 25 )  [ RunTime:0.000256s ]
+
+[ 2017-04-16T19:02:56+08:00 ] ::1 /UCS/index.php/Admin/Ajax/seaUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000782s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.000557s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 2 )  [ RunTime:0.000251s ]
+
+[ 2017-04-16T19:03:00+08:00 ] ::1 /UCS/index.php/Admin/Ajax/seaUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000800s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.000525s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 22 )  [ RunTime:0.000231s ]
+
+[ 2017-04-16T19:03:48+08:00 ] ::1 /UCS/index.php/Admin/Ajax/seaUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000595s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.000587s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 22 )  [ RunTime:0.000237s ]
+
+[ 2017-04-16T19:04:01+08:00 ] ::1 /UCS/index.php/Admin/Ajax/seaUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000800s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.000499s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 22 )  [ RunTime:0.000234s ]
+
+[ 2017-04-16T19:04:06+08:00 ] ::1 /UCS/index.php/Admin/Ajax/seaUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000875s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.000514s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 11 )  [ RunTime:0.000242s ]
+
+[ 2017-04-16T19:05:15+08:00 ] ::1 /UCS/index.php/Admin/Ajax/seaUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000524s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000803s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.000629s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 22 )  [ RunTime:0.000243s ]
+
+[ 2017-04-16T19:05:18+08:00 ] ::1 /UCS/index.php/Admin/Ajax/seaUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000801s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.000515s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 1 )  [ RunTime:0.000263s ]
+
+[ 2017-04-16T19:05:34+08:00 ] ::1 /UCS/index.php/Admin/Ajax/seaUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000814s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.000497s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 1 )  [ RunTime:0.000243s ]
+
+[ 2017-04-16T19:05:51+08:00 ] ::1 /UCS/index.php/Admin/Ajax/seaUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000564s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000890s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.000503s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 2 )  [ RunTime:0.000244s ]
+
+[ 2017-04-16T19:06:23+08:00 ] ::1 /UCS/index.php/Admin/Ajax/seaUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000804s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.000546s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 1 )  [ RunTime:0.000261s ]
+
+[ 2017-04-16T19:06:52+08:00 ] ::1 /UCS/index.php/Admin/Ajax/seaUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000592s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.000550s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 12 )  [ RunTime:0.000247s ]
+
+[ 2017-04-16T19:07:17+08:00 ] ::1 /UCS/index.php/Admin/Ajax/seaUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000561s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.000539s ]
+SQL: SELECT * FROM `think_user` WHERE ( `Name` = 'dddd' )  [ RunTime:0.000334s ]
+
+[ 2017-04-16T19:07:30+08:00 ] ::1 /UCS/index.php/Admin/Ajax/seaUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000797s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.000499s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 111 )  [ RunTime:0.000237s ]
+
+[ 2017-04-16T19:07:35+08:00 ] ::1 /UCS/index.php/Admin/Ajax/seaUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000567s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.000524s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 95 )  [ RunTime:0.000266s ]
+
+[ 2017-04-16T19:20:46+08:00 ] ::1 /UCS/index.php/Admin/Ajax/seaUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000582s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.000566s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 1 )  [ RunTime:0.000265s ]
+
+[ 2017-04-16T19:28:09+08:00 ] ::1 /UCS/index.php/Admin/Ajax/seaUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000595s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.027186s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 23 )  [ RunTime:0.000255s ]
+
+[ 2017-04-16T19:28:38+08:00 ] ::1 /UCS/index.php/Admin/Ajax/seaUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000569s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.000535s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 111 )  [ RunTime:0.000240s ]
+
+[ 2017-04-16T19:29:00+08:00 ] ::1 /UCS/index.php/Admin/Ajax/seaUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001043s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.000681s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 1 )  [ RunTime:0.000484s ]
+
+[ 2017-04-16T19:30:33+08:00 ] ::1 /UCS/index.php/Admin/Ajax/seaUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000575s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.000537s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 12 )  [ RunTime:0.000256s ]
+
+[ 2017-04-16T19:32:00+08:00 ] ::1 /UCS/index.php/Admin/Ajax/seaUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000629s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001172s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.000705s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 12 )  [ RunTime:0.000320s ]
+
+[ 2017-04-16T19:33:09+08:00 ] ::1 /UCS/index.php/Admin/Ajax/seaUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000940s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.000936s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 12 )  [ RunTime:0.000562s ]
+
+[ 2017-04-16T19:33:19+08:00 ] ::1 /UCS/index.php/Admin/Ajax/seaUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000845s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.000942s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 12 )  [ RunTime:0.000437s ]
+
+[ 2017-04-16T19:34:10+08:00 ] ::1 /UCS/index.php/Admin/Ajax/seaUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000921s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001438s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.000492s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 12 )  [ RunTime:0.026939s ]
+
+[ 2017-04-16T19:34:14+08:00 ] ::1 /UCS/index.php/Admin/Ajax/seaUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000570s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.000532s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 12 )  [ RunTime:0.000257s ]
+
+[ 2017-04-16T19:34:26+08:00 ] ::1 /UCS/index.php/Admin/Ajax/seaUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000563s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.000740s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 12 )  [ RunTime:0.000480s ]
+
+[ 2017-04-16T19:35:32+08:00 ] ::1 /UCS/index.php/Admin/Ajax/seaUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000575s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.000644s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 14 )  [ RunTime:0.000271s ]
+
+[ 2017-04-16T19:41:14+08:00 ] ::1 /UCS/index.php/Admin/Ajax/seaUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000832s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.000584s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 12 )  [ RunTime:0.000255s ]
+
+[ 2017-04-16T21:58:06+08:00 ] ::1 /UCS/index.php/Admin/Index/universityadmin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000943s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_admin_univer` [ RunTime:0.000427s ]
+ERR: 1146:Table 'thinkphp.think_admin_univer' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_admin_univer`
+SQL: SHOW COLUMNS FROM `think_base_university` [ RunTime:0.000384s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_base_university` LIMIT 1   [ RunTime:0.000393s ]
+SQL: SELECT * FROM `think_base_university` LIMIT 0,10   [ RunTime:0.000351s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.007975s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008043s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000407s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000444s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000683s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000736s ]
+NOTIC: [8] Constant APP_DEBUG already defined E:\appserv\www\UCS\index.php 第 27 行.
+
+[ 2017-04-16T22:36:10+08:00 ] ::1 /UCS/index.php/Admin/Ajax/seaUniv.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000529s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000823s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_base_university` [ RunTime:0.000509s ]
+SQL: SELECT * FROM `think_base_university` WHERE ( `id` = 1 )  [ RunTime:0.232739s ]
+
+[ 2017-04-16T22:37:35+08:00 ] ::1 /UCS/index.php/Admin/Ajax/seaUniv.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000836s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_base_university` [ RunTime:0.000528s ]
+SQL: SELECT * FROM `think_base_university` WHERE ( `id` = 1 )  [ RunTime:0.000257s ]
+
+[ 2017-04-16T22:38:42+08:00 ] ::1 /UCS/index.php/Admin/Ajax/seaUniv.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000809s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_base_university` [ RunTime:0.000818s ]
+SQL: SELECT * FROM `think_base_university` WHERE ( `id` = 2 )  [ RunTime:0.047292s ]
+
+[ 2017-04-16T22:39:45+08:00 ] ::1 /UCS/index.php/Admin/Ajax/seaUniv.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002784s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_base_university` [ RunTime:0.000720s ]
+SQL: SELECT * FROM `think_base_university` WHERE ( `id` = 2 )  [ RunTime:0.025513s ]
+
+[ 2017-04-16T22:40:33+08:00 ] ::1 /UCS/index.php/Admin/Ajax/seaUniv.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001228s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_base_university` [ RunTime:0.000799s ]
+SQL: SELECT * FROM `think_base_university` WHERE ( `id` = 3 )  [ RunTime:0.000359s ]
+
+[ 2017-04-16T22:40:51+08:00 ] ::1 /UCS/index.php/Admin/Ajax/seaUniv.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000524s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000827s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_base_university` [ RunTime:0.000543s ]
+SQL: SELECT * FROM `think_base_university` WHERE ( `id` = 12 )  [ RunTime:0.000270s ]
+
+[ 2017-04-16T22:40:54+08:00 ] ::1 /UCS/index.php/Admin/Ajax/seaUniv.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000847s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_base_university` [ RunTime:0.000522s ]
+SQL: SELECT * FROM `think_base_university` WHERE ( `id` = 17 )  [ RunTime:0.000272s ]
+
+[ 2017-04-16T22:40:58+08:00 ] ::1 /UCS/index.php/Admin/Ajax/seaUniv.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000875s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001273s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_base_university` [ RunTime:0.000568s ]
+SQL: SELECT * FROM `think_base_university` WHERE ( `id` = 33 )  [ RunTime:0.042025s ]
+
+[ 2017-04-16T22:43:17+08:00 ] ::1 /UCS/index.php/Admin/Ajax/seaUniv.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001278s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_base_university` [ RunTime:0.000555s ]
+SQL: SELECT * FROM `think_base_university` WHERE ( `id` = 33 )  [ RunTime:0.000283s ]
+
+[ 2017-04-16T22:44:02+08:00 ] ::1 /UCS/index.php/Admin/Ajax/seaUniv.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000733s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001112s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_base_university` [ RunTime:0.000516s ]
+SQL: SELECT * FROM `think_base_university` WHERE ( `id` = 55 )  [ RunTime:0.000274s ]
+
+[ 2017-04-16T22:44:08+08:00 ] ::1 /UCS/index.php/Admin/Ajax/seaUniv.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000780s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_base_university` [ RunTime:0.000510s ]
+SQL: SELECT * FROM `think_base_university` WHERE ( `id` = 700 )  [ RunTime:0.000261s ]
+
+[ 2017-04-16T22:44:14+08:00 ] ::1 /UCS/index.php/Admin/Ajax/seaUniv.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000791s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_base_university` [ RunTime:0.000508s ]
+SQL: SELECT * FROM `think_base_university` WHERE ( `id` = 55 )  [ RunTime:0.000298s ]
+
+[ 2017-04-16T22:44:17+08:00 ] ::1 /UCS/index.php/Admin/Ajax/seaUniv.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000857s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_base_university` [ RunTime:0.000571s ]
+SQL: SELECT * FROM `think_base_university` WHERE ( `id` = 66 )  [ RunTime:0.000281s ]
+
+[ 2017-04-16T22:44:20+08:00 ] ::1 /UCS/index.php/Admin/Ajax/seaUniv.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000954s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_base_university` [ RunTime:0.000527s ]
+SQL: SELECT * FROM `think_base_university` WHERE ( `id` = 111 )  [ RunTime:0.000281s ]
+
+[ 2017-04-16T22:44:22+08:00 ] ::1 /UCS/index.php/Admin/Ajax/seaUniv.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000644s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000997s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_base_university` [ RunTime:0.000519s ]
+SQL: SELECT * FROM `think_base_university` WHERE ( `id` = 22 )  [ RunTime:0.011984s ]
+
+[ 2017-04-16T22:44:34+08:00 ] ::1 /UCS/index.php/Admin/Ajax/seaUniv.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000829s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_base_university` [ RunTime:0.000829s ]
+SQL: SELECT * FROM `think_base_university` WHERE ( `name` = '中国人民大学' )  [ RunTime:0.101366s ]
+
+[ 2017-04-16T22:51:41+08:00 ] ::1 /UCS/index.php/Admin/Ajax/seaUniv.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000774s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_base_university` [ RunTime:0.000532s ]
+SQL: SELECT * FROM `think_base_university` WHERE ( `name` = '顶顶顶' )  [ RunTime:0.124461s ]
+
+[ 2017-04-16T22:56:41+08:00 ] ::1 /UCS/index.php/Admin/Ajax/seaUniv.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000548s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000819s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_base_university` [ RunTime:0.000617s ]
+SQL: SELECT * FROM `think_base_university` WHERE ( `id` = 10 )  [ RunTime:0.000294s ]
+
+[ 2017-04-16T22:56:59+08:00 ] ::1 /UCS/index.php/Admin/Ajax/seaUniv.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000802s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_base_university` [ RunTime:0.000553s ]
+SQL: SELECT * FROM `think_base_university` WHERE ( `name` = '解放军信息工程大学' )  [ RunTime:0.000278s ]
+
+[ 2017-04-16T23:15:37+08:00 ] ::1 /UCS/index.php/Admin/Ajax/seaUniv.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000820s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_base_university` [ RunTime:0.000647s ]
+SQL: SELECT * FROM `think_base_university` WHERE ( `name` = '顶顶顶' )  [ RunTime:0.000249s ]
+
+[ 2017-04-16T23:15:40+08:00 ] ::1 /UCS/index.php/Admin/Ajax/seaUniv.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000894s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_base_university` [ RunTime:0.000576s ]
+SQL: SELECT * FROM `think_base_university` WHERE ( `name` = '啊啊啊' )  [ RunTime:0.000321s ]
+
+[ 2017-04-16T23:19:14+08:00 ] ::1 /UCS/index.php/Admin/Ajax/seaUniv.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000832s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_base_university` [ RunTime:0.000496s ]
+SQL: SELECT * FROM `think_base_university` WHERE ( `id` = 79 )  [ RunTime:0.000283s ]
+
+[ 2017-04-16T23:19:40+08:00 ] ::1 /UCS/index.php/Admin/Ajax/seaUniv.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000793s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_base_university` [ RunTime:0.000531s ]
+SQL: SELECT * FROM `think_base_university` WHERE ( `name` = '北京化工大学' )  [ RunTime:0.000291s ]
+
+[ 2017-04-16T23:19:55+08:00 ] ::1 /UCS/index.php/Admin/Ajax/seaUniv.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000800s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_base_university` [ RunTime:0.000512s ]
+SQL: SELECT * FROM `think_base_university` WHERE ( `name` = '上海大学' )  [ RunTime:0.000294s ]
+
+[ 2017-04-16T23:20:54+08:00 ] ::1 /UCS/index.php/Admin/Ajax/seaUniv.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000791s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_base_university` [ RunTime:0.000502s ]
+SQL: SELECT * FROM `think_base_university` WHERE ( `name` = '解放军信息工程大学' )  [ RunTime:0.049138s ]
+
+[ 2017-04-16T23:21:58+08:00 ] ::1 /UCS/index.php/Admin/Ajax/seaUniv.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000641s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_base_university` [ RunTime:0.000551s ]
+SQL: SELECT * FROM `think_base_university` WHERE ( `id` = 17 )  [ RunTime:0.000269s ]
+
+[ 2017-04-16T23:22:47+08:00 ] ::1 /UCS/index.php/Admin/Ajax/seaUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000798s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.000496s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 23 )  [ RunTime:0.000300s ]
+
+[ 2017-04-16T23:39:55+08:00 ] ::1 /UCS/index.php/Admin/Ajax/seaUniv.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001083s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001635s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_base_university` [ RunTime:0.000864s ]
+SQL: SELECT * FROM `think_base_university` WHERE ( `name` = '解放军信息工程大学' )  [ RunTime:0.064569s ]
+
+[ 2017-04-16T23:41:34+08:00 ] ::1 /UCS/index.php/Admin/Ajax/seaUniv.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001636s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_base_university` [ RunTime:0.000880s ]
+SQL: SELECT * FROM `think_base_university` WHERE ( `name` = '解放军信息工程大学' )  [ RunTime:0.023641s ]
+
+[ 2017-04-16T23:45:11+08:00 ] ::1 /UCS/index.php/Admin/Ajax/seaUniv.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000644s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001307s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_base_university` [ RunTime:0.000878s ]
+SQL: SELECT * FROM `think_base_university` WHERE ( `id` = 56 )  [ RunTime:0.000453s ]
+
+[ 2017-04-16T23:45:32+08:00 ] ::1 /UCS/index.php/Admin/Ajax/seaUniv.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001589s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_base_university` [ RunTime:0.000858s ]
+SQL: SELECT * FROM `think_base_university` WHERE ( `id` = 56 )  [ RunTime:0.000433s ]
+
+[ 2017-04-16T23:48:22+08:00 ] ::1 /UCS/index.php/Admin/Ajax/seaUniv.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001609s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_base_university` [ RunTime:0.020645s ]
+SQL: SELECT * FROM `think_base_university` WHERE ( `id` = 10 )  [ RunTime:0.025772s ]
+
+[ 2017-04-16T23:51:53+08:00 ] ::1 /UCS/index.php/Admin/Ajax/seaUniv.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002418s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_base_university` [ RunTime:0.000964s ]
+SQL: SELECT * FROM `think_base_university` WHERE ( `id` = 56 )  [ RunTime:0.000469s ]
+
+[ 2017-04-16T23:51:58+08:00 ] ::1 /UCS/index.php/Admin/Ajax/seaUniv.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001194s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001757s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_base_university` [ RunTime:0.000853s ]
+SQL: SELECT * FROM `think_base_university` WHERE ( `id` = 10 )  [ RunTime:0.000431s ]
+
+[ 2017-04-16T23:53:14+08:00 ] ::1 /UCS/index.php/Admin/Ajax/seaUniv.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001663s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_base_university` [ RunTime:0.001152s ]
+SQL: SELECT * FROM `think_base_university` WHERE ( `id` = 10 )  [ RunTime:0.000445s ]
+

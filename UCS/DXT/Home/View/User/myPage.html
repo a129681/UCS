@@ -1,0 +1,160 @@
+<extend name="Public/secBase"/>
+<block name="link">
+	<script src="__PUBLIC__/js/jquery.min.js"></script>
+	<script src="__PUBLIC__/js/myPage.js"></script>
+	<style>
+		.myPage-counsel h3{
+			text-align: center;
+		}
+
+		.myPage-counsel li{
+			border:1px solid #95a1c6;
+		}
+
+		.myPage-counsel li .left{
+			display:inline-block;
+			width:300px;
+		}
+		.myPage-counsel li .right{
+			display:inline-block;
+			line-height: 110px;
+		}
+
+		.myPage-counsel li .right a{
+			color:#7180b3;
+		}
+
+		.myPage-mainCont{
+			margin-top:20px;
+		}
+	</style>
+</block>
+<block name="main">
+	<div class="MyPage-body web-WidMar">
+		<div class="MyPage-bodyTop web-bodyTop">
+			<div class="breadCrumb">您的位置 > <a href="<{:U('Home/Index/index')}>">首页</a> > <a href="#">我的主页</a>
+			</div>
+			<div class="sweet-tip">距离考试结束还有<span>3</span>天</div>
+		</div>
+		<div class="person-bg-pic">
+			<img src="__PUBLIC__/img/myPage/person_bg.jpg" alt="person-bg"/>
+			<div class="myPage-headPic">
+				<img src="<{$myData[0].headface}>" alt="myhead-bg" style="width:100px;height:100px;border-radius:50px;"/>
+			</div>
+		</div>
+		<div class="myPage-mainCont clear">
+			<div class="myPage-leftsidebar">
+
+				<ul>
+					<li><a href="#">我的资料</a></li>
+					<li><a href="#">我的回复</a></li>
+					<li><a href="#">我的关注</a></li>
+					<li><a href="#">我的收藏</a></li>
+					<li><a href="#">询问老师</a></li>
+					<!--<li><a href="#">我的钱包</a></li>-->
+				</ul>
+			</div>
+			<div class="myPage-rightCont">
+				<div class="myPage-data" >
+					<a href="#" class="edit-data">编辑资料</a>
+					<table style="display: block;" class="myPage-orgin-data">
+						<tbody>
+						<tr>
+							<td class="mydate-chose">昵&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;称：</td>
+							<td><{$myData[0].Name}></td>
+						</tr>
+						<tr>
+							<td class="mydate-chose">性&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;别：</td>
+							<td><{$myData[0].sex}></td>
+						</tr>
+						<tr>
+							<td class="mydate-chose">邮&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;箱：</td>
+							<td><{$myData[0].qq}></td>
+						</tr>
+						<tr>
+							<td class="mydate-chose">绑定手机：</td>
+							<td>未绑定</td>
+						</tr>
+						<tr>
+							<td class="mydate-chose">阅&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;龄：</td>
+							<td></td>
+						</tr>
+						<tr>
+							<td class="mydate-chose">职&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;位：</td>
+							<td></td>
+						</tr>
+						<tr>
+							<td class="mydate-chose">第三方账号绑定：</td>
+							<td><a href="#"><img src="__PUBLIC__/img/myPage/qq.jpg"></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#"><img src="__PUBLIC__/img/myPage/weixin.jpg"></a></td>
+						</tr>
+						</tbody>
+					</table>
+					<form action="<{:U('Home/User/alterData')}>" enctype="multipart/form-data" method="post">
+						<table style="display: none;" class="myPage-alter-data">
+							<tbody>
+							<tr>
+								<td class="mydate-chose">昵称：</td>
+								<td><input type="text" name="yourName"  value="<{$myData[0].Name}>"></td>
+							</tr>
+							<tr>
+								<td class="mydate-chose">头像：</td>
+								<td><a href="#" class="file-link"><input  name="photo1" type="file"></a></td>
+							</tr>
+							<tr>
+								<td class="mydate-chose">性别：</td>
+								<td><input type="radio" name="sex" checked="checked" value="男">男&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="sex" value="女">女</td>
+							</tr>
+							<tr>
+								<td class="mydate-chose">邮箱：</td>
+								<td><input type="text" name="yourEmail" value="<{$myData[0].email}>"></td>
+							</tr>
+							<tr><td><input type="submit" value="修改" id="myPage-data-alter"></td><td><input type="button" id="myPage-data-quit" value="取消"></td></tr>
+						</table>
+					</form>
+
+				</div>
+				<div class="myPage-quest" style="display: none;">
+					<ul>
+						<volist name="reply" id="re">
+							<li>
+
+								<a href="#" ><img src="__PUBLIC__/img/myPage/headic.jpg" alt="headpic"></a>
+								<a href="#" class="myPage-quest-user"><{$re[0].layer_id}></a>
+								<span class="myPage-quest-date"><{$re[0].time}></span>
+								<div class="clear"></div>
+								<p><{$re[0].cont}></p>
+								<form class="clear">
+									<input type="text" class="myPage-quest-text">
+									<input type="submit" value="回复" class="myPage-quest-sub">
+								</form>
+							</li>
+						</volist>
+					</ul>
+				</div>
+				<div class="myPage-Collection" style="display: none;">
+					<ul></ul>
+				</div>
+				<div class="myPage-search" style="display: none;">
+					<ul></ul>
+				</div>
+				<div class="myPage-counsel" style="display: none;">
+					<h3>老师列表</h3>
+					<ul>
+						<li>
+							<div class="left">
+								<img src="__PUBLIC__/img/myPage/headic.jpg" alt="头像">
+								<p>李老师</p>
+								<p>在线状态：不在线</p>
+							</div>
+							<div class="right">
+								<a href="#">在线咨询</a>|<a href="#">发送邮件</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</block>
+
+

@@ -1,0 +1,101 @@
+[ 2017-03-20T16:48:48+08:00 ] ::1 /UCS/index.php/Home/Cn/ajax.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000767s ]
+NOTIC: [2048] Declaration of Home\Model\ArticleModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\appserv\www\UCS\DXT\Home\Model\ArticleModel.class.php 第 10 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.017633s ]
+ERR: 1146:Table 'thinkphp.think_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_article`
+SQL: SHOW COLUMNS FROM `think_reply` [ RunTime:0.143988s ]
+SQL: SELECT * FROM `think_reply` WHERE ( `post_id` = 1 ) AND ( `storey` = 1 )  [ RunTime:0.083381s ]
+
+[ 2017-03-20T17:30:13+08:00 ] ::1 /UCS/index.php/Home/Cn/ajax.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000564s ]
+NOTIC: [2048] Declaration of Home\Model\ArticleModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\appserv\www\UCS\DXT\Home\Model\ArticleModel.class.php 第 10 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.000494s ]
+ERR: 1146:Table 'thinkphp.think_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_article`
+SQL: SHOW COLUMNS FROM `think_layer` [ RunTime:0.059532s ]
+SQL: SELECT MAX(storey) AS tp_max FROM `think_layer` LIMIT 1   [ RunTime:0.040505s ]
+SQL: INSERT INTO `think_layer` (`storey`,`layer_id`,`post_id`,`cont`,`time`) VALUES (3,0,0,'','2017-03-20 17:30:13') [ RunTime:0.642405s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000535s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000587s ]
+
+[ 2017-03-20T17:31:41+08:00 ] ::1 /UCS/index.php/Home/Cn/ajax.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000569s ]
+NOTIC: [2048] Declaration of Home\Model\ArticleModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\appserv\www\UCS\DXT\Home\Model\ArticleModel.class.php 第 10 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.000509s ]
+ERR: 1146:Table 'thinkphp.think_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_article`
+SQL: SHOW COLUMNS FROM `think_layer` [ RunTime:0.000378s ]
+SQL: SELECT MAX(storey) AS tp_max FROM `think_layer` LIMIT 1   [ RunTime:0.000182s ]
+SQL: INSERT INTO `think_layer` (`storey`,`layer_id`,`post_id`,`cont`,`time`) VALUES (4,0,0,'1','2017-03-20 17:31:41') [ RunTime:0.099765s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000552s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000600s ]
+
+[ 2017-03-20T17:33:33+08:00 ] ::1 /UCS/index.php/Home/Cn/ajax.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000603s ]
+NOTIC: [2048] Declaration of Home\Model\ArticleModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\appserv\www\UCS\DXT\Home\Model\ArticleModel.class.php 第 10 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.000488s ]
+ERR: 1146:Table 'thinkphp.think_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_article`
+SQL: SHOW COLUMNS FROM `think_layer` [ RunTime:0.010032s ]
+SQL: SELECT MAX(storey) AS tp_max FROM `think_layer` LIMIT 1   [ RunTime:0.019990s ]
+SQL: INSERT INTO `think_layer` (`storey`,`layer_id`,`post_id`,`cont`,`time`) VALUES (5,31,12,'aaa','2017-03-20 17:33:33') [ RunTime:0.100279s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000471s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000512s ]
+
+[ 2017-03-20T17:36:41+08:00 ] ::1 /UCS/index.php/Home/Cn/ajax.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000769s ]
+NOTIC: [2048] Declaration of Home\Model\ArticleModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\appserv\www\UCS\DXT\Home\Model\ArticleModel.class.php 第 10 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.000550s ]
+ERR: 1146:Table 'thinkphp.think_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_article`
+SQL: SHOW COLUMNS FROM `think_layer` [ RunTime:0.000429s ]
+SQL: SELECT MAX(storey) AS tp_max FROM `think_layer` LIMIT 1   [ RunTime:0.000186s ]
+SQL: INSERT INTO `think_layer` (`storey`,`layer_id`,`post_id`,`cont`,`time`) VALUES (6,31,12,'啊啊啊','2017-03-20 17:36:41') [ RunTime:0.096185s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000651s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000719s ]
+
+[ 2017-03-20T17:37:04+08:00 ] ::1 /UCS/index.php/Home/Cn/ajax.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000928s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002031s ]
+NOTIC: [2048] Declaration of Home\Model\ArticleModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\appserv\www\UCS\DXT\Home\Model\ArticleModel.class.php 第 10 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\appserv\www\UCS\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.000434s ]
+ERR: 1146:Table 'thinkphp.think_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_article`
+SQL: SHOW COLUMNS FROM `think_layer` [ RunTime:0.000433s ]
+SQL: SELECT MAX(storey) AS tp_max FROM `think_layer` LIMIT 1   [ RunTime:0.000177s ]
+SQL: INSERT INTO `think_layer` (`storey`,`layer_id`,`post_id`,`cont`,`time`) VALUES (7,31,12,'啊啊啊','2017-03-20 17:37:04') [ RunTime:0.084939s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000470s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000514s ]
+
+[ 2017-03-20T17:42:41+08:00 ] ::1 /UCS/index.php/Home/Cn/css/common.css
+ERR: 非法操作:css
+
+[ 2017-03-20T17:42:41+08:00 ] ::1 /UCS/index.php/Home/Cn/css/main.css
+ERR: 非法操作:css
+
+[ 2017-03-20T20:42:33+08:00 ] ::1 /UCS/index.php/Home/Index/discusss
+ERR: 非法操作:discusss
+

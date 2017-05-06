@@ -1,0 +1,57 @@
+<extend name="public/adminBase"/>
+<block name="share">active</block>
+<block name="style">
+    <style>
+        #experCont,#tips{
+            background:#d1d1d1;
+        }
+
+        #experEdit{
+            margin-top:10px;
+            border:1px solid #888;
+            width:600px;height:400px;
+            min-height:500px;
+        }
+        #experCont input{
+            width:600px;
+        }
+        #experCont h3,#tips h3{
+            background:#444444;
+            color:#fff;
+            padding-left:20px;
+            height:40px;line-height: 40px;
+            border-top-left-radius:9px;
+
+        }
+
+        #adEdit{
+            width:600px;
+            height:300px;
+            border:1px solid #888;
+        }
+    </style>
+</block>
+
+<block name="main">
+    <div id="experCont">
+        <h3>发布文章</h3>
+        <form action="" class="discuss-search" method="post" style="margin-left:60px;">
+            <div><input type="text" placeholder="文章标题"></div>
+            <div id="experEdit" name="experCont" contenteditable="true"></div>
+        </form>
+    </div>
+    <div id="tips">
+        <h3>发布广告</h3>
+        <form action="" class="discuss-search" method="post" style="margin-left:60px;">
+            选择广告位：<select name="" id="">
+                        <option value="">广告位1</option>
+                        <option value="">广告位2</option>
+                        <option value="">广告位3</option>
+                         <option value="">图片广告</option>
+                    </select><br/>
+            广告信息：<div id="adEdit" contenteditable="true">
+
+            </div>
+        </form>
+    </div>
+</block>

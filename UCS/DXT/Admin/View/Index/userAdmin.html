@@ -1,0 +1,118 @@
+<extend name="public/adminBase"/>
+<block name="style">
+    <style>
+        #user table td{
+            border:1px solid #666;
+            min-width:100px;
+            text-align: center;
+        }
+
+        h3{
+            background:#444444;
+            color:#fff;
+            padding-left:20px;
+            height:40px;line-height: 40px;
+            border-top-left-radius:9px;
+        }
+        #user,#user-manger {
+            background: #d1d1d1;
+            border-top-left-radius: 9px;
+        }
+    </style>
+</block>
+<block name="user">active</block>
+<block name="main">
+    <div id="user">
+        <h3>用户列表</h3>
+        <table style="margin-left:100px;">
+            <tr>
+                <td>编号</td>
+                <td>昵称</td>
+                <td>账号</td>
+                <td>密码</td>
+                <td>手机号</td>
+                <td>性别</td>
+                <td>qq</td>
+                <td>邮箱</td>
+                <td>注册时间</td>
+                <td>功能</td>
+            </tr>
+            <volist name="userData" id="data">
+                <tr>
+                    <td><{$data.id}></td>
+                    <td><{$data.Name}></td>
+                    <td><{$data.username}></td>
+                    <td><{$data.password}></td>
+                    <td><{$data.phonenumber}></td>
+                    <td><{$data.sex}></td>
+                    <td><{$data.qq}></td>
+                    <td><{$data.email}></td>
+                    <td><{$data.regtime}></td>
+                    <td><a href="<{:U('Admin/Index/dropData',array('userId'=>$data['id']))}>">删除</a></td>
+                </tr>
+            </volist>
+        </table>
+        <div style="margin-left:100px;"><{$myPage}></div>
+    </div>
+    <div id="user-manger">
+        <h3>用户管理</h3>
+        <div>
+            用户搜索：
+            <input type="text" value="" id="getData"><input type="button" value="搜索用户" id="submitData"/><dnf>输入用户名称或id</dnf>
+            <div class="search-res " style="display: none;">
+                <form action="<{:U('Admin/Data/alterUserData')}>" method="post">
+                    <div class="clearfix">
+                        <div style="float:left;">
+                            用户编号：<span name="userId"></span><br/>
+                            <input type="hidden" value="" name="id">
+                            用户账号：<input type="text" name="user"><br/>
+                            用户密码：<input type="text" name="pass"><br/>
+                            用户昵称：<input type="text" name="name"><br/>
+                            手机号码：<input type="text" name="phone">
+                        </div>
+                        <div style="float:left;margin-left:200px;">
+                            用户性别：<input type="text" name="sex"><br/>
+                            用户 qq：&nbsp<input type="text" name="qq"><br/>
+                            用户邮箱：<input type="text" name="email"><br/>
+                            注册时间：<span name="regTime"></span><br/>
+                        </div>
+                    </div>
+                    <div style="text-align: center"><input type="submit" value="修改信息"></div>
+                </form>
+
+            </div>
+        </div>
+        <script>
+
+            $('#submitData').on('click',function(){
+                $.ajax({
+                    url:"<{:U('Admin/Ajax/seaUser')}>",
+                    type:'post',
+                    data:{data:$('#getData').val()},
+                    success:function(msg){
+                        $('.search-res input[type=text]').val('');
+                        $('.search-res span').text('');
+                        if(msg)
+                        {
+                            $('.search-res input[name=id]').val(msg[0]['id']);
+                            $('.search-res input[name=user]').val(msg[0]['username']);
+                            $('.search-res input[name=pass]').val(msg[0]['password']);
+                            $('.search-res input[name=name]').val(msg[0]['username']);
+                            $('.search-res input[name=phone]').val(msg[0]['Name']);
+                            $('.search-res input[name=sex]').val(msg[0]['sex']);
+                            $('.search-res input[name=qq]').val(msg[0]['qq']);
+                            $('.search-res input[name=email]').val(msg[0]['email']);
+                            $('.search-res span[name=userId]').text(5209266+msg[0]['id']);
+                            $('.search-res span[name=regTime]').text(msg[0]['regtime']);
+                            $('.search-res').show(1500);
+                        }else
+                        {
+                            alert('不存在该用户');
+                        }
+
+                    }
+                });
+            });
+        </script>
+    </div>
+</block>

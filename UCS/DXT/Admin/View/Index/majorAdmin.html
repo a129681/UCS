@@ -1,0 +1,107 @@
+<extend name="public/adminBase"/>
+<block name="major">active</block>
+<block name="link">
+    <script src="__PUBLIC__/js/proCity.data.js"></script>
+    <script src="__PUBLIC__/admin/js/univData.js"></script>
+</block>
+<block name="style">
+
+    <style>
+        #univerList,#addUniver,#addMajor{
+            width:100%;
+            min-height:400px;
+            background:#e1e1e1;
+
+        }
+
+        #univerList td{
+            border:1px solid #a1a1a1;
+            text-align: center;
+            min-width:100px;
+        }
+
+        #edit{
+            width:1000px;height:200px;
+            border:1px solid #7c7c7c;
+            overflow-y:auto
+        }
+
+        h3{
+            background:#444444;
+            color:#fff;
+            padding-left:20px;
+            height:40px;line-height: 40px;
+            border-top-left-radius:9px;
+        }
+
+        .edit{
+            width:1000px;height:200px;
+            border:1px solid #7c7c7c;
+            overflow-y:auto
+        }
+    </style>
+</block>
+<block name="main">
+    <div id="">
+        <div id="univerList">
+            <h3>专业列表</h3>
+            <table style="margin:0 auto;">
+                <tr><td>编号</td>
+                    <td>名称</td>
+                    <td>类别</td>
+                    <td>科属</td>
+                    <td>就业薪水</td>
+                </tr>
+                <volist name="majorData" id="data">
+                    <tr>
+                        <td><{$data.id}></td>
+                        <td><{$data.name}></td>
+                        <td><{$data.class}></td>
+                        <td><{$data.subject}></td>
+                        <td><{$data.salary}></td>
+                        </tr>
+                </volist>
+
+            </table>
+            <div style="text-align: center">
+                <{$myPage}>
+            </div>
+        </div>
+        <div id="addMajor">
+            <h3>添加专业</h3>
+            <form action="">
+                名称：<input type="text">
+                学科：<select name="">
+                <option value="哲学">哲学</option>
+                <option value="经济学">经济学</option>
+                <option value="法学">法学</option>
+                <option value="教育学">教育学</option>
+                <option value="工学">工学</option>
+                <option value="文学">文学</option>
+                <option value="历史学">历史学</option>
+                <option value="理学">理学</option>
+                <option value="农学">农学</option>
+                <option value="管理学">管理学</option>
+                <option value="艺术学">艺术学</option>
+            </select>
+                专业类别： <select name="">
+                <option value="轻工类">轻工类</option>
+                <option value="交通运输类">交通运输类</option>
+                <option value="经济学类">经济学类</option>
+                <option value="财政学类">财政学类</option>
+                <option value="金融学类">金融学类</option>
+            </select>
+                <br/>
+                简介：<div class="edit" contenteditable="true"></div>
+                <input type="hidden" value=""/>
+                <br/>
+                就业方向：<div class="edit" contenteditable="true"></div>
+                <input type="hidden" value=""/>
+                <br/>
+                薪资：<div class="edit" contenteditable="true"></div>
+                <input type="hidden" value=""/>
+                <div><input type="button" value="添加新专业"></div>
+            </form>
+        </div>
+    </div>
+</block>

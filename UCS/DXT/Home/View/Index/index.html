@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>首页</title>
+	<load href='__PUBLIC__/css/common.css' />
+	<load href='__PUBLIC__/css/main.css' />
+</head>
+<body>
+	<div class="body">
+		<img src="__PUBLIC__/img/index/bigImg.jpg" alt="bigImg.jpg"/>
+	</div>
+	<div class="index-headerBox index-marWid">
+		<div class="index-header">
+			<a href="<{:U('Home/Index/index')}>" class="web-logo"><img src="__PUBLIC__/img/index/logo.png" alt="web-logo"></a>
+				<if condition="$UserStatus eq 'on' "><span class="index-login"><a href="<{:U('Home/User/myPage')}>">欢迎你！<{$UserName}></a>|<a href="<{:U('Home/User/layout')}>">退出</a></span>
+					<else /><span class="index-login"><a href="<{:U('Home/User/login')}>">登 陆</a> | <a href="<{:U('Home/User/regist')}>">注 册</a></span>
+				</if>
+		</div>
+
+		<div class="index-title ">
+			<img src="__PUBLIC__/img/index/title.png" alt="title-pic">
+		</div>
+		<div class="index-nav ">
+			<ul>
+				<li class="color-one"><a href="<{:U('Home/Index/discuss')}>">讨论</a></li>
+				<li class="color-two"><a href="<{:U('Home/Index/test')}>">测试</a></li>
+				<li class="color-three"><a href="<{:U('Home/Index/hotSear')}>">热搜</a></li>
+				<li class="color-four"><a href="<{:U('Home/Index/choose')}>" >选择</a></li>
+			</ul>
+		</div>
+    </div>
+	<div class="index-aboutUs index-marWid">
+		<div>
+			<h2>关于我们</h2>
+			<p>About Us</p>
+		</div>
+		<p class="index-sug"> 我们来自郑州轻工业学院计算机与通信工程学院（电子信息与工程学院）大学生科技创业中心，我们于2016年9月开
+发出本网站，我们的宗旨是热诚服务高考考生及家长，为广大考生及家长对选择一所适合自己的大学和一个适合自己
+                              的专业做最优秀的服务以及收集最前沿的信息</p>
+	</div>
+
+	<div class="index-feature clear index-marWid">
+		<div>
+			<img src="__PUBLIC__/img/index/f1.png" alt="f1">
+			<dl>
+				<dt>服务对象</dt>
+				<dd>即将面临高考的考生及考生家长</dd>
+				<dd>参加国家自考的考生及家长</dd>
+				<dd>专升本考生及家长</dd>
+			</dl>
+		</div>
+		<div>
+			<img src="__PUBLIC__/img/index/f2.png" alt="f2">
+			<dl>
+				<dt>涉及广泛</dt>
+				<dd>所有专业</dd>
+				<dd>所有大学</dd>
+				<dd>所有行业</dd>
+				<dd>发展前景</dd>
+			</dl>
+		</div>
+		<div>
+			<img src="__PUBLIC__/img/index/f3.png" alt="f3">
+			<dl>
+				<dt>实时前沿</dt>
+				<dd>紧跟教育部发布的文件</dd>
+				<dd>关注国家教育改革</dd>
+				<dd>研究考试考纲新动向</dd>
+			</dl>
+		</div>
+		<div class="feature-not">
+			<img src="__PUBLIC__/img/index/f4.png" alt="f4">
+			<dl>
+				<dt>公正权威</dt>
+				<dd>所有论文的发表均严格把关</dd>
+				<dd>最正确，最客观的评价</dd>
+				<dd>最真实，最可靠的信息</dd>
+			</dl>
+		</div>
+	</div>
+	<div class="index-tipBox">
+		<div class="index-tip index-marWid">
+			<p>做最好的探讨平台、做最强大的搜寻网站、做良好的用户体验、做最全面的资料网站热诚服务、虚心纳鉴、用户体验、追求卓越</p>		
+		</div>
+
+	</div>
+	<div class="web-foot web-WidMar">
+		<p>版权所有：郑轻计算机与通信工程学院大学生科技创业中心</p>
+		<ul class="clear">
+			<li><a href="#">关于我们|</a></li>
+			<li><a href="#">法律顾问|</a></li>
+			<li><a href="#">刊登广告|</a></li>
+			<li><a href="#">联系方式|</a></li>
+			<li><a href="#">本站地图|</a></li>
+			<li>违法和不良信息举报电话：12345678910</li>
+		</ul>
+	</div>
+</body>
+</html>

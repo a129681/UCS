@@ -1,0 +1,41 @@
+[ 2017-03-12T09:38:13+08:00 ] ::1 /UCS/
+ERR: 由于目标计算机积极拒绝，无法连接。
+
+
+[ 2017-03-12T09:38:31+08:00 ] ::1 /UCS/
+ERR: 由于目标计算机积极拒绝，无法连接。
+
+
+[ 2017-03-12T09:40:00+08:00 ] ::1 /UCS/
+ERR: Think\Model:getName鏂规硶涓嶅瓨鍦紒
+
+[ 2017-03-12T13:11:34+08:00 ] ::1 /UCS/Home/Cn/login
+ERR: 闈炴硶鎿嶄綔:login
+
+[ 2017-03-12T13:12:00+08:00 ] ::1 /UCS/Home/Cn/login
+ERR: 闈炴硶鎿嶄綔:login
+
+[ 2017-03-12T13:12:15+08:00 ] ::1 /UCS/Home/Cn/login
+ERR: 闈炴硶鎿嶄綔:login
+
+[ 2017-03-12T13:12:17+08:00 ] ::1 /UCS/Home/Cn/login
+ERR: 闈炴硶鎿嶄綔:login
+
+[ 2017-03-12T13:12:19+08:00 ] ::1 /UCS/Home/Cn/login
+ERR: 闈炴硶鎿嶄綔:login
+
+[ 2017-03-12T21:10:15+08:00 ] ::1 /UCS/index.php/Home/User/login.html
+ERR: Think\Controller:isPost鏂规硶涓嶅瓨鍦紒
+
+[ 2017-03-12T21:10:55+08:00 ] ::1 /UCS/index.php/Home/User/login.html
+ERR: Think\Controller:IS_POST鏂规硶涓嶅瓨鍦紒
+
+[ 2017-03-12T21:10:58+08:00 ] ::1 /UCS/index.php/Home/User/login.html
+ERR: Think\Controller:IS_POST鏂规硶涓嶅瓨鍦紒
+
+[ 2017-03-12T21:11:04+08:00 ] ::1 /UCS/index.php/Home/User/login.html
+ERR: Think\Controller:E鏂规硶涓嶅瓨鍦紒
+
+[ 2017-03-12T23:27:18+08:00 ] ::1 /UCS/index.php/Home/Cn/login.html
+ERR: 闈炴硶鎿嶄綔:login
+

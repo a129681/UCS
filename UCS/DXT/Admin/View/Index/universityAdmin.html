@@ -1,0 +1,179 @@
+<extend name="public/adminBase"/>
+<block name="add">active</block>
+<block name="link">
+    <script src="__PUBLIC__/js/proCity.data.js"></script>
+    <script src="__PUBLIC__/admin/js/univData.js"></script>
+</block>
+<block name="style">
+
+    <style>
+        #univerList,#addUniver,#addMajor{
+            width:100%;
+            min-height:460px;
+            background:#e1e1e1;
+        }
+
+        #univerList td{
+            border:1px solid #a1a1a1;
+            text-align: center;
+        }
+
+        .edit{
+            width:1000px;height:200px;
+            border:1px solid #7c7c7c;
+            overflow-y:auto
+        }
+
+        h3{
+            background:#444444;
+            color:#fff;
+            padding-left:20px;
+            height:40px;line-height: 40px;
+            border-top-left-radius:9px;
+        }
+    </style>
+</block>
+<block name="main">
+    <div id="">
+        <div id="univerList">
+            <h3>大学列表</h3>
+            <table style="margin-left:60px;">
+                <tr><td>编号</td>
+                    <td>名称</td>
+                    <td>省份</td>
+                    <td>城市</td>
+                    <td>类型</td>
+                    <td>性质</td>
+                    <td>隶属</td>
+                    <td>重点学科</td>
+                    <td>博士点</td>
+                    <td>硕士点</td>
+                    <td>人数</td>
+                    <td>学费</td>
+                    <td>官网</td>
+                    <td>功能</td>
+                </tr>
+                <volist name="univerData" id="data">
+                    <tr>
+                        <td><{$data.id}></td>
+                        <td><{$data.name}></td>
+                        <td><{$data.provice}></td>
+                        <td><{$data.city}></td>
+                        <td><{$data.type}></td>
+                        <td><{$data.univer_character}></td>
+                        <td><{$data.subjection}></td>
+                        <td><{$data.key_disciplines}></td>
+                        <td><{$data.doctor_station}></td>
+                        <td><{$data.master_station}></td>
+                        <td><{$data.people_number}></td>
+                        <td><{$data.tuition}></td>
+                        <td><{$data.web}></td>
+                        <td><a href="">删除</a></td>
+                    </tr>
+                </volist>
+            </table>
+            <div style="margin-left:60px;">
+                <{$myPage}>
+            </div>
+            <div style="border-top:1px solid #999;padding-top:10px;margin-left:60px;" id="seaUniv">
+                搜索大学:<input type="text" value="" class="addText"/><input type="button" value="搜索大学">
+
+
+                <div id="seaUnivRes" class="clearfix">
+                    <form action="<{:U('Admin/Data/alterUnivData')}>" method="post"  >
+                        <div class="clearfix" >
+                            <div style="float:left;">
+                                编号：<span name="id"></span><br/>
+                                <input type="hidden" value="" name="id">
+                                名称：<span name="name"></span><br/>
+                                省份：<input type="text" name="province"><br/>
+                                城市：<input type="text" name="city"><br/>
+                                隶属：<input type="text" name="subjection"><br/>
+                                性质：<input type="text" name="character"><br/>
+                                类型：<input type="text" name="type"><br/>
+                            </div>
+                            <div style="float:left;margin-left:100px;">
+                                重点学科：<input type="text" name="key_disciplines"><br/>
+                                博&nbsp;&nbsp;士&nbsp;&nbsp;点：<input type="text" name="doctor"><br/>
+                                硕&nbsp;&nbsp;士&nbsp;&nbsp;点：<input type="text" name="master"><br/>
+                                学&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;费：<input type="text" name="tuition"><br/>
+                                官&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;网：<input type="text" name="web"><br/>
+                                人&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;数：<input type="text" name="population"><br/>
+                            </div>
+                        </div>
+                        <div style="text-align: center;"><input type="submit" value="修改大学信息"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <script>
+            $('#seaUniv input[type=button]').on('click',function(){
+                $.ajax({
+                    url:"<{:U('Admin/Ajax/seaUniv')}>",
+                    type:'post',
+                    data:{data:$('.addText').val()},
+                    success:function(msg){
+                        if(msg) {
+                            $('#seaUnivRes input[name=id]').val(msg[0]['id']);
+                            $('#seaUnivRes input[name=key_disciplines]').val(msg[0]['key_disciplines']);
+                            $('#seaUnivRes input[name=province]').val(msg[0]['provice']);
+                            $('#seaUnivRes input[name=city]').val(msg[0]['city']);
+                            $('#seaUnivRes input[name=subjection]').val(msg[0]['subjection']);
+                            $('#seaUnivRes input[name=type]').val(msg[0]['type']);
+                            $('#seaUnivRes input[name=character]').val(msg[0]['univer_character']);
+                            $('#seaUnivRes input[name=doctor]').val(msg[0]['doctor_station']);
+                            $('#seaUnivRes input[name=master]').val(msg[0]['master_station']);
+                            $('#seaUnivRes input[name=tuition]').val(msg[0]['tuition']);
+                            $('#seaUnivRes input[name=web]').val(msg[0]['web']);
+                            $('#seaUnivRes input[name=population]').val(msg[0]['people_number']);
+                            $('#seaUnivRes span[name=id]').text(msg[0]['id']);
+                            $('#seaUnivRes span[name=name]').text(msg[0]['name']);
+                        }else
+                           alert('查询的大学不存在');
+                    }
+                });
+            })
+        </script>
+        <div id="addUniver">
+            <h3>添加大学</h3>
+            <form action="<{:U('Admin/Data/addUniv')}>" method="post" id="addUnivData" style="margin-left:60px;">
+                名称：<input type="text" class="univName" name="univName">
+                隶属：<input type="text" name="subjection">
+                博士点：<input type="text" name="doctor">
+                硕士点：<input type="text" name="master">
+                重点学科：<input type="text" name="key_disciplines">
+                <br/>
+                人数：<input type="text" name="people">
+                官网：<input type="text" name="web-site">
+
+                <br/>
+                省份：<select class="univProvince" name="univProvince"></select>
+                城市： <select name="univCity" class="univCity"></select>
+                类型：<select name="univCharacter" class="univCharacter">
+                <option value="公办">公办</option>
+                <option value="民办">民办</option>
+                <option value="中外合作大学">中外合作大学</option>
+            </select>
+                性质：<select name="univType" class="univType">
+                <option value="综合类">综合类</option>
+                <option value="工科类">工科类 </option>
+                <option value="师范类">师范类</option>
+                <option value="财经类">财经类</option>
+                <option value="政法类">政法类</option>
+                <option value="语言类">语言类</option>
+                <option value="医药类">医药类</option>
+                <option value="农林类">农林类</option>
+                <option value="民族类">民族类</option>
+                <option value="艺术类">艺术类</option>
+                <option value="体育类">体育类</option>
+                <option value="军事类">军事类</option>
+                <option value="商学院">商学院</option>
+            </select>
+                <br/>
+                简介：<div class="edit" contenteditable="true"></div>
+                     <input type="hidden" value="" name="univCont" class="univCont">
+                <input type="button" value="提交" id="mySubmit"/>
+            </form>
+        </div>
+    </div>
+</block>

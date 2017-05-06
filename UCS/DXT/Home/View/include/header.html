@@ -1,0 +1,16 @@
+<div class="navBox">
+    <div class="nav web-WidMar">
+        <a href="<{:U('Home/Index/index')}>" class="logo"><img src="__PUBLIC__/img/index/logo.png" alt="web-logo"></a>
+        <ul class="nav-list">
+            <li><a href="<{:U('Home/Index/discuss')}>">讨论</a></li>
+            <li><a href="<{:U('Home/Index/chooseUniver')}>">选大学</a></li>
+            <li><a href="<{:U('Home/Index/choose')}>">选专业</a></li>
+            <li><a href="<{:U('Home/Index/hotSear')}>">热搜</a></li>
+        </ul>
+        <div class="fr">
+            <if condition="Session('login') eq 'on' "><span class="index-login"><a href="<{:U('Home/User/myPage')}>">欢迎你！<php>echo Session('loginName')</php></a></span>
+                <else /><span class="index-login"><a href="<{:U('Home/User/login')}>">登 陆</a> | <a href="<{:U('Home/User/regist')}>">注 册</a></span>
+            </if>
+        </div>
+    </div>
+</div>

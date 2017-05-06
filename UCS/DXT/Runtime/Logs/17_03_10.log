@@ -1,0 +1,165 @@
+[ 2017-03-10T13:04:12+08:00 ] ::1 /UCS/Home/Index/exper
+ERR: 非法操作:exper
+
+[ 2017-03-10T14:30:05+08:00 ] ::1 /UCS/Home/cn/disCont
+ERR: 无法加载控制器:Cn
+
+[ 2017-03-10T14:31:02+08:00 ] ::1 /UCS/Home/Cn/disCont
+ERR: 无法加载控制器:Cn
+
+[ 2017-03-10T14:31:04+08:00 ] ::1 /UCS/Home/Cn/disCont
+ERR: 无法加载控制器:Cn
+
+[ 2017-03-10T14:31:08+08:00 ] ::1 /UCS/Home/Cn
+ERR: 无法加载控制器:Cn
+
+[ 2017-03-10T14:31:19+08:00 ] ::1 /UCS/Home/Cn
+ERR: 模板不存在:./DXT/Home/View/Cn/index.html
+
+[ 2017-03-10T14:31:36+08:00 ] ::1 /UCS/Home/Cn/disCont
+ERR: 非法操作:discont
+
+[ 2017-03-10T14:42:17+08:00 ] ::1 /UCS/Home/Cn/css/common.css
+ERR: 非法操作:css
+
+[ 2017-03-10T14:42:17+08:00 ] ::1 /UCS/Home/Cn/css/main.css
+ERR: 非法操作:css
+
+[ 2017-03-10T14:42:17+08:00 ] ::1 /UCS/Home/Cn/js/common.js
+ERR: 非法操作:js
+
+[ 2017-03-10T14:42:48+08:00 ] ::1 /UCS/Home/Cn/__PUCLIC__/css/main.css
+ERR: 非法操作:__puclic__
+
+[ 2017-03-10T14:42:48+08:00 ] ::1 /UCS/Home/Cn/js/common.js
+ERR: 非法操作:js
+
+[ 2017-03-10T14:42:48+08:00 ] ::1 /UCS/Home/Cn/__PUCLIC__/css/common.css
+ERR: 非法操作:__puclic__
+
+[ 2017-03-10T14:42:50+08:00 ] ::1 /UCS/Home/Cn/__PUCLIC__/css/common.css
+ERR: 非法操作:__puclic__
+
+[ 2017-03-10T14:42:50+08:00 ] ::1 /UCS/Home/Cn/__PUCLIC__/css/main.css
+ERR: 非法操作:__puclic__
+
+[ 2017-03-10T14:42:50+08:00 ] ::1 /UCS/Home/Cn/js/common.js
+ERR: 非法操作:js
+
+[ 2017-03-10T14:43:09+08:00 ] ::1 /UCS/Home/Cn/__PUBCLIC__/css/main.css
+ERR: 非法操作:__pubclic__
+
+[ 2017-03-10T14:43:09+08:00 ] ::1 /UCS/Home/Cn/__PUBCLIC__/css/common.css
+ERR: 非法操作:__pubclic__
+
+[ 2017-03-10T14:43:09+08:00 ] ::1 /UCS/Home/Cn/js/common.js
+ERR: 非法操作:js
+
+[ 2017-03-10T14:43:14+08:00 ] ::1 /UCS/Home/Cn/__PUBCLIC__/css/common.css
+ERR: 非法操作:__pubclic__
+
+[ 2017-03-10T14:43:14+08:00 ] ::1 /UCS/Home/Cn/__PUBCLIC__/css/main.css
+ERR: 非法操作:__pubclic__
+
+[ 2017-03-10T14:43:14+08:00 ] ::1 /UCS/Home/Cn/js/common.js
+ERR: 非法操作:js
+
+[ 2017-03-10T14:43:29+08:00 ] ::1 /UCS/Home/Cn/js/common.js
+ERR: 非法操作:js
+
+[ 2017-03-10T14:44:35+08:00 ] ::1 /UCS/Home/Cn/myPage
+ERR: 非法操作:mypage
+
+[ 2017-03-10T14:44:44+08:00 ] ::1 /UCS/Home/Cn/myPage.html
+ERR: 非法操作:mypage
+
+[ 2017-03-10T14:44:51+08:00 ] ::1 /UCS/Home/Cn/myPage
+ERR: 非法操作:mypage
+
+[ 2017-03-10T14:46:06+08:00 ] ::1 /UCS/Home/Cn/myPage
+ERR: 非法操作:mypage
+
+[ 2017-03-10T14:59:34+08:00 ] ::1 /UCS/Home/Cn/css/common.css
+ERR: 非法操作:css
+
+[ 2017-03-10T14:59:34+08:00 ] ::1 /UCS/Home/Cn/css/main.css
+ERR: 非法操作:css
+
+[ 2017-03-10T14:59:34+08:00 ] ::1 /UCS/Home/Cn/js/common.js
+ERR: 非法操作:js
+
+[ 2017-03-10T14:59:34+08:00 ] ::1 /UCS/Home/Cn/js/myPage.js
+ERR: 非法操作:js
+
+[ 2017-03-10T14:59:37+08:00 ] ::1 /UCS/Home/Cn/css/main.css
+ERR: 非法操作:css
+
+[ 2017-03-10T14:59:37+08:00 ] ::1 /UCS/Home/Cn/css/common.css
+ERR: 非法操作:css
+
+[ 2017-03-10T14:59:37+08:00 ] ::1 /UCS/Home/Cn/js/common.js
+ERR: 非法操作:js
+
+[ 2017-03-10T14:59:37+08:00 ] ::1 /UCS/Home/Cn/js/myPage.js
+ERR: 非法操作:js
+
+[ 2017-03-10T15:53:49+08:00 ] ::1 /UCS/Home/Index/hotSear
+ERR: 非法操作:hotsear
+
+[ 2017-03-10T15:54:50+08:00 ] ::1 /UCS/Home/Index/hotSear
+ERR: 非法操作:hotsear
+
+[ 2017-03-10T15:54:51+08:00 ] ::1 /UCS/Home/Index/hotSear
+ERR: 非法操作:hotsear
+
+[ 2017-03-10T15:54:52+08:00 ] ::1 /UCS/Home/Index/hotSear
+ERR: 非法操作:hotsear
+
+[ 2017-03-10T15:55:28+08:00 ] ::1 /UCS/Home/Index/hotSear
+ERR: 非法操作:hotsear
+
+[ 2017-03-10T15:55:47+08:00 ] ::1 /UCS/Home/Index/hotSear
+ERR: 非法操作:hotsear
+
+[ 2017-03-10T15:56:35+08:00 ] ::1 /UCS/Home/Index/hotSear
+ERR: 非法操作:hotsear
+
+[ 2017-03-10T16:00:48+08:00 ] ::1 /UCS/Home/Index/searDesc
+ERR: 非法操作:seardesc
+
+[ 2017-03-10T16:01:25+08:00 ] ::1 /UCS/Home/Index/searDesc
+ERR: 非法操作:seardesc
+
+[ 2017-03-10T16:01:28+08:00 ] ::1 /UCS/Home/Index/searDesc
+ERR: 非法操作:seardesc
+
+[ 2017-03-10T16:15:20+08:00 ] ::1 /UCS/Home/Cn/discuss.html
+ERR: 非法操作:discuss
+
+[ 2017-03-10T16:15:24+08:00 ] ::1 /UCS/Home/Cn/discuss.html
+ERR: 非法操作:discuss
+
+[ 2017-03-10T16:19:22+08:00 ] ::1 /UCS/Home/Cn/hot-search.html
+ERR: 非法操作:hot-search
+
+[ 2017-03-10T16:20:12+08:00 ] ::1 /UCS/Home/Cn/Index/hotSear.html
+ERR: 非法操作:index
+
+[ 2017-03-10T16:20:23+08:00 ] ::1 /UCS/Home/Cn/Index/hotSear.html
+ERR: 非法操作:index
+
+[ 2017-03-10T16:20:23+08:00 ] ::1 /UCS/Home/Cn/Index/hotSear.html
+ERR: 非法操作:index
+
+[ 2017-03-10T16:20:24+08:00 ] ::1 /UCS/Home/Cn/Index/hotSear.html
+ERR: 非法操作:index
+
+[ 2017-03-10T16:21:37+08:00 ] ::1 /UCS/Home/Index/searDesc
+ERR: 非法操作:seardesc
+
+[ 2017-03-10T16:21:48+08:00 ] ::1 /UCS/Home/Index/Cn/searDesc
+ERR: 非法操作:cn
+
+[ 2017-03-10T16:35:04+08:00 ] ::1 /UCS/Home/Public/base
+ERR: 无法加载控制器:Public
+
